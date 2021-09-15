@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: 2.Stock.ggsk
-// Generated So 12. Sep 14:24:58 2021
+// Generated Mi 15. Sep 16:03:58 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -488,6 +488,731 @@ function pano2vrSkin(player,base) {
 		}
 		this._stockwerk_buttons.appendChild(this._button_unter);
 		this._mapholder.appendChild(this._stockwerk_buttons);
+		this._stockwerk_wechsel=document.createElement('div');
+		this._stockwerk_wechsel.ggId="Stockwerk_Wechsel";
+		this._stockwerk_wechsel.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._stockwerk_wechsel.ggVisible=true;
+		this._stockwerk_wechsel.className='ggskin ggskin_container';
+		this._stockwerk_wechsel.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 851px;';
+		hs+='top:  98px;';
+		hs+='width: 55px;';
+		hs+='height: 60px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._stockwerk_wechsel.setAttribute('style',hs);
+		this._up=document.createElement('div');
+		this._up.ggId="UP";
+		this._up.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._up.ggVisible=true;
+		this._up.className='ggskin ggskin_container';
+		this._up.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 99px;';
+		hs+='top:  47px;';
+		hs+='width: 339px;';
+		hs+='height: 253px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._up.setAttribute('style',hs);
+		this._up_3=document.createElement('div');
+		this._up_3.ggId="UP_3";
+		this._up_3.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._up_3.ggVisible=false;
+		this._up_3.className='ggskin ggskin_image';
+		this._up_3.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 154px;';
+		hs+='top:  -60px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._up_3.setAttribute('style',hs);
+		this._up_3__img=document.createElement('img');
+		this._up_3__img.className='ggskin ggskin_image';
+		this._up_3__img.setAttribute('src',basePath + 'images/up_3.png');
+		this._up_3__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._up_3__img.className='ggskin ggskin_image';
+		this._up_3__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._up_3__img);
+		this._up_3.appendChild(this._up_3__img);
+		this._up_3.onclick=function () {
+			me.player.openNext("A3_06_out.xml","");
+			flag=(me._up_3.style.visibility=='hidden');
+			me._up_3.style[domTransition]='none';
+			me._up_3.style.visibility=flag?'inherit':'hidden';
+			me._up_3.ggVisible=flag;
+			flag=(me._do_2.style.visibility=='hidden');
+			me._do_2.style[domTransition]='none';
+			me._do_2.style.visibility=flag?'inherit':'hidden';
+			me._do_2.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			flag=(me._do_1.style.visibility=='hidden');
+			me._do_1.style[domTransition]='none';
+			me._do_1.style.visibility=flag?'inherit':'hidden';
+			me._do_1.ggVisible=flag;
+			me._map_3.style[domTransition]='none';
+			me._map_3.style.opacity='1';
+			me._map_3.style.visibility=me._map_3.ggVisible?'inherit':'hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_2.style[domTransition]='none';
+			} else {
+				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_2.style.opacity='0';
+			me._map_2.style.visibility='hidden';
+		}
+		this._up_3.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_3.style[domTransition]='none';
+			} else {
+				me._up_3.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_3.ggParameter.sx=1.2;me._up_3.ggParameter.sy=1.2;
+			me._up_3.style[domTransform]=parameterToTransform(me._up_3.ggParameter);
+		}
+		this._up_3.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_3.style[domTransition]='none';
+			} else {
+				me._up_3.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_3.ggParameter.sx=1;me._up_3.ggParameter.sy=1;
+			me._up_3.style[domTransform]=parameterToTransform(me._up_3.ggParameter);
+		}
+		this._up.appendChild(this._up_3);
+		this._up_2=document.createElement('div');
+		this._up_2.ggId="UP_2";
+		this._up_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._up_2.ggVisible=false;
+		this._up_2.className='ggskin ggskin_image';
+		this._up_2.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 154px;';
+		hs+='top:  -60px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._up_2.setAttribute('style',hs);
+		this._up_2__img=document.createElement('img');
+		this._up_2__img.className='ggskin ggskin_image';
+		this._up_2__img.setAttribute('src',basePath + 'images/up_2.png');
+		this._up_2__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._up_2__img.className='ggskin ggskin_image';
+		this._up_2__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._up_2__img);
+		this._up_2.appendChild(this._up_2__img);
+		this._up_2.onclick=function () {
+			me.player.openNext("Gang A2_06_out.xml","");
+			flag=(me._up_2.style.visibility=='hidden');
+			me._up_2.style[domTransition]='none';
+			me._up_2.style.visibility=flag?'inherit':'hidden';
+			me._up_2.ggVisible=flag;
+			flag=(me._do_1.style.visibility=='hidden');
+			me._do_1.style[domTransition]='none';
+			me._do_1.style.visibility=flag?'inherit':'hidden';
+			me._do_1.ggVisible=flag;
+			flag=(me._up_3.style.visibility=='hidden');
+			me._up_3.style[domTransition]='none';
+			me._up_3.style.visibility=flag?'inherit':'hidden';
+			me._up_3.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			flag=(me._do_eg.style.visibility=='hidden');
+			me._do_eg.style[domTransition]='none';
+			me._do_eg.style.visibility=flag?'inherit':'hidden';
+			me._do_eg.ggVisible=flag;
+			if (me.player.transitionsDisabled) {
+				me._map_2.style[domTransition]='none';
+			} else {
+				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_2.style.opacity='1';
+			me._map_2.style.visibility=me._map_2.ggVisible?'inherit':'hidden';
+			me._map_1.style[domTransition]='none';
+			me._map_1.style.opacity='0';
+			me._map_1.style.visibility='hidden';
+		}
+		this._up_2.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_2.style[domTransition]='none';
+			} else {
+				me._up_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_2.ggParameter.sx=1.2;me._up_2.ggParameter.sy=1.2;
+			me._up_2.style[domTransform]=parameterToTransform(me._up_2.ggParameter);
+		}
+		this._up_2.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_2.style[domTransition]='none';
+			} else {
+				me._up_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_2.ggParameter.sx=1;me._up_2.ggParameter.sy=1;
+			me._up_2.style[domTransform]=parameterToTransform(me._up_2.ggParameter);
+		}
+		this._up.appendChild(this._up_2);
+		this._up_1=document.createElement('div');
+		this._up_1.ggId="UP_1";
+		this._up_1.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._up_1.ggVisible=true;
+		this._up_1.className='ggskin ggskin_image';
+		this._up_1.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 154px;';
+		hs+='top:  -60px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._up_1.setAttribute('style',hs);
+		this._up_1__img=document.createElement('img');
+		this._up_1__img.className='ggskin ggskin_image';
+		this._up_1__img.setAttribute('src',basePath + 'images/up_1.png');
+		this._up_1__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._up_1__img.className='ggskin ggskin_image';
+		this._up_1__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._up_1__img);
+		this._up_1.appendChild(this._up_1__img);
+		this._up_1.onclick=function () {
+			me.player.openNext("Bibliothek_out.xml","");
+			flag=(me._up_1.style.visibility=='hidden');
+			me._up_1.style[domTransition]='none';
+			me._up_1.style.visibility=flag?'inherit':'hidden';
+			me._up_1.ggVisible=flag;
+			flag=(me._up_2.style.visibility=='hidden');
+			me._up_2.style[domTransition]='none';
+			me._up_2.style.visibility=flag?'inherit':'hidden';
+			me._up_2.ggVisible=flag;
+			flag=(me._do_eg.style.visibility=='hidden');
+			me._do_eg.style[domTransition]='none';
+			me._do_eg.style.visibility=flag?'inherit':'hidden';
+			me._do_eg.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			flag=(me._do_ug.style.visibility=='hidden');
+			me._do_ug.style[domTransition]='none';
+			me._do_ug.style.visibility=flag?'inherit':'hidden';
+			me._do_ug.ggVisible=flag;
+			if (me.player.transitionsDisabled) {
+				me._map_1.style[domTransition]='none';
+			} else {
+				me._map_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_1.style.opacity='1';
+			me._map_1.style.visibility=me._map_1.ggVisible?'inherit':'hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_erdgeschoss.style[domTransition]='none';
+			} else {
+				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_erdgeschoss.style.opacity='0';
+			me._map_erdgeschoss.style.visibility='hidden';
+		}
+		this._up_1.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_1.style[domTransition]='none';
+			} else {
+				me._up_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_1.ggParameter.sx=1.2;me._up_1.ggParameter.sy=1.2;
+			me._up_1.style[domTransform]=parameterToTransform(me._up_1.ggParameter);
+		}
+		this._up_1.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_1.style[domTransition]='none';
+			} else {
+				me._up_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_1.ggParameter.sx=1;me._up_1.ggParameter.sy=1;
+			me._up_1.style[domTransform]=parameterToTransform(me._up_1.ggParameter);
+		}
+		this._up.appendChild(this._up_1);
+		this._up_eg=document.createElement('div');
+		this._up_eg.ggId="UP_EG";
+		this._up_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._up_eg.ggVisible=false;
+		this._up_eg.className='ggskin ggskin_image';
+		this._up_eg.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 154px;';
+		hs+='top:  -60px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._up_eg.setAttribute('style',hs);
+		this._up_eg__img=document.createElement('img');
+		this._up_eg__img.className='ggskin ggskin_image';
+		this._up_eg__img.setAttribute('src',basePath + 'images/up_eg.png');
+		this._up_eg__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._up_eg__img.className='ggskin ggskin_image';
+		this._up_eg__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._up_eg__img);
+		this._up_eg.appendChild(this._up_eg__img);
+		this._up_eg.onclick=function () {
+			me.player.openNext("Aula_out.xml","");
+			flag=(me._up_eg.style.visibility=='hidden');
+			me._up_eg.style[domTransition]='none';
+			me._up_eg.style.visibility=flag?'inherit':'hidden';
+			me._up_eg.ggVisible=flag;
+			flag=(me._do_ug.style.visibility=='hidden');
+			me._do_ug.style[domTransition]='none';
+			me._do_ug.style.visibility=flag?'inherit':'hidden';
+			me._do_ug.ggVisible=flag;
+			flag=(me._up_1.style.visibility=='hidden');
+			me._up_1.style[domTransition]='none';
+			me._up_1.style.visibility=flag?'inherit':'hidden';
+			me._up_1.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			if (me.player.transitionsDisabled) {
+				me._map_erdgeschoss.style[domTransition]='none';
+			} else {
+				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_erdgeschoss.style.opacity='1';
+			me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_keller.style[domTransition]='none';
+			} else {
+				me._map_keller.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_keller.style.opacity='0';
+			me._map_keller.style.visibility='hidden';
+		}
+		this._up_eg.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_eg.style[domTransition]='none';
+			} else {
+				me._up_eg.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_eg.ggParameter.sx=1.2;me._up_eg.ggParameter.sy=1.2;
+			me._up_eg.style[domTransform]=parameterToTransform(me._up_eg.ggParameter);
+		}
+		this._up_eg.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._up_eg.style[domTransition]='none';
+			} else {
+				me._up_eg.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._up_eg.ggParameter.sx=1;me._up_eg.ggParameter.sy=1;
+			me._up_eg.style[domTransform]=parameterToTransform(me._up_eg.ggParameter);
+		}
+		this._up.appendChild(this._up_eg);
+		this._stockwerk_wechsel.appendChild(this._up);
+		this._down=document.createElement('div');
+		this._down.ggId="DOWN";
+		this._down.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._down.ggVisible=true;
+		this._down.className='ggskin ggskin_container';
+		this._down.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 103px;';
+		hs+='top:  13px;';
+		hs+='width: 339px;';
+		hs+='height: 253px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._down.setAttribute('style',hs);
+		this._do_ug=document.createElement('div');
+		this._do_ug.ggId="DO_UG";
+		this._do_ug.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._do_ug.ggVisible=true;
+		this._do_ug.className='ggskin ggskin_image';
+		this._do_ug.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 149px;';
+		hs+='top:  141px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._do_ug.setAttribute('style',hs);
+		this._do_ug__img=document.createElement('img');
+		this._do_ug__img.className='ggskin ggskin_image';
+		this._do_ug__img.setAttribute('src',basePath + 'images/do_ug.png');
+		this._do_ug__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._do_ug__img.className='ggskin ggskin_image';
+		this._do_ug__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._do_ug__img);
+		this._do_ug.appendChild(this._do_ug__img);
+		this._do_ug.onclick=function () {
+			me.player.openNext("- Untergeschoss -","");
+			flag=(me._do_ug.style.visibility=='hidden');
+			me._do_ug.style[domTransition]='none';
+			me._do_ug.style.visibility=flag?'inherit':'hidden';
+			me._do_ug.ggVisible=flag;
+			flag=(me._up_1.style.visibility=='hidden');
+			me._up_1.style[domTransition]='none';
+			me._up_1.style.visibility=flag?'inherit':'hidden';
+			me._up_1.ggVisible=flag;
+			flag=(me._up_eg.style.visibility=='hidden');
+			me._up_eg.style[domTransition]='none';
+			me._up_eg.style.visibility=flag?'inherit':'hidden';
+			me._up_eg.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			if (me.player.transitionsDisabled) {
+				me._map_keller.style[domTransition]='none';
+			} else {
+				me._map_keller.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_keller.style.opacity='1';
+			me._map_keller.style.visibility=me._map_keller.ggVisible?'inherit':'hidden';
+			me._map_erdgeschoss.style[domTransition]='none';
+			me._map_erdgeschoss.style.opacity='0';
+			me._map_erdgeschoss.style.visibility='hidden';
+		}
+		this._do_ug.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_ug.style[domTransition]='none';
+			} else {
+				me._do_ug.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_ug.ggParameter.sx=1.2;me._do_ug.ggParameter.sy=1.2;
+			me._do_ug.style[domTransform]=parameterToTransform(me._do_ug.ggParameter);
+		}
+		this._do_ug.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_ug.style[domTransition]='none';
+			} else {
+				me._do_ug.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_ug.ggParameter.sx=1;me._do_ug.ggParameter.sy=1;
+			me._do_ug.style[domTransform]=parameterToTransform(me._do_ug.ggParameter);
+		}
+		this._down.appendChild(this._do_ug);
+		this._do_eg=document.createElement('div');
+		this._do_eg.ggId="DO_EG";
+		this._do_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._do_eg.ggVisible=false;
+		this._do_eg.className='ggskin ggskin_image';
+		this._do_eg.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 148px;';
+		hs+='top:  141px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._do_eg.setAttribute('style',hs);
+		this._do_eg__img=document.createElement('img');
+		this._do_eg__img.className='ggskin ggskin_image';
+		this._do_eg__img.setAttribute('src',basePath + 'images/do_eg.png');
+		this._do_eg__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._do_eg__img.className='ggskin ggskin_image';
+		this._do_eg__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._do_eg__img);
+		this._do_eg.appendChild(this._do_eg__img);
+		this._do_eg.onclick=function () {
+			me.player.openNext("Aula_out.xml","");
+			flag=(me._do_eg.style.visibility=='hidden');
+			me._do_eg.style[domTransition]='none';
+			me._do_eg.style.visibility=flag?'inherit':'hidden';
+			me._do_eg.ggVisible=flag;
+			flag=(me._up_1.style.visibility=='hidden');
+			me._up_1.style[domTransition]='none';
+			me._up_1.style.visibility=flag?'inherit':'hidden';
+			me._up_1.ggVisible=flag;
+			flag=(me._do_ug.style.visibility=='hidden');
+			me._do_ug.style[domTransition]='none';
+			me._do_ug.style.visibility=flag?'inherit':'hidden';
+			me._do_ug.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			flag=(me._up_2.style.visibility=='hidden');
+			me._up_2.style[domTransition]='none';
+			me._up_2.style.visibility=flag?'inherit':'hidden';
+			me._up_2.ggVisible=flag;
+			me._map_1.style[domTransition]='none';
+			me._map_1.style.opacity='0';
+			me._map_1.style.visibility='hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_erdgeschoss.style[domTransition]='none';
+			} else {
+				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_erdgeschoss.style.opacity='1';
+			me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
+		}
+		this._do_eg.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_eg.style[domTransition]='none';
+			} else {
+				me._do_eg.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_eg.ggParameter.sx=1.2;me._do_eg.ggParameter.sy=1.2;
+			me._do_eg.style[domTransform]=parameterToTransform(me._do_eg.ggParameter);
+		}
+		this._do_eg.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_eg.style[domTransition]='none';
+			} else {
+				me._do_eg.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_eg.ggParameter.sx=1;me._do_eg.ggParameter.sy=1;
+			me._do_eg.style[domTransform]=parameterToTransform(me._do_eg.ggParameter);
+		}
+		this._down.appendChild(this._do_eg);
+		this._do_1=document.createElement('div');
+		this._do_1.ggId="DO_1";
+		this._do_1.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._do_1.ggVisible=false;
+		this._do_1.className='ggskin ggskin_image';
+		this._do_1.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 148px;';
+		hs+='top:  141px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._do_1.setAttribute('style',hs);
+		this._do_1__img=document.createElement('img');
+		this._do_1__img.className='ggskin ggskin_image';
+		this._do_1__img.setAttribute('src',basePath + 'images/do_1.png');
+		this._do_1__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._do_1__img.className='ggskin ggskin_image';
+		this._do_1__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._do_1__img);
+		this._do_1.appendChild(this._do_1__img);
+		this._do_1.onclick=function () {
+			me.player.openNext("Bibliothek_out.xml","");
+			flag=(me._do_1.style.visibility=='hidden');
+			me._do_1.style[domTransition]='none';
+			me._do_1.style.visibility=flag?'inherit':'hidden';
+			me._do_1.ggVisible=flag;
+			flag=(me._do_eg.style.visibility=='hidden');
+			me._do_eg.style[domTransition]='none';
+			me._do_eg.style.visibility=flag?'inherit':'hidden';
+			me._do_eg.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			flag=(me._up_3.style.visibility=='hidden');
+			me._up_3.style[domTransition]='none';
+			me._up_3.style.visibility=flag?'inherit':'hidden';
+			me._up_3.ggVisible=flag;
+			flag=(me._up_2.style.visibility=='hidden');
+			me._up_2.style[domTransition]='none';
+			me._up_2.style.visibility=flag?'inherit':'hidden';
+			me._up_2.ggVisible=flag;
+			me._map_2.style[domTransition]='none';
+			me._map_2.style.opacity='0';
+			me._map_2.style.visibility='hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_1.style[domTransition]='none';
+			} else {
+				me._map_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_1.style.opacity='1';
+			me._map_1.style.visibility=me._map_1.ggVisible?'inherit':'hidden';
+		}
+		this._do_1.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_1.style[domTransition]='none';
+			} else {
+				me._do_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_1.ggParameter.sx=1.2;me._do_1.ggParameter.sy=1.2;
+			me._do_1.style[domTransform]=parameterToTransform(me._do_1.ggParameter);
+		}
+		this._do_1.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_1.style[domTransition]='none';
+			} else {
+				me._do_1.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_1.ggParameter.sx=1;me._do_1.ggParameter.sy=1;
+			me._do_1.style[domTransform]=parameterToTransform(me._do_1.ggParameter);
+		}
+		this._down.appendChild(this._do_1);
+		this._do_2=document.createElement('div');
+		this._do_2.ggId="DO_2";
+		this._do_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._do_2.ggVisible=false;
+		this._do_2.className='ggskin ggskin_image';
+		this._do_2.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 148px;';
+		hs+='top:  141px;';
+		hs+='width: 128px;';
+		hs+='height: 80px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._do_2.setAttribute('style',hs);
+		this._do_2__img=document.createElement('img');
+		this._do_2__img.className='ggskin ggskin_image';
+		this._do_2__img.setAttribute('src',basePath + 'images/do_2.png');
+		this._do_2__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._do_2__img.className='ggskin ggskin_image';
+		this._do_2__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._do_2__img);
+		this._do_2.appendChild(this._do_2__img);
+		this._do_2.onclick=function () {
+			me.player.openNext("Gang A2_06_out.xml","");
+			flag=(me._do_2.style.visibility=='hidden');
+			me._do_2.style[domTransition]='none';
+			me._do_2.style.visibility=flag?'inherit':'hidden';
+			me._do_2.ggVisible=flag;
+			flag=(me._do_1.style.visibility=='hidden');
+			me._do_1.style[domTransition]='none';
+			me._do_1.style.visibility=flag?'inherit':'hidden';
+			me._do_1.ggVisible=flag;
+			flag=(me._up_3.style.visibility=='hidden');
+			me._up_3.style[domTransition]='none';
+			me._up_3.style.visibility=flag?'inherit':'hidden';
+			me._up_3.ggVisible=flag;
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			if (me.player.transitionsDisabled) {
+				me._map_2.style[domTransition]='none';
+			} else {
+				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_2.style.opacity='1';
+			me._map_2.style.visibility=me._map_2.ggVisible?'inherit':'hidden';
+			if (me.player.transitionsDisabled) {
+				me._map_3.style[domTransition]='none';
+			} else {
+				me._map_3.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._map_3.style.opacity='0';
+			me._map_3.style.visibility='hidden';
+		}
+		this._do_2.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_2.style[domTransition]='none';
+			} else {
+				me._do_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_2.ggParameter.sx=1.2;me._do_2.ggParameter.sy=1.2;
+			me._do_2.style[domTransform]=parameterToTransform(me._do_2.ggParameter);
+		}
+		this._do_2.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._do_2.style[domTransition]='none';
+			} else {
+				me._do_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._do_2.ggParameter.sx=1;me._do_2.ggParameter.sy=1;
+			me._do_2.style[domTransform]=parameterToTransform(me._do_2.ggParameter);
+		}
+		this._down.appendChild(this._do_2);
+		this._stockwerk_wechsel.appendChild(this._down);
+		this._stockwerk_wechsel_text=document.createElement('div');
+		this._stockwerk_wechsel_text__text=document.createElement('div');
+		this._stockwerk_wechsel_text.className='ggskin ggskin_textdiv';
+		this._stockwerk_wechsel_text.ggTextDiv=this._stockwerk_wechsel_text__text;
+		this._stockwerk_wechsel_text.ggId="Stockwerk_Wechsel_Text";
+		this._stockwerk_wechsel_text.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._stockwerk_wechsel_text.ggVisible=true;
+		this._stockwerk_wechsel_text.className='ggskin ggskin_text';
+		this._stockwerk_wechsel_text.ggType='text';
+		this._stockwerk_wechsel_text.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			this.ggTextDiv.style.left=Math.floor(0 + (296-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
+		hs ='position:absolute;';
+		hs+='left: 167px;';
+		hs+='top:  44px;';
+		hs+='width: 296px;';
+		hs+='height: 22px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._stockwerk_wechsel_text.setAttribute('style',hs);
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: #000000;';
+		hs+='text-align: right;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		this._stockwerk_wechsel_text__text.setAttribute('style',hs);
+		this._stockwerk_wechsel_text.ggTextDiv.innerHTML="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+		this._stockwerk_wechsel_text.appendChild(this._stockwerk_wechsel_text__text);
+		this._stockwerk_wechsel.appendChild(this._stockwerk_wechsel_text);
+		this._mapholder.appendChild(this._stockwerk_wechsel);
 		this._map_3=document.createElement('div');
 		this._map_3.ggId="Map_3";
 		this._map_3.ggParameter={ rx:0,ry:0,a:0,sx:0.8,sy:0.8 };
@@ -631,7 +1356,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_a3_06__img);
 		this._room_a3_06.appendChild(this._room_a3_06__img);
 		this._room_a3_06.onclick=function () {
-			me.player.openNext("fehlt noch","");
+			me.player.openNext("A3_06_out.xml","");
 			me._current_selection3.style[domTransition]='none';
 			me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 			me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -1539,54 +2264,6 @@ function pano2vrSkin(player,base) {
 		this._map_erdgeschoss__img['ondragstart']=function() { return false; };
 		me.player.checkLoaded.push(this._map_erdgeschoss__img);
 		this._map_erdgeschoss.appendChild(this._map_erdgeschoss__img);
-		this._room_a0_230=document.createElement('div');
-		this._room_a0_230.ggId="Room_A0_23";
-		this._room_a0_230.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
-		this._room_a0_230.ggVisible=true;
-		this._room_a0_230.className='ggskin ggskin_image';
-		this._room_a0_230.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 628px;';
-		hs+='top:  357px;';
-		hs+='width: 128px;';
-		hs+='height: 128px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._room_a0_230.ggParameter) + ';';
-		hs+='visibility: inherit;';
-		this._room_a0_230.setAttribute('style',hs);
-		this._room_a0_230__img=document.createElement('img');
-		this._room_a0_230__img.className='ggskin ggskin_image';
-		this._room_a0_230__img.setAttribute('src',basePath + 'images/room_a0_230.png');
-		this._room_a0_230__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._room_a0_230__img.className='ggskin ggskin_image';
-		this._room_a0_230__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._room_a0_230__img);
-		this._room_a0_230.appendChild(this._room_a0_230__img);
-		this._room_a0_230.onclick=function () {
-			me.player.openNext("A0_23_out.xml (Fehlt noch)","");
-			me._current_selectione.style[domTransition]='none';
-			me._current_selectione.ggParameter.rx=628;me._current_selectione.ggParameter.ry=357;
-			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
-		}
-		this._room_a0_230.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._room_a0_230.style[domTransition]='none';
-			} else {
-				me._room_a0_230.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._room_a0_230.ggParameter.sx=0.45;me._room_a0_230.ggParameter.sy=0.45;
-			me._room_a0_230.style[domTransform]=parameterToTransform(me._room_a0_230.ggParameter);
-		}
-		this._room_a0_230.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._room_a0_230.style[domTransition]='none';
-			} else {
-				me._room_a0_230.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._room_a0_230.ggParameter.sx=0.4;me._room_a0_230.ggParameter.sy=0.4;
-			me._room_a0_230.style[domTransform]=parameterToTransform(me._room_a0_230.ggParameter);
-		}
-		this._map_erdgeschoss.appendChild(this._room_a0_230);
 		this._room_a0_23=document.createElement('div');
 		this._room_a0_23.ggId="Room_A0_23";
 		this._room_a0_23.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
@@ -1594,8 +2271,8 @@ function pano2vrSkin(player,base) {
 		this._room_a0_23.className='ggskin ggskin_image';
 		this._room_a0_23.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 420px;';
-		hs+='top:  368px;';
+		hs+='left: 628px;';
+		hs+='top:  357px;';
 		hs+='width: 128px;';
 		hs+='height: 128px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -1613,7 +2290,7 @@ function pano2vrSkin(player,base) {
 		this._room_a0_23.onclick=function () {
 			me.player.openNext("A0_23_out.xml (Fehlt noch)","");
 			me._current_selectione.style[domTransition]='none';
-			me._current_selectione.ggParameter.rx=420;me._current_selectione.ggParameter.ry=368;
+			me._current_selectione.ggParameter.rx=628;me._current_selectione.ggParameter.ry=357;
 			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
 		}
 		this._room_a0_23.onmouseover=function () {
@@ -1635,6 +2312,54 @@ function pano2vrSkin(player,base) {
 			me._room_a0_23.style[domTransform]=parameterToTransform(me._room_a0_23.ggParameter);
 		}
 		this._map_erdgeschoss.appendChild(this._room_a0_23);
+		this._room_a0_24=document.createElement('div');
+		this._room_a0_24.ggId="Room_A0_24";
+		this._room_a0_24.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
+		this._room_a0_24.ggVisible=true;
+		this._room_a0_24.className='ggskin ggskin_image';
+		this._room_a0_24.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 328px;';
+		hs+='top:  308px;';
+		hs+='width: 128px;';
+		hs+='height: 128px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._room_a0_24.ggParameter) + ';';
+		hs+='visibility: inherit;';
+		this._room_a0_24.setAttribute('style',hs);
+		this._room_a0_24__img=document.createElement('img');
+		this._room_a0_24__img.className='ggskin ggskin_image';
+		this._room_a0_24__img.setAttribute('src',basePath + 'images/room_a0_24.png');
+		this._room_a0_24__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._room_a0_24__img.className='ggskin ggskin_image';
+		this._room_a0_24__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._room_a0_24__img);
+		this._room_a0_24.appendChild(this._room_a0_24__img);
+		this._room_a0_24.onclick=function () {
+			me.player.openNext("Aula_out.xml","");
+			me._current_selectione.style[domTransition]='none';
+			me._current_selectione.ggParameter.rx=328;me._current_selectione.ggParameter.ry=308;
+			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
+		}
+		this._room_a0_24.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._room_a0_24.style[domTransition]='none';
+			} else {
+				me._room_a0_24.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._room_a0_24.ggParameter.sx=0.45;me._room_a0_24.ggParameter.sy=0.45;
+			me._room_a0_24.style[domTransform]=parameterToTransform(me._room_a0_24.ggParameter);
+		}
+		this._room_a0_24.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._room_a0_24.style[domTransition]='none';
+			} else {
+				me._room_a0_24.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._room_a0_24.ggParameter.sx=0.4;me._room_a0_24.ggParameter.sy=0.4;
+			me._room_a0_24.style[domTransform]=parameterToTransform(me._room_a0_24.ggParameter);
+		}
+		this._map_erdgeschoss.appendChild(this._room_a0_24);
 		this._room_a0_09=document.createElement('div');
 		this._room_a0_09.ggId="Room_A0_09";
 		this._room_a0_09.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
@@ -1659,7 +2384,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_a0_09__img);
 		this._room_a0_09.appendChild(this._room_a0_09__img);
 		this._room_a0_09.onclick=function () {
-			me.player.openNext("A0_09_out.xml (Fehlt noch)","");
+			me.player.openNext("C_Eg_13_out.xml","");
 			me._current_selectione.style[domTransition]='none';
 			me._current_selectione.ggParameter.rx=110;me._current_selectione.ggParameter.ry=283;
 			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
@@ -2071,731 +2796,6 @@ function pano2vrSkin(player,base) {
 			me._closemap.style[domTransform]=parameterToTransform(me._closemap.ggParameter);
 		}
 		this._mapholder.appendChild(this._closemap);
-		this._stockwerk_wechsel=document.createElement('div');
-		this._stockwerk_wechsel.ggId="Stockwerk_Wechsel";
-		this._stockwerk_wechsel.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._stockwerk_wechsel.ggVisible=true;
-		this._stockwerk_wechsel.className='ggskin ggskin_container';
-		this._stockwerk_wechsel.ggType='container';
-		hs ='position:absolute;';
-		hs+='left: 851px;';
-		hs+='top:  98px;';
-		hs+='width: 55px;';
-		hs+='height: 60px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._stockwerk_wechsel.setAttribute('style',hs);
-		this._up=document.createElement('div');
-		this._up.ggId="UP";
-		this._up.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up.ggVisible=true;
-		this._up.className='ggskin ggskin_container';
-		this._up.ggType='container';
-		hs ='position:absolute;';
-		hs+='left: 99px;';
-		hs+='top:  47px;';
-		hs+='width: 339px;';
-		hs+='height: 253px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._up.setAttribute('style',hs);
-		this._up_3=document.createElement('div');
-		this._up_3.ggId="UP_3";
-		this._up_3.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_3.ggVisible=false;
-		this._up_3.className='ggskin ggskin_image';
-		this._up_3.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 154px;';
-		hs+='top:  -60px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._up_3.setAttribute('style',hs);
-		this._up_3__img=document.createElement('img');
-		this._up_3__img.className='ggskin ggskin_image';
-		this._up_3__img.setAttribute('src',basePath + 'images/up_3.png');
-		this._up_3__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._up_3__img.className='ggskin ggskin_image';
-		this._up_3__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._up_3__img);
-		this._up_3.appendChild(this._up_3__img);
-		this._up_3.onclick=function () {
-			me.player.openNext("3. Stock - Gang A3_10","");
-			flag=(me._up_3.style.visibility=='hidden');
-			me._up_3.style[domTransition]='none';
-			me._up_3.style.visibility=flag?'inherit':'hidden';
-			me._up_3.ggVisible=flag;
-			flag=(me._do_2.style.visibility=='hidden');
-			me._do_2.style[domTransition]='none';
-			me._do_2.style.visibility=flag?'inherit':'hidden';
-			me._do_2.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			flag=(me._do_1.style.visibility=='hidden');
-			me._do_1.style[domTransition]='none';
-			me._do_1.style.visibility=flag?'inherit':'hidden';
-			me._do_1.ggVisible=flag;
-			me._map_3.style[domTransition]='none';
-			me._map_3.style.opacity='1';
-			me._map_3.style.visibility=me._map_3.ggVisible?'inherit':'hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_2.style[domTransition]='none';
-			} else {
-				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_2.style.opacity='0';
-			me._map_2.style.visibility='hidden';
-		}
-		this._up_3.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_3.style[domTransition]='none';
-			} else {
-				me._up_3.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_3.ggParameter.sx=1.2;me._up_3.ggParameter.sy=1.2;
-			me._up_3.style[domTransform]=parameterToTransform(me._up_3.ggParameter);
-		}
-		this._up_3.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_3.style[domTransition]='none';
-			} else {
-				me._up_3.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_3.ggParameter.sx=1;me._up_3.ggParameter.sy=1;
-			me._up_3.style[domTransform]=parameterToTransform(me._up_3.ggParameter);
-		}
-		this._up.appendChild(this._up_3);
-		this._up_2=document.createElement('div');
-		this._up_2.ggId="UP_2";
-		this._up_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_2.ggVisible=false;
-		this._up_2.className='ggskin ggskin_image';
-		this._up_2.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 154px;';
-		hs+='top:  -60px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._up_2.setAttribute('style',hs);
-		this._up_2__img=document.createElement('img');
-		this._up_2__img.className='ggskin ggskin_image';
-		this._up_2__img.setAttribute('src',basePath + 'images/up_2.png');
-		this._up_2__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._up_2__img.className='ggskin ggskin_image';
-		this._up_2__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._up_2__img);
-		this._up_2.appendChild(this._up_2__img);
-		this._up_2.onclick=function () {
-			me.player.openNext("Gang A2_06_out.xml","");
-			flag=(me._up_2.style.visibility=='hidden');
-			me._up_2.style[domTransition]='none';
-			me._up_2.style.visibility=flag?'inherit':'hidden';
-			me._up_2.ggVisible=flag;
-			flag=(me._do_1.style.visibility=='hidden');
-			me._do_1.style[domTransition]='none';
-			me._do_1.style.visibility=flag?'inherit':'hidden';
-			me._do_1.ggVisible=flag;
-			flag=(me._up_3.style.visibility=='hidden');
-			me._up_3.style[domTransition]='none';
-			me._up_3.style.visibility=flag?'inherit':'hidden';
-			me._up_3.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			flag=(me._do_eg.style.visibility=='hidden');
-			me._do_eg.style[domTransition]='none';
-			me._do_eg.style.visibility=flag?'inherit':'hidden';
-			me._do_eg.ggVisible=flag;
-			if (me.player.transitionsDisabled) {
-				me._map_2.style[domTransition]='none';
-			} else {
-				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_2.style.opacity='1';
-			me._map_2.style.visibility=me._map_2.ggVisible?'inherit':'hidden';
-			me._map_1.style[domTransition]='none';
-			me._map_1.style.opacity='0';
-			me._map_1.style.visibility='hidden';
-		}
-		this._up_2.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_2.style[domTransition]='none';
-			} else {
-				me._up_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_2.ggParameter.sx=1.2;me._up_2.ggParameter.sy=1.2;
-			me._up_2.style[domTransform]=parameterToTransform(me._up_2.ggParameter);
-		}
-		this._up_2.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_2.style[domTransition]='none';
-			} else {
-				me._up_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_2.ggParameter.sx=1;me._up_2.ggParameter.sy=1;
-			me._up_2.style[domTransform]=parameterToTransform(me._up_2.ggParameter);
-		}
-		this._up.appendChild(this._up_2);
-		this._up_1=document.createElement('div');
-		this._up_1.ggId="UP_1";
-		this._up_1.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_1.ggVisible=true;
-		this._up_1.className='ggskin ggskin_image';
-		this._up_1.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 154px;';
-		hs+='top:  -60px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._up_1.setAttribute('style',hs);
-		this._up_1__img=document.createElement('img');
-		this._up_1__img.className='ggskin ggskin_image';
-		this._up_1__img.setAttribute('src',basePath + 'images/up_1.png');
-		this._up_1__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._up_1__img.className='ggskin ggskin_image';
-		this._up_1__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._up_1__img);
-		this._up_1.appendChild(this._up_1__img);
-		this._up_1.onclick=function () {
-			me.player.openNext("Bibliothek_out.xml","");
-			flag=(me._up_1.style.visibility=='hidden');
-			me._up_1.style[domTransition]='none';
-			me._up_1.style.visibility=flag?'inherit':'hidden';
-			me._up_1.ggVisible=flag;
-			flag=(me._up_2.style.visibility=='hidden');
-			me._up_2.style[domTransition]='none';
-			me._up_2.style.visibility=flag?'inherit':'hidden';
-			me._up_2.ggVisible=flag;
-			flag=(me._do_eg.style.visibility=='hidden');
-			me._do_eg.style[domTransition]='none';
-			me._do_eg.style.visibility=flag?'inherit':'hidden';
-			me._do_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			flag=(me._do_ug.style.visibility=='hidden');
-			me._do_ug.style[domTransition]='none';
-			me._do_ug.style.visibility=flag?'inherit':'hidden';
-			me._do_ug.ggVisible=flag;
-			if (me.player.transitionsDisabled) {
-				me._map_1.style[domTransition]='none';
-			} else {
-				me._map_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_1.style.opacity='1';
-			me._map_1.style.visibility=me._map_1.ggVisible?'inherit':'hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_erdgeschoss.style[domTransition]='none';
-			} else {
-				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_erdgeschoss.style.opacity='0';
-			me._map_erdgeschoss.style.visibility='hidden';
-		}
-		this._up_1.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_1.style[domTransition]='none';
-			} else {
-				me._up_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_1.ggParameter.sx=1.2;me._up_1.ggParameter.sy=1.2;
-			me._up_1.style[domTransform]=parameterToTransform(me._up_1.ggParameter);
-		}
-		this._up_1.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_1.style[domTransition]='none';
-			} else {
-				me._up_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_1.ggParameter.sx=1;me._up_1.ggParameter.sy=1;
-			me._up_1.style[domTransform]=parameterToTransform(me._up_1.ggParameter);
-		}
-		this._up.appendChild(this._up_1);
-		this._up_eg=document.createElement('div');
-		this._up_eg.ggId="UP_EG";
-		this._up_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_eg.ggVisible=false;
-		this._up_eg.className='ggskin ggskin_image';
-		this._up_eg.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 154px;';
-		hs+='top:  -60px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._up_eg.setAttribute('style',hs);
-		this._up_eg__img=document.createElement('img');
-		this._up_eg__img.className='ggskin ggskin_image';
-		this._up_eg__img.setAttribute('src',basePath + 'images/up_eg.png');
-		this._up_eg__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._up_eg__img.className='ggskin ggskin_image';
-		this._up_eg__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._up_eg__img);
-		this._up_eg.appendChild(this._up_eg__img);
-		this._up_eg.onclick=function () {
-			me.player.openNext("- Untergeschoss -","");
-			flag=(me._up_eg.style.visibility=='hidden');
-			me._up_eg.style[domTransition]='none';
-			me._up_eg.style.visibility=flag?'inherit':'hidden';
-			me._up_eg.ggVisible=flag;
-			flag=(me._do_ug.style.visibility=='hidden');
-			me._do_ug.style[domTransition]='none';
-			me._do_ug.style.visibility=flag?'inherit':'hidden';
-			me._do_ug.ggVisible=flag;
-			flag=(me._up_1.style.visibility=='hidden');
-			me._up_1.style[domTransition]='none';
-			me._up_1.style.visibility=flag?'inherit':'hidden';
-			me._up_1.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			if (me.player.transitionsDisabled) {
-				me._map_erdgeschoss.style[domTransition]='none';
-			} else {
-				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_erdgeschoss.style.opacity='1';
-			me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_keller.style[domTransition]='none';
-			} else {
-				me._map_keller.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_keller.style.opacity='0';
-			me._map_keller.style.visibility='hidden';
-		}
-		this._up_eg.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_eg.style[domTransition]='none';
-			} else {
-				me._up_eg.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_eg.ggParameter.sx=1.2;me._up_eg.ggParameter.sy=1.2;
-			me._up_eg.style[domTransform]=parameterToTransform(me._up_eg.ggParameter);
-		}
-		this._up_eg.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._up_eg.style[domTransition]='none';
-			} else {
-				me._up_eg.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._up_eg.ggParameter.sx=1;me._up_eg.ggParameter.sy=1;
-			me._up_eg.style[domTransform]=parameterToTransform(me._up_eg.ggParameter);
-		}
-		this._up.appendChild(this._up_eg);
-		this._stockwerk_wechsel.appendChild(this._up);
-		this._down=document.createElement('div');
-		this._down.ggId="DOWN";
-		this._down.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._down.ggVisible=true;
-		this._down.className='ggskin ggskin_container';
-		this._down.ggType='container';
-		hs ='position:absolute;';
-		hs+='left: 103px;';
-		hs+='top:  13px;';
-		hs+='width: 339px;';
-		hs+='height: 253px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._down.setAttribute('style',hs);
-		this._do_ug=document.createElement('div');
-		this._do_ug.ggId="DO_UG";
-		this._do_ug.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_ug.ggVisible=true;
-		this._do_ug.className='ggskin ggskin_image';
-		this._do_ug.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 149px;';
-		hs+='top:  141px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._do_ug.setAttribute('style',hs);
-		this._do_ug__img=document.createElement('img');
-		this._do_ug__img.className='ggskin ggskin_image';
-		this._do_ug__img.setAttribute('src',basePath + 'images/do_ug.png');
-		this._do_ug__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._do_ug__img.className='ggskin ggskin_image';
-		this._do_ug__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._do_ug__img);
-		this._do_ug.appendChild(this._do_ug__img);
-		this._do_ug.onclick=function () {
-			me.player.openNext("- Untergeschoss -","");
-			flag=(me._do_ug.style.visibility=='hidden');
-			me._do_ug.style[domTransition]='none';
-			me._do_ug.style.visibility=flag?'inherit':'hidden';
-			me._do_ug.ggVisible=flag;
-			flag=(me._up_1.style.visibility=='hidden');
-			me._up_1.style[domTransition]='none';
-			me._up_1.style.visibility=flag?'inherit':'hidden';
-			me._up_1.ggVisible=flag;
-			flag=(me._up_eg.style.visibility=='hidden');
-			me._up_eg.style[domTransition]='none';
-			me._up_eg.style.visibility=flag?'inherit':'hidden';
-			me._up_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			if (me.player.transitionsDisabled) {
-				me._map_keller.style[domTransition]='none';
-			} else {
-				me._map_keller.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_keller.style.opacity='1';
-			me._map_keller.style.visibility=me._map_keller.ggVisible?'inherit':'hidden';
-			me._map_erdgeschoss.style[domTransition]='none';
-			me._map_erdgeschoss.style.opacity='0';
-			me._map_erdgeschoss.style.visibility='hidden';
-		}
-		this._do_ug.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_ug.style[domTransition]='none';
-			} else {
-				me._do_ug.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_ug.ggParameter.sx=1.2;me._do_ug.ggParameter.sy=1.2;
-			me._do_ug.style[domTransform]=parameterToTransform(me._do_ug.ggParameter);
-		}
-		this._do_ug.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_ug.style[domTransition]='none';
-			} else {
-				me._do_ug.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_ug.ggParameter.sx=1;me._do_ug.ggParameter.sy=1;
-			me._do_ug.style[domTransform]=parameterToTransform(me._do_ug.ggParameter);
-		}
-		this._down.appendChild(this._do_ug);
-		this._do_eg=document.createElement('div');
-		this._do_eg.ggId="DO_EG";
-		this._do_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_eg.ggVisible=false;
-		this._do_eg.className='ggskin ggskin_image';
-		this._do_eg.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 148px;';
-		hs+='top:  141px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._do_eg.setAttribute('style',hs);
-		this._do_eg__img=document.createElement('img');
-		this._do_eg__img.className='ggskin ggskin_image';
-		this._do_eg__img.setAttribute('src',basePath + 'images/do_eg.png');
-		this._do_eg__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._do_eg__img.className='ggskin ggskin_image';
-		this._do_eg__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._do_eg__img);
-		this._do_eg.appendChild(this._do_eg__img);
-		this._do_eg.onclick=function () {
-			me.player.openNext("- Untergeschoss -","");
-			flag=(me._do_eg.style.visibility=='hidden');
-			me._do_eg.style[domTransition]='none';
-			me._do_eg.style.visibility=flag?'inherit':'hidden';
-			me._do_eg.ggVisible=flag;
-			flag=(me._up_1.style.visibility=='hidden');
-			me._up_1.style[domTransition]='none';
-			me._up_1.style.visibility=flag?'inherit':'hidden';
-			me._up_1.ggVisible=flag;
-			flag=(me._do_ug.style.visibility=='hidden');
-			me._do_ug.style[domTransition]='none';
-			me._do_ug.style.visibility=flag?'inherit':'hidden';
-			me._do_ug.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			flag=(me._up_2.style.visibility=='hidden');
-			me._up_2.style[domTransition]='none';
-			me._up_2.style.visibility=flag?'inherit':'hidden';
-			me._up_2.ggVisible=flag;
-			me._map_1.style[domTransition]='none';
-			me._map_1.style.opacity='0';
-			me._map_1.style.visibility='hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_erdgeschoss.style[domTransition]='none';
-			} else {
-				me._map_erdgeschoss.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_erdgeschoss.style.opacity='1';
-			me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
-		}
-		this._do_eg.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_eg.style[domTransition]='none';
-			} else {
-				me._do_eg.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_eg.ggParameter.sx=1.2;me._do_eg.ggParameter.sy=1.2;
-			me._do_eg.style[domTransform]=parameterToTransform(me._do_eg.ggParameter);
-		}
-		this._do_eg.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_eg.style[domTransition]='none';
-			} else {
-				me._do_eg.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_eg.ggParameter.sx=1;me._do_eg.ggParameter.sy=1;
-			me._do_eg.style[domTransform]=parameterToTransform(me._do_eg.ggParameter);
-		}
-		this._down.appendChild(this._do_eg);
-		this._do_1=document.createElement('div');
-		this._do_1.ggId="DO_1";
-		this._do_1.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_1.ggVisible=false;
-		this._do_1.className='ggskin ggskin_image';
-		this._do_1.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 148px;';
-		hs+='top:  141px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._do_1.setAttribute('style',hs);
-		this._do_1__img=document.createElement('img');
-		this._do_1__img.className='ggskin ggskin_image';
-		this._do_1__img.setAttribute('src',basePath + 'images/do_1.png');
-		this._do_1__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._do_1__img.className='ggskin ggskin_image';
-		this._do_1__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._do_1__img);
-		this._do_1.appendChild(this._do_1__img);
-		this._do_1.onclick=function () {
-			me.player.openNext("Bibliothek_out.xml","");
-			flag=(me._do_1.style.visibility=='hidden');
-			me._do_1.style[domTransition]='none';
-			me._do_1.style.visibility=flag?'inherit':'hidden';
-			me._do_1.ggVisible=flag;
-			flag=(me._do_eg.style.visibility=='hidden');
-			me._do_eg.style[domTransition]='none';
-			me._do_eg.style.visibility=flag?'inherit':'hidden';
-			me._do_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			flag=(me._up_3.style.visibility=='hidden');
-			me._up_3.style[domTransition]='none';
-			me._up_3.style.visibility=flag?'inherit':'hidden';
-			me._up_3.ggVisible=flag;
-			flag=(me._up_2.style.visibility=='hidden');
-			me._up_2.style[domTransition]='none';
-			me._up_2.style.visibility=flag?'inherit':'hidden';
-			me._up_2.ggVisible=flag;
-			me._map_2.style[domTransition]='none';
-			me._map_2.style.opacity='0';
-			me._map_2.style.visibility='hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_1.style[domTransition]='none';
-			} else {
-				me._map_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_1.style.opacity='1';
-			me._map_1.style.visibility=me._map_1.ggVisible?'inherit':'hidden';
-		}
-		this._do_1.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_1.style[domTransition]='none';
-			} else {
-				me._do_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_1.ggParameter.sx=1.2;me._do_1.ggParameter.sy=1.2;
-			me._do_1.style[domTransform]=parameterToTransform(me._do_1.ggParameter);
-		}
-		this._do_1.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_1.style[domTransition]='none';
-			} else {
-				me._do_1.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_1.ggParameter.sx=1;me._do_1.ggParameter.sy=1;
-			me._do_1.style[domTransform]=parameterToTransform(me._do_1.ggParameter);
-		}
-		this._down.appendChild(this._do_1);
-		this._do_2=document.createElement('div');
-		this._do_2.ggId="DO_2";
-		this._do_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_2.ggVisible=false;
-		this._do_2.className='ggskin ggskin_image';
-		this._do_2.ggType='image';
-		hs ='position:absolute;';
-		hs+='left: 148px;';
-		hs+='top:  141px;';
-		hs+='width: 128px;';
-		hs+='height: 80px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
-		this._do_2.setAttribute('style',hs);
-		this._do_2__img=document.createElement('img');
-		this._do_2__img.className='ggskin ggskin_image';
-		this._do_2__img.setAttribute('src',basePath + 'images/do_2.png');
-		this._do_2__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._do_2__img.className='ggskin ggskin_image';
-		this._do_2__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._do_2__img);
-		this._do_2.appendChild(this._do_2__img);
-		this._do_2.onclick=function () {
-			me.player.openNext("Gang A2_06_out.xml","");
-			flag=(me._do_2.style.visibility=='hidden');
-			me._do_2.style[domTransition]='none';
-			me._do_2.style.visibility=flag?'inherit':'hidden';
-			me._do_2.ggVisible=flag;
-			flag=(me._do_1.style.visibility=='hidden');
-			me._do_1.style[domTransition]='none';
-			me._do_1.style.visibility=flag?'inherit':'hidden';
-			me._do_1.ggVisible=flag;
-			flag=(me._up_3.style.visibility=='hidden');
-			me._up_3.style[domTransition]='none';
-			me._up_3.style.visibility=flag?'inherit':'hidden';
-			me._up_3.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
-			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
-			if (me._stockwerk_wechsel_text.ggUpdateText) {
-				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
-					if (hs!=me._stockwerk_wechsel_text.ggText) {
-						me._stockwerk_wechsel_text.ggText=hs;
-						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
-					}
-				}
-			}
-			if (me.player.transitionsDisabled) {
-				me._map_2.style[domTransition]='none';
-			} else {
-				me._map_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_2.style.opacity='1';
-			me._map_2.style.visibility=me._map_2.ggVisible?'inherit':'hidden';
-			if (me.player.transitionsDisabled) {
-				me._map_3.style[domTransition]='none';
-			} else {
-				me._map_3.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_3.style.opacity='0';
-			me._map_3.style.visibility='hidden';
-		}
-		this._do_2.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_2.style[domTransition]='none';
-			} else {
-				me._do_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_2.ggParameter.sx=1.2;me._do_2.ggParameter.sy=1.2;
-			me._do_2.style[domTransform]=parameterToTransform(me._do_2.ggParameter);
-		}
-		this._do_2.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._do_2.style[domTransition]='none';
-			} else {
-				me._do_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._do_2.ggParameter.sx=1;me._do_2.ggParameter.sy=1;
-			me._do_2.style[domTransform]=parameterToTransform(me._do_2.ggParameter);
-		}
-		this._down.appendChild(this._do_2);
-		this._stockwerk_wechsel.appendChild(this._down);
-		this._stockwerk_wechsel_text=document.createElement('div');
-		this._stockwerk_wechsel_text__text=document.createElement('div');
-		this._stockwerk_wechsel_text.className='ggskin ggskin_textdiv';
-		this._stockwerk_wechsel_text.ggTextDiv=this._stockwerk_wechsel_text__text;
-		this._stockwerk_wechsel_text.ggId="Stockwerk_Wechsel_Text";
-		this._stockwerk_wechsel_text.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._stockwerk_wechsel_text.ggVisible=true;
-		this._stockwerk_wechsel_text.className='ggskin ggskin_text';
-		this._stockwerk_wechsel_text.ggType='text';
-		this._stockwerk_wechsel_text.ggUpdatePosition=function() {
-			this.style[domTransition]='none';
-			this.ggTextDiv.style.left=Math.floor(0 + (296-this.ggTextDiv.offsetWidth)/2) + 'px';
-		}
-		hs ='position:absolute;';
-		hs+='left: 167px;';
-		hs+='top:  44px;';
-		hs+='width: 296px;';
-		hs+='height: 22px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._stockwerk_wechsel_text.setAttribute('style',hs);
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: auto;';
-		hs+='height: auto;';
-		hs+='border: 0px solid #000000;';
-		hs+='color: #000000;';
-		hs+='text-align: right;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
-		this._stockwerk_wechsel_text__text.setAttribute('style',hs);
-		this._stockwerk_wechsel_text.ggTextDiv.innerHTML="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
-		this._stockwerk_wechsel_text.appendChild(this._stockwerk_wechsel_text__text);
-		this._stockwerk_wechsel.appendChild(this._stockwerk_wechsel_text);
-		this._mapholder.appendChild(this._stockwerk_wechsel);
 		this.divSkin.appendChild(this._mapholder);
 		this._openmap=document.createElement('div');
 		this._openmap.ggId="OpenMap";
@@ -2872,7 +2872,7 @@ function pano2vrSkin(player,base) {
 		me._map_keller.style.opacity='0';
 		me._map_keller.style.visibility='hidden';
 		me._current_selection3.style[domTransition]='none';
-		me._current_selection3.ggParameter.rx=386;me._current_selection3.ggParameter.ry=197;
+		me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 		me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
 		me._current_selection2.style[domTransition]='none';
 		me._current_selection2.ggParameter.rx=80;me._current_selection2.ggParameter.ry=155;
@@ -2881,7 +2881,7 @@ function pano2vrSkin(player,base) {
 		me._current_selection1.ggParameter.rx=632;me._current_selection1.ggParameter.ry=259;
 		me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
 		me._current_selectione.style[domTransition]='none';
-		me._current_selectione.ggParameter.rx=110;me._current_selectione.ggParameter.ry=283;
+		me._current_selectione.ggParameter.rx=328;me._current_selectione.ggParameter.ry=308;
 		me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
 		me._current_selectionu.style[domTransition]='none';
 		me._current_selectionu.ggParameter.rx=315;me._current_selectionu.ggParameter.ry=132;
