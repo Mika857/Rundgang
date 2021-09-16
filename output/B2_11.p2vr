@@ -50,7 +50,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Schule/P-Seminar/Rundgang/output/B2_11.html</filename>
+          <filename>B2_11.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -99,7 +99,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/Schule/P-Seminar/Rundgang/output/B2_11_out.xml</filename>
+        <filename>B2_11_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -117,7 +117,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\Schule\P-Seminar\Rundgang\Skins\2.Stock.ggsk</skinfile>
+        <skinfile>2.Stock.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Räume/2. Stock/A2_07/A2.07.jpeg</filename>
+      <filename>../Raeume/2. Stock/A2_07/A2.07.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -17,8 +17,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>64.5532</pan>
-          <tilt>-3.13432</tilt>
+          <pan>41.5486</pan>
+          <tilt>-1.46188</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -117,7 +117,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\Schule\P-Seminar\Git Rundgang\Rundgang\Skins\2.Stock.ggsk</skinfile>
+        <skinfile>2.Stock.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
