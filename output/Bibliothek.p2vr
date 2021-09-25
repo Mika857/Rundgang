@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Räume/1. Stock/bib/bib_equi_equi.jpg</filename>
+      <filename>../Raeume/1. Stock/bib/bib_equi_equi.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -31,8 +31,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>143.355</pan>
-          <tilt>1.27268</tilt>
+          <pan>121.035</pan>
+          <tilt>-1.03582</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -131,7 +131,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\Schule\P-Seminar\Git Rundgang\Rundgang\Skins\2.Stock.ggsk</skinfile>
+        <skinfile>2.Stock.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

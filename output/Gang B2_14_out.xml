@@ -10,7 +10,7 @@
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
     <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="Gehe weiter!" target="" pan="-2.87216" skinid="Gang_To_Gang_A2_06" url="" id="Gang_To_Gang_A2_06" tilt="-1.12327"/>
-    <hotspot title="" target="" pan="4.05862" skinid="Room_In_B2_11" url="" id="Room_In_B2_11" tilt="-0.676178"/>
+    <hotspot title="" target="" pan="12.5782" skinid="Room_In_B2_11" url="" id="Room_In_B2_11" tilt="1.49923"/>
     <hotspot title="" target="" pan="173.941" skinid="Room_In_B2_14" url="" id="Room_In_B2_14" tilt="-1.11161"/>
     <hotspot title="" target="" pan="170.78" skinid="Room_In_B2_13" url="" id="Room_In_B2_13" tilt="-1.5878"/>
   </hotspots>

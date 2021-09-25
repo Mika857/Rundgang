@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Räume/1. Stock/C1_08/C 1_equi fertig_equi.jpg</filename>
+      <filename>../Raeume/1. Stock/C1_08/C 1_equi fertig_equi.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -17,8 +17,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>-39.8996</pan>
-          <tilt>-1.98529</tilt>
+          <pan>-40.8912</pan>
+          <tilt>-2.3598</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -48,14 +48,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>
