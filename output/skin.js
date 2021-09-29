@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
-// Filename: 2.Stock.ggsk
-// Generated Sa 25. Sep 16:40:55 2021
+// Filename: Rundgang.ggsk
+// Generated Mi 29. Sep 20:04:17 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -529,6 +529,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._up_3.setAttribute('style',hs);
 		this._up_3__img=document.createElement('img');
 		this._up_3__img.className='ggskin ggskin_image';
@@ -548,11 +549,11 @@ function pano2vrSkin(player,base) {
 			me._do_2.style[domTransition]='none';
 			me._do_2.style.visibility=flag?'inherit':'hidden';
 			me._do_2.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>3. Stock<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>3. Stock<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>3. Stock<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -606,6 +607,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._up_2.setAttribute('style',hs);
 		this._up_2__img=document.createElement('img');
 		this._up_2__img.className='ggskin ggskin_image';
@@ -629,11 +631,11 @@ function pano2vrSkin(player,base) {
 			me._up_3.style[domTransition]='none';
 			me._up_3.style.visibility=flag?'inherit':'hidden';
 			me._up_3.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>2. Stock<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>2. Stock<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -687,6 +689,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
+		hs+='cursor: pointer;';
 		this._up_1.setAttribute('style',hs);
 		this._up_1__img=document.createElement('img');
 		this._up_1__img.className='ggskin ggskin_image';
@@ -710,11 +713,11 @@ function pano2vrSkin(player,base) {
 			me._do_eg.style[domTransition]='none';
 			me._do_eg.style.visibility=flag?'inherit':'hidden';
 			me._do_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>1. Stock<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>1. Stock<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -772,6 +775,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._up_eg.setAttribute('style',hs);
 		this._up_eg__img=document.createElement('img');
 		this._up_eg__img.className='ggskin ggskin_image';
@@ -795,11 +799,11 @@ function pano2vrSkin(player,base) {
 			me._up_1.style[domTransition]='none';
 			me._up_1.style.visibility=flag?'inherit':'hidden';
 			me._up_1.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -868,6 +872,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
+		hs+='cursor: pointer;';
 		this._do_ug.setAttribute('style',hs);
 		this._do_ug__img=document.createElement('img');
 		this._do_ug__img.className='ggskin ggskin_image';
@@ -891,11 +896,11 @@ function pano2vrSkin(player,base) {
 			me._up_eg.style[domTransition]='none';
 			me._up_eg.style.visibility=flag?'inherit':'hidden';
 			me._up_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>Untergeschoss<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Untergeschoss<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>Untergeschoss<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -945,6 +950,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._do_eg.setAttribute('style',hs);
 		this._do_eg__img=document.createElement('img');
 		this._do_eg__img.className='ggskin ggskin_image';
@@ -968,11 +974,11 @@ function pano2vrSkin(player,base) {
 			me._do_ug.style[domTransition]='none';
 			me._do_ug.style.visibility=flag?'inherit':'hidden';
 			me._do_ug.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -1026,6 +1032,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._do_1.setAttribute('style',hs);
 		this._do_1__img=document.createElement('img');
 		this._do_1__img.className='ggskin ggskin_image';
@@ -1045,11 +1052,11 @@ function pano2vrSkin(player,base) {
 			me._do_eg.style[domTransition]='none';
 			me._do_eg.style.visibility=flag?'inherit':'hidden';
 			me._do_eg.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>1. Stock<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>1. Stock<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>1. Stock<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -1107,6 +1114,7 @@ function pano2vrSkin(player,base) {
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: hidden;';
+		hs+='cursor: pointer;';
 		this._do_2.setAttribute('style',hs);
 		this._do_2__img=document.createElement('img');
 		this._do_2__img.className='ggskin ggskin_image';
@@ -1130,11 +1138,11 @@ function pano2vrSkin(player,base) {
 			me._up_3.style[domTransition]='none';
 			me._up_3.style.visibility=flag?'inherit':'hidden';
 			me._up_3.ggVisible=flag;
-			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>2. Stock<\/b><\/p>";
 			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
 			if (me._stockwerk_wechsel_text.ggUpdateText) {
 				me._stockwerk_wechsel_text.ggUpdateText=function() {
-					var hs="<p style=\"font-size:40px\"><b>2. Stock<\/b><\/p>";
+					var hs="<p style=\"font-size:40px;color:white\"><b>2. Stock<\/b><\/p>";
 					if (hs!=me._stockwerk_wechsel_text.ggText) {
 						me._stockwerk_wechsel_text.ggText=hs;
 						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
@@ -1203,13 +1211,13 @@ function pano2vrSkin(player,base) {
 		hs+='width: auto;';
 		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
-		hs+='color: #000000;';
+		hs+='color: #00ff40;';
 		hs+='text-align: right;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
 		this._stockwerk_wechsel_text__text.setAttribute('style',hs);
-		this._stockwerk_wechsel_text.ggTextDiv.innerHTML="<p style=\"font-size:40px\"><b>Erdgeschoss<\/b><\/p>";
+		this._stockwerk_wechsel_text.ggTextDiv.innerHTML="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
 		this._stockwerk_wechsel_text.appendChild(this._stockwerk_wechsel_text__text);
 		this._stockwerk_wechsel.appendChild(this._stockwerk_wechsel_text);
 		this._mapholder.appendChild(this._stockwerk_wechsel);

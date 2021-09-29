@@ -88,8 +88,8 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>2.Stock.ggsk</skinfile>
-        <skinSvgToPng>0</skinSvgToPng>
+        <skinfile>Rundgang.ggsk</skinfile>
+        <skinSvgToPng>1</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
         <previewresolution>4</previewresolution>
