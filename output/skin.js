@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Mi 29. Sep 20:04:17 2021
+// Generated Mi 29. Sep 21:15:35 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -540,7 +540,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._up_3__img);
 		this._up_3.appendChild(this._up_3__img);
 		this._up_3.onclick=function () {
-			me.player.openNext("3. Stock - Gang A3_10","");
+			me.player.openNext("A3_06_out.xml","");
 			flag=(me._up_3.style.visibility=='hidden');
 			me._up_3.style[domTransition]='none';
 			me._up_3.style.visibility=flag?'inherit':'hidden';
@@ -786,7 +786,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._up_eg__img);
 		this._up_eg.appendChild(this._up_eg__img);
 		this._up_eg.onclick=function () {
-			me.player.openNext("- Untergeschoss -","");
+			me.player.openNext("Aula_out.xml","");
 			flag=(me._up_eg.style.visibility=='hidden');
 			me._up_eg.style[domTransition]='none';
 			me._up_eg.style.visibility=flag?'inherit':'hidden';
@@ -961,7 +961,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._do_eg__img);
 		this._do_eg.appendChild(this._do_eg__img);
 		this._do_eg.onclick=function () {
-			me.player.openNext("- Untergeschoss -","");
+			me.player.openNext("Aula_out.xml","");
 			flag=(me._do_eg.style.visibility=='hidden');
 			me._do_eg.style[domTransition]='none';
 			me._do_eg.style.visibility=flag?'inherit':'hidden';
@@ -1364,7 +1364,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_3_06__img);
 		this._room_3_06.appendChild(this._room_3_06__img);
 		this._room_3_06.onclick=function () {
-			me.player.openNext("fehlt noch","");
+			me.player.openNext("A3_06_out.xml","");
 			me._current_selection3.style[domTransition]='none';
 			me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 			me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -3216,7 +3216,7 @@ function pano2vrSkin(player,base) {
 		me._map_keller.style.opacity='0';
 		me._map_keller.style.visibility='hidden';
 		me._current_selection3.style[domTransition]='none';
-		me._current_selection3.ggParameter.rx=386;me._current_selection3.ggParameter.ry=197;
+		me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 		me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
 		me._current_selection2.style[domTransition]='none';
 		me._current_selection2.ggParameter.rx=80;me._current_selection2.ggParameter.ry=155;
