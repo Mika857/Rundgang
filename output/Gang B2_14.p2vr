@@ -17,8 +17,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>-2.87216</pan>
-          <tilt>-1.12327</tilt>
+          <pan>-0.8748</pan>
+          <tilt>0.124966</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -44,6 +44,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_B2_11</id>
+        <title>Raum -Nummer-</title>
         <skinid>Room_In_B2_11</skinid>
       </hotspot>
       <hotspot>
@@ -59,6 +60,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_B2_14</id>
+        <title>Raum -Nummer-</title>
         <skinid>Room_In_B2_14</skinid>
       </hotspot>
       <hotspot>
@@ -74,6 +76,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_B2_13</id>
+        <title>Raum -Nummer-</title>
         <skinid>Room_In_B2_13</skinid>
       </hotspot>
     </hotspots>
@@ -148,7 +151,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>2.Stock.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
