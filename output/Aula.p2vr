@@ -16,7 +16,24 @@
     <userdata>
       <datetime>2021:02:10 11:48:24</datetime>
     </userdata>
-    <hotspots/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-138.069</pan>
+          <tilt>-1.68022</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_Aula_To_Room_OGS</id>
+        <title>Betrete den Raum der OGS</title>
+        <skinid>Gang_Aula_To_Room_OGS</skinid>
+      </hotspot>
+    </hotspots>
     <output>
       <htmlcss>
         <html>
@@ -89,7 +106,7 @@
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
         <skinfile>Rundgang.ggsk</skinfile>
-        <skinSvgToPng>1</skinSvgToPng>
+        <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
         <previewresolution>4</previewresolution>
