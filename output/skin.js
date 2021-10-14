@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Fr 1. Okt 16:19:32 2021
+// Generated Do 14. Okt 10:31:42 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -129,7 +129,7 @@ function pano2vrSkin(player,base) {
 		hs+='top:  -1px;';
 		hs+='width: 1337px;';
 		hs+='height: 420px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform-origin: 0% 0%;';
 		hs+='opacity: 0;';
 		hs+='visibility: hidden;';
 		hs+='background: #000000;';
@@ -2819,7 +2819,7 @@ function pano2vrSkin(player,base) {
 		this._map_keller.appendChild(this._map_keller__img);
 		this._gang_u_27=document.createElement('div');
 		this._gang_u_27.ggId="Gang_U_27";
-		this._gang_u_27.ggParameter={ rx:0,ry:0,a:0,sx:0.2,sy:0.2 };
+		this._gang_u_27.ggParameter={ rx:0,ry:0,a:0,sx:0.3,sy:0.3 };
 		this._gang_u_27.ggVisible=true;
 		this._gang_u_27.className='ggskin ggskin_image';
 		this._gang_u_27.ggType='image';
@@ -2852,7 +2852,7 @@ function pano2vrSkin(player,base) {
 			} else {
 				me._gang_u_27.style[domTransition]='all 500ms ease-out 0ms';
 			}
-			me._gang_u_27.ggParameter.sx=0.25;me._gang_u_27.ggParameter.sy=0.25;
+			me._gang_u_27.ggParameter.sx=0.35;me._gang_u_27.ggParameter.sy=0.35;
 			me._gang_u_27.style[domTransform]=parameterToTransform(me._gang_u_27.ggParameter);
 		}
 		this._gang_u_27.onmouseout=function () {
@@ -2861,7 +2861,7 @@ function pano2vrSkin(player,base) {
 			} else {
 				me._gang_u_27.style[domTransition]='all 500ms ease-out 0ms';
 			}
-			me._gang_u_27.ggParameter.sx=0.2;me._gang_u_27.ggParameter.sy=0.2;
+			me._gang_u_27.ggParameter.sx=0.3;me._gang_u_27.ggParameter.sy=0.3;
 			me._gang_u_27.style[domTransform]=parameterToTransform(me._gang_u_27.ggParameter);
 		}
 		this._map_keller.appendChild(this._gang_u_27);
@@ -2920,8 +2920,8 @@ function pano2vrSkin(player,base) {
 		this._room_u_26.className='ggskin ggskin_image';
 		this._room_u_26.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 790px;';
-		hs+='top:  204px;';
+		hs+='left: 400px;';
+		hs+='top:  209px;';
 		hs+='width: 128px;';
 		hs+='height: 128px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -2939,7 +2939,7 @@ function pano2vrSkin(player,base) {
 		this._room_u_26.onclick=function () {
 			me.player.openNext("Gang B1_24_out.xml","");
 			me._current_selectionu.style[domTransition]='none';
-			me._current_selectionu.ggParameter.rx=790;me._current_selectionu.ggParameter.ry=204;
+			me._current_selectionu.ggParameter.rx=400;me._current_selectionu.ggParameter.ry=209;
 			me._current_selectionu.style[domTransform]=parameterToTransform(me._current_selectionu.ggParameter);
 		}
 		this._room_u_26.onmouseover=function () {
@@ -3149,6 +3149,156 @@ function pano2vrSkin(player,base) {
 			me._closemap.style[domTransform]=parameterToTransform(me._closemap.ggParameter);
 		}
 		this._mapholder.appendChild(this._closemap);
+		this._karte_vergroesern_button=document.createElement('div');
+		this._karte_vergroesern_button__text=document.createElement('div');
+		this._karte_vergroesern_button.className='ggskin ggskin_textdiv';
+		this._karte_vergroesern_button.ggTextDiv=this._karte_vergroesern_button__text;
+		this._karte_vergroesern_button.ggId="Karte_Vergroesern_Button";
+		this._karte_vergroesern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._karte_vergroesern_button.ggVisible=false;
+		this._karte_vergroesern_button.className='ggskin ggskin_text';
+		this._karte_vergroesern_button.ggType='text';
+		this._karte_vergroesern_button.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
+		hs ='position:absolute;';
+		hs+='left: 1146px;';
+		hs+='top:  19px;';
+		hs+='width: 152px;';
+		hs+='height: 25px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='opacity: 0.9;';
+		hs+='visibility: hidden;';
+		this._karte_vergroesern_button.setAttribute('style',hs);
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
+		hs+='background: #000000;';
+		hs+='border: 8px solid #000000;';
+		hs+='border-radius: 4px;';
+		hs+=cssPrefix + 'border-radius: 4px;';
+		hs+='color: #000000;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 1px 2px 1px 2px;';
+		hs+='overflow: hidden;';
+		this._karte_vergroesern_button__text.setAttribute('style',hs);
+		this._karte_vergroesern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte vergr\xf6\xdfern<\/b><\/div>";
+		this._karte_vergroesern_button.appendChild(this._karte_vergroesern_button__text);
+		this._karte_vergroesern_button.onclick=function () {
+			if (me.player.transitionsDisabled) {
+				me._mapholder.style[domTransition]='none';
+			} else {
+				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._mapholder.ggParameter.sx=1;me._mapholder.ggParameter.sy=1;
+			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
+			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
+			me._karte_vergroesern_button.style[domTransition]='none';
+			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_vergroesern_button.ggVisible=flag;
+			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
+			me._karte_verkleinern_button.style[domTransition]='none';
+			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_verkleinern_button.ggVisible=flag;
+		}
+		this._karte_vergroesern_button.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_vergroesern_button.style[domTransition]='none';
+			} else {
+				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_vergroesern_button.ggParameter.sx=1.1;me._karte_vergroesern_button.ggParameter.sy=1.1;
+			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
+		}
+		this._karte_vergroesern_button.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_vergroesern_button.style[domTransition]='none';
+			} else {
+				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_vergroesern_button.ggParameter.sx=1;me._karte_vergroesern_button.ggParameter.sy=1;
+			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
+		}
+		this._mapholder.appendChild(this._karte_vergroesern_button);
+		this._karte_verkleinern_button=document.createElement('div');
+		this._karte_verkleinern_button__text=document.createElement('div');
+		this._karte_verkleinern_button.className='ggskin ggskin_textdiv';
+		this._karte_verkleinern_button.ggTextDiv=this._karte_verkleinern_button__text;
+		this._karte_verkleinern_button.ggId="Karte_Verkleinern_Button";
+		this._karte_verkleinern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._karte_verkleinern_button.ggVisible=true;
+		this._karte_verkleinern_button.className='ggskin ggskin_text';
+		this._karte_verkleinern_button.ggType='text';
+		this._karte_verkleinern_button.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
+		hs ='position:absolute;';
+		hs+='left: 1146px;';
+		hs+='top:  19px;';
+		hs+='width: 152px;';
+		hs+='height: 25px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='opacity: 0.8;';
+		hs+='visibility: inherit;';
+		this._karte_verkleinern_button.setAttribute('style',hs);
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
+		hs+='background: #000000;';
+		hs+='border: 8px solid #000000;';
+		hs+='border-radius: 4px;';
+		hs+=cssPrefix + 'border-radius: 4px;';
+		hs+='color: #000000;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 1px 2px 1px 2px;';
+		hs+='overflow: hidden;';
+		this._karte_verkleinern_button__text.setAttribute('style',hs);
+		this._karte_verkleinern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte verkleinern<\/b><\/div>";
+		this._karte_verkleinern_button.appendChild(this._karte_verkleinern_button__text);
+		this._karte_verkleinern_button.onclick=function () {
+			if (me.player.transitionsDisabled) {
+				me._mapholder.style[domTransition]='none';
+			} else {
+				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._mapholder.ggParameter.sx=0.5;me._mapholder.ggParameter.sy=0.5;
+			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
+			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
+			me._karte_verkleinern_button.style[domTransition]='none';
+			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_verkleinern_button.ggVisible=flag;
+			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
+			me._karte_vergroesern_button.style[domTransition]='none';
+			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_vergroesern_button.ggVisible=flag;
+		}
+		this._karte_verkleinern_button.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_verkleinern_button.style[domTransition]='none';
+			} else {
+				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_verkleinern_button.ggParameter.sx=1.1;me._karte_verkleinern_button.ggParameter.sy=1.1;
+			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
+		}
+		this._karte_verkleinern_button.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_verkleinern_button.style[domTransition]='none';
+			} else {
+				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_verkleinern_button.ggParameter.sx=1;me._karte_verkleinern_button.ggParameter.sy=1;
+			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
+		}
+		this._mapholder.appendChild(this._karte_verkleinern_button);
 		this.divSkin.appendChild(this._mapholder);
 		this._openmap=document.createElement('div');
 		this._openmap.ggId="OpenMap";
@@ -3231,7 +3381,7 @@ function pano2vrSkin(player,base) {
 		me._current_selection2.ggParameter.rx=80;me._current_selection2.ggParameter.ry=155;
 		me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
 		me._current_selection1.style[domTransition]='none';
-		me._current_selection1.ggParameter.rx=632;me._current_selection1.ggParameter.ry=259;
+		me._current_selection1.ggParameter.rx=254;me._current_selection1.ggParameter.ry=347;
 		me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
 		me._current_selectione.style[domTransition]='none';
 		me._current_selectione.ggParameter.rx=330;me._current_selectione.ggParameter.ry=305;
