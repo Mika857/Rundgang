@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Do 21. Okt 12:55:05 2021
+// Generated Do 21. Okt 13:57:27 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -555,7 +555,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._up_3__img);
 		this._up_3.appendChild(this._up_3__img);
 		this._up_3.onclick=function () {
-			me.player.openNext("A3_06_out.xml","");
+			me.player.openNext("3_06_out.xml","");
 			flag=(me._up_3.style.visibility=='hidden');
 			me._up_3.style[domTransition]='none';
 			me._up_3.style.visibility=flag?'inherit':'hidden';
@@ -633,7 +633,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._up_2__img);
 		this._up_2.appendChild(this._up_2__img);
 		this._up_2.onclick=function () {
-			me.player.openNext("Gang A2_06_out.xml","");
+			me.player.openNext("Gang 2_06_out.xml","");
 			flag=(me._up_2.style.visibility=='hidden');
 			me._up_2.style[domTransition]='none';
 			me._up_2.style.visibility=flag?'inherit':'hidden';
@@ -1140,7 +1140,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._do_2__img);
 		this._do_2.appendChild(this._do_2__img);
 		this._do_2.onclick=function () {
-			me.player.openNext("Gang A2_06_out.xml","");
+			me.player.openNext("Gang 2_06_out.xml","");
 			flag=(me._do_2.style.visibility=='hidden');
 			me._do_2.style[domTransition]='none';
 			me._do_2.style.visibility=flag?'inherit':'hidden';
@@ -1379,7 +1379,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_3_06__img);
 		this._room_3_06.appendChild(this._room_3_06__img);
 		this._room_3_06.onclick=function () {
-			me.player.openNext("A3_06_out.xml","");
+			me.player.openNext("3_06_out.xml","");
 			me._current_selection3.style[domTransition]='none';
 			me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 			me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -1629,7 +1629,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_2_07__img);
 		this._room_2_07.appendChild(this._room_2_07__img);
 		this._room_2_07.onclick=function () {
-			me.player.openNext("A2_07_out.xml","");
+			me.player.openNext("2_07_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=10;me._current_selection2.ggParameter.ry=231;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1677,7 +1677,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_2_14__img);
 		this._room_2_14.appendChild(this._room_2_14__img);
 		this._room_2_14.onclick=function () {
-			me.player.openNext("B2_14_out.xml","");
+			me.player.openNext("2_14_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=798;me._current_selection2.ggParameter.ry=234;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1725,7 +1725,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_2_13__img);
 		this._room_2_13.appendChild(this._room_2_13__img);
 		this._room_2_13.onclick=function () {
-			me.player.openNext("B2_13_out.xml","");
+			me.player.openNext("2_13_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=641;me._current_selection2.ggParameter.ry=234;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1773,7 +1773,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_2_11__img);
 		this._room_2_11.appendChild(this._room_2_11__img);
 		this._room_2_11.onclick=function () {
-			me.player.openNext("B2_11_out.xml","");
+			me.player.openNext("2_11_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=407;me._current_selection2.ggParameter.ry=231;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1821,7 +1821,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_2_08__img);
 		this._room_2_08.appendChild(this._room_2_08__img);
 		this._room_2_08.onclick=function () {
-			me.player.openNext("A2_08_out.xml","");
+			me.player.openNext("2_08_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=120;me._current_selection2.ggParameter.ry=234;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1869,7 +1869,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_2_06__img);
 		this._gang_2_06.appendChild(this._gang_2_06__img);
 		this._gang_2_06.onclick=function () {
-			me.player.openNext("Gang A2_06_out.xml","");
+			me.player.openNext("Gang 2_06_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=80;me._current_selection2.ggParameter.ry=155;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -1917,7 +1917,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_2_14__img);
 		this._gang_2_14.appendChild(this._gang_2_14__img);
 		this._gang_2_14.onclick=function () {
-			me.player.openNext("Gang B2_14_out.xml","");
+			me.player.openNext("Gang 2_14_out.xml","");
 			me._current_selection2.style[domTransition]='none';
 			me._current_selection2.ggParameter.rx=528;me._current_selection2.ggParameter.ry=168;
 			me._current_selection2.style[domTransform]=parameterToTransform(me._current_selection2.ggParameter);
@@ -2023,7 +2023,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_1_24__img);
 		this._gang_1_24.appendChild(this._gang_1_24__img);
 		this._gang_1_24.onclick=function () {
-			me.player.openNext("Gang B1_24_out.xml","");
+			me.player.openNext("Gang 1_24_out.xml","");
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=632;me._current_selection1.ggParameter.ry=259;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
@@ -2119,7 +2119,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_1_08__img);
 		this._room_1_08.appendChild(this._room_1_08__img);
 		this._room_1_08.onclick=function () {
-			me.player.openNext("C1_08_out.xml","");
+			me.player.openNext("1_08_out.xml","");
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=101;me._current_selection1.ggParameter.ry=312;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
@@ -2167,7 +2167,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_1_28__img);
 		this._room_1_28.appendChild(this._room_1_28__img);
 		this._room_1_28.onclick=function () {
-			me.player.openNext("B1_28_out.xml","");
+			me.player.openNext("1_28_out.xml","");
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=699;me._current_selection1.ggParameter.ry=325;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
@@ -2215,7 +2215,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_1_31__img);
 		this._room_1_31.appendChild(this._room_1_31__img);
 		this._room_1_31.onclick=function () {
-			me.player.openNext("Gang B1_24_out.xml","");
+			me.player.openNext("Gang 1_24_out.xml","");
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=905;me._current_selection1.ggParameter.ry=248;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
@@ -2416,7 +2416,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_0_24__img);
 		this._gang_0_24.appendChild(this._gang_0_24__img);
 		this._gang_0_24.onclick=function () {
-			me.player.openNext("Gang EG_24_out.xml","");
+			me.player.openNext("Gang 0_24_out.xml","");
 			me._current_selectione.style[domTransition]='none';
 			me._current_selectione.ggParameter.rx=659;me._current_selectione.ggParameter.ry=261;
 			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
@@ -2752,7 +2752,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._aula__img);
 		this._aula.appendChild(this._aula__img);
 		this._aula.onclick=function () {
-			me.player.openNext("Aula_out.xml (Fehlt noch)","");
+			me.player.openNext("Aula_out.xml","");
 			me._current_selectione.style[domTransition]='none';
 			me._current_selectione.ggParameter.rx=330;me._current_selectione.ggParameter.ry=305;
 			me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
@@ -3489,9 +3489,9 @@ function pano2vrSkin(player,base) {
 			return me.skin.findElements(id,regex);
 		}
 		
-		if (hotspot.skinid=='Room_Out_B1_28') {
+		if (hotspot.skinid=='Room_Out_1_28') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_B1_28";
+			this.__div.ggId="Room_Out_1_28";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -3505,7 +3505,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B1_24_out.xml","");
+				me.player.openNext("Gang 1_24_out.xml","");
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
@@ -3607,9 +3607,9 @@ function pano2vrSkin(player,base) {
 			this._text_225.appendChild(this._text_225__text);
 			this.__div.appendChild(this._text_225);
 		} else
-		if (hotspot.skinid=='Room_In_B1_28') {
+		if (hotspot.skinid=='Room_In_1_28') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_B1_28";
+			this.__div.ggId="Room_In_1_28";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -3623,7 +3623,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("B1_28_out.xml","");
+				me.player.openNext("1_28_out.xml","");
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=699;me.skin._current_selection1.ggParameter.ry=325;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
@@ -3843,9 +3843,9 @@ function pano2vrSkin(player,base) {
 			this._text_223.appendChild(this._text_223__text);
 			this.__div.appendChild(this._text_223);
 		} else
-		if (hotspot.skinid=='Room_In_C1_08') {
+		if (hotspot.skinid=='Room_In_1_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_C1_08";
+			this.__div.ggId="Room_In_1_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -3859,7 +3859,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("C1_08_out.xml","");
+				me.player.openNext("1_08_out.xml","");
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=101;me.skin._current_selection1.ggParameter.ry=312;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
@@ -3961,9 +3961,9 @@ function pano2vrSkin(player,base) {
 			this._text_222.appendChild(this._text_222__text);
 			this.__div.appendChild(this._text_222);
 		} else
-		if (hotspot.skinid=='Gang_To_Gang_B1_24') {
+		if (hotspot.skinid=='Gang_To_Gang_1_24') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_To_Gang_B1_24";
+			this.__div.ggId="Gang_To_Gang_1_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -3977,7 +3977,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B1_24_out.xml","90");
+				me.player.openNext("Gang 1_24_out.xml","90");
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
@@ -4079,9 +4079,9 @@ function pano2vrSkin(player,base) {
 			this._text_221.appendChild(this._text_221__text);
 			this.__div.appendChild(this._text_221);
 		} else
-		if (hotspot.skinid=='Room_Out_C1_08') {
+		if (hotspot.skinid=='Room_Out_1_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_C1_08";
+			this.__div.ggId="Room_Out_1_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4213,7 +4213,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B1_24_out.xml","180");
+				me.player.openNext("Gang 1_24_out.xml","180");
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
@@ -4433,9 +4433,9 @@ function pano2vrSkin(player,base) {
 			this._text_218.appendChild(this._text_218__text);
 			this.__div.appendChild(this._text_218);
 		} else
-		if (hotspot.skinid=='Room_In_B2_14') {
+		if (hotspot.skinid=='Room_In_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_B2_14";
+			this.__div.ggId="Room_In_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4449,7 +4449,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("B2_14_out.xml","");
+				me.player.openNext("2_14_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=798;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -4551,9 +4551,9 @@ function pano2vrSkin(player,base) {
 			this._text_217.appendChild(this._text_217__text);
 			this.__div.appendChild(this._text_217);
 		} else
-		if (hotspot.skinid=='Room_In_B2_13') {
+		if (hotspot.skinid=='Room_In_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_B2_13";
+			this.__div.ggId="Room_In_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4567,7 +4567,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("B2_13_out.xml","");
+				me.player.openNext("2_13_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -4669,9 +4669,9 @@ function pano2vrSkin(player,base) {
 			this._text_216.appendChild(this._text_216__text);
 			this.__div.appendChild(this._text_216);
 		} else
-		if (hotspot.skinid=='Room_In_B2_11') {
+		if (hotspot.skinid=='Room_In_2_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_B2_11";
+			this.__div.ggId="Room_In_2_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4685,7 +4685,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("B2_11_out.xml","");
+				me.player.openNext("2_11_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=407;me.skin._current_selection2.ggParameter.ry=231;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -4787,9 +4787,9 @@ function pano2vrSkin(player,base) {
 			this._text_215.appendChild(this._text_215__text);
 			this.__div.appendChild(this._text_215);
 		} else
-		if (hotspot.skinid=='Room_In_A2_07') {
+		if (hotspot.skinid=='Room_In_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_A2_07";
+			this.__div.ggId="Room_In_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4803,7 +4803,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("A2_07_out.xml","");
+				me.player.openNext("2_07_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=10;me.skin._current_selection2.ggParameter.ry=231;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -4905,9 +4905,9 @@ function pano2vrSkin(player,base) {
 			this._text_214.appendChild(this._text_214__text);
 			this.__div.appendChild(this._text_214);
 		} else
-		if (hotspot.skinid=='Room_In_A2_08') {
+		if (hotspot.skinid=='Room_In_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_A2_08";
+			this.__div.ggId="Room_In_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4921,7 +4921,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("A2_08_out.xml","");
+				me.player.openNext("2_08_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5023,9 +5023,9 @@ function pano2vrSkin(player,base) {
 			this._text_213.appendChild(this._text_213__text);
 			this.__div.appendChild(this._text_213);
 		} else
-		if (hotspot.skinid=='Room_To_Room_B2_13') {
+		if (hotspot.skinid=='Room_To_Room_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_B2_13";
+			this.__div.ggId="Room_To_Room_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5039,7 +5039,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("B2_13_out.xml","");
+				me.player.openNext("2_13_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5141,9 +5141,9 @@ function pano2vrSkin(player,base) {
 			this._text_212.appendChild(this._text_212__text);
 			this.__div.appendChild(this._text_212);
 		} else
-		if (hotspot.skinid=='Room_Out_B2_14') {
+		if (hotspot.skinid=='Room_Out_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_B2_14";
+			this.__div.ggId="Room_Out_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5157,7 +5157,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B2_14_out.xml","180");
+				me.player.openNext("Gang 2_14_out.xml","180");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5259,9 +5259,9 @@ function pano2vrSkin(player,base) {
 			this._text_211.appendChild(this._text_211__text);
 			this.__div.appendChild(this._text_211);
 		} else
-		if (hotspot.skinid=='Room_Out_B2_13') {
+		if (hotspot.skinid=='Room_Out_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_B2_13";
+			this.__div.ggId="Room_Out_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5275,7 +5275,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B2_14_out.xml","180");
+				me.player.openNext("Gang 2_14_out.xml","180");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5377,9 +5377,9 @@ function pano2vrSkin(player,base) {
 			this._text_210.appendChild(this._text_210__text);
 			this.__div.appendChild(this._text_210);
 		} else
-		if (hotspot.skinid=='Room_To_Room_A2_08') {
+		if (hotspot.skinid=='Room_To_Room_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_A2_08";
+			this.__div.ggId="Room_To_Room_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5393,7 +5393,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("A2_08_out.xml","");
+				me.player.openNext("2_08_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5495,9 +5495,9 @@ function pano2vrSkin(player,base) {
 			this._text_29.appendChild(this._text_29__text);
 			this.__div.appendChild(this._text_29);
 		} else
-		if (hotspot.skinid=='Room_Out_A2_07') {
+		if (hotspot.skinid=='Room_Out_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_A2_07";
+			this.__div.ggId="Room_Out_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5511,7 +5511,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang A2_06_out.xml","");
+				me.player.openNext("Gang 2_06_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5613,9 +5613,9 @@ function pano2vrSkin(player,base) {
 			this._text_28.appendChild(this._text_28__text);
 			this.__div.appendChild(this._text_28);
 		} else
-		if (hotspot.skinid=='Room_Out_A2_08') {
+		if (hotspot.skinid=='Room_Out_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_A2_08";
+			this.__div.ggId="Room_Out_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5629,7 +5629,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang A2_06_out.xml","");
+				me.player.openNext("Gang 2_06_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5731,9 +5731,9 @@ function pano2vrSkin(player,base) {
 			this._text_27.appendChild(this._text_27__text);
 			this.__div.appendChild(this._text_27);
 		} else
-		if (hotspot.skinid=='Room_Out_B2_11') {
+		if (hotspot.skinid=='Room_Out_2_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_B2_11";
+			this.__div.ggId="Room_Out_2_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5747,7 +5747,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B2_14_out.xml","");
+				me.player.openNext("Gang 2_14_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5841,9 +5841,9 @@ function pano2vrSkin(player,base) {
 			this._text_26.appendChild(this._text_26__text);
 			this.__div.appendChild(this._text_26);
 		} else
-		if (hotspot.skinid=='Gang_To_Gang_B2_14') {
+		if (hotspot.skinid=='Gang_To_Gang_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_To_Gang_B2_14";
+			this.__div.ggId="Gang_To_Gang_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5857,7 +5857,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang B2_14_out.xml","");
+				me.player.openNext("Gang 2_14_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -5959,9 +5959,9 @@ function pano2vrSkin(player,base) {
 			this._text_25.appendChild(this._text_25__text);
 			this.__div.appendChild(this._text_25);
 		} else
-		if (hotspot.skinid=='Gang_To_Gang_A2_06') {
+		if (hotspot.skinid=='Gang_To_Gang_2_06') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_To_Gang_A2_06";
+			this.__div.ggId="Gang_To_Gang_2_06";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5975,7 +5975,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang A2_06_out.xml","");
+				me.player.openNext("Gang 2_06_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
 				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
@@ -6431,9 +6431,9 @@ function pano2vrSkin(player,base) {
 			this._text_21.appendChild(this._text_21__text);
 			this.__div.appendChild(this._text_21);
 		} else
-		if (hotspot.skinid=='Gang_EG_24_To_Gang_Aula') {
+		if (hotspot.skinid=='Gang_0_24_To_Gang_Aula') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_EG_24_To_Gang_Aula";
+			this.__div.ggId="Gang_0_24_To_Gang_Aula";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6551,7 +6551,7 @@ function pano2vrSkin(player,base) {
 		} else
 		{
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_Aula_To_Gang_EG_24";
+			this.__div.ggId="Gang_Aula_To_Gang_0_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6565,7 +6565,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang EG_24_out.xml","");
+				me.player.openNext("Gang 0_24_out.xml","");
 				me.skin._current_selectione.style[domTransition]='none';
 				me.skin._current_selectione.ggParameter.rx=659;me.skin._current_selectione.ggParameter.ry=261;
 				me.skin._current_selectione.style[domTransform]=parameterToTransform(me.skin._current_selectione.ggParameter);

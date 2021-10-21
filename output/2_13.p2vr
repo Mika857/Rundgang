@@ -4,18 +4,18 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/1. Stock/bib/bib_equi_equi.jpg</filename>
+      <filename>../Raeume/2. Stock/B2_13/B2.13.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>296</start>
+        <start>73</start>
         <min>0</min>
         <max>360</max>
       </pan>
       <tilt>
-        <start>-2</start>
+        <start>4</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -31,8 +31,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>121.035</pan>
-          <tilt>-1.03582</tilt>
+          <pan>75.1073</pan>
+          <tilt>-2.6101</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -41,30 +41,16 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_To_Gang_1_24</id>
-        <skinid>Gang_To_Gang_1_24</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>-51.5516</pan>
-          <tilt>0.600927</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Room_In_1_08</id>
-        <skinid>Room_In_1_08</skinid>
+        <id>Room_Out_2_13</id>
+        <title>Verlasse die Physiksammlung</title>
+        <skinid>Room_Out_2_13</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>Bibliothek.html</filename>
+          <filename>2_13.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -113,7 +99,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>Bibliothek_out.xml</filename>
+        <filename>2_13_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -131,7 +117,6 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
@@ -144,6 +129,7 @@
         <leveltileoverlap>1</leveltileoverlap>
         <levelswitchbias>0.4</levelswitchbias>
         <previewquality>25</previewquality>
+        <skinfile>Rundgang.ggsk</skinfile>
       </htmlcss>
     </output>
     <sounds/>

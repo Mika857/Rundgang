@@ -35,8 +35,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>131.813</pan>
-          <tilt>-1.15278</tilt>
+          <pan>132.702</pan>
+          <tilt>-1.07166</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -45,9 +45,9 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_Aula_To_Gang_EG_24</id>
+        <id>Gang_Aula_To_Gang_0_24</id>
         <title>Gehe weiter?</title>
-        <skinid>Gang_Aula_To_Gang_EG_24</skinid>
+        <skinid>Gang_Aula_To_Gang_0_24</skinid>
       </hotspot>
     </hotspots>
     <output>
