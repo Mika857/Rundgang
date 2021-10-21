@@ -4,23 +4,35 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/EG/Aula/Aula 2 Panorama.jpg</filename>
+      <filename>../Raeume/EG/Gang EG_24/Gang EG_24.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
-      <pan/>
-      <tilt/>
-      <fov/>
+      <pan>
+        <start>83.5</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>-1.5</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>70</start>
+        <minunit>degrees</minunit>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>0</pannorth>
     </viewingparameter>
-    <userdata>
-      <datetime>2021:02:10 11:48:24</datetime>
-    </userdata>
+    <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>-138.069</pan>
-          <tilt>-1.68022</tilt>
+          <pan>88.114</pan>
+          <tilt>-0.623174</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -29,32 +41,16 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_Aula_To_Room_OGS</id>
-        <title>Betrete den Raum der OGS</title>
-        <skinid>Gang_Aula_To_Room_OGS</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>131.813</pan>
-          <tilt>-1.15278</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Gang_Aula_To_Gang_EG_24</id>
-        <title>Gehe weiter?</title>
-        <skinid>Gang_Aula_To_Gang_EG_24</skinid>
+        <id>Gang_EG_24_To_Gang_Aula</id>
+        <title>Gehe zur Aula</title>
+        <skinid>Gang_EG_24_To_Gang_Aula</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Aula.html</filename>
+          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang EG_24.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -103,7 +99,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Aula_out.xml</filename>
+        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang EG_24_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
