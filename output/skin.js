@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Fr 22. Okt 22:09:34 2021
+// Generated Sa 23. Okt 17:33:25 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -2027,6 +2027,9 @@ function pano2vrSkin(player,base) {
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=632;me._current_selection1.ggParameter.ry=259;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+			me._orientierung1.style[domTransition]='none';
+			me._orientierung1.ggParameter.rx=632;me._orientierung1.ggParameter.ry=259;
+			me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		}
 		this._gang_1_24.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -2075,6 +2078,9 @@ function pano2vrSkin(player,base) {
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=254;me._current_selection1.ggParameter.ry=347;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+			me._orientierung1.style[domTransition]='none';
+			me._orientierung1.ggParameter.rx=254;me._orientierung1.ggParameter.ry=347;
+			me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		}
 		this._bibliothek.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -2123,6 +2129,9 @@ function pano2vrSkin(player,base) {
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=101;me._current_selection1.ggParameter.ry=312;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+			me._orientierung1.style[domTransition]='none';
+			me._orientierung1.ggParameter.rx=101;me._orientierung1.ggParameter.ry=312;
+			me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		}
 		this._room_1_08.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -2171,6 +2180,9 @@ function pano2vrSkin(player,base) {
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=699;me._current_selection1.ggParameter.ry=325;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+			me._orientierung1.style[domTransition]='none';
+			me._orientierung1.ggParameter.rx=699;me._orientierung1.ggParameter.ry=325;
+			me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		}
 		this._room_1_28.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -2219,6 +2231,9 @@ function pano2vrSkin(player,base) {
 			me._current_selection1.style[domTransition]='none';
 			me._current_selection1.ggParameter.rx=905;me._current_selection1.ggParameter.ry=248;
 			me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+			me._orientierung1.style[domTransition]='none';
+			me._orientierung1.ggParameter.rx=905;me._orientierung1.ggParameter.ry=248;
+			me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		}
 		this._room_1_31.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -2241,7 +2256,7 @@ function pano2vrSkin(player,base) {
 		this._map_1.appendChild(this._room_1_31);
 		this._current_selection1=document.createElement('div');
 		this._current_selection1.ggId="Current_Selection1";
-		this._current_selection1.ggParameter={ rx:0,ry:0,a:0,sx:0.15,sy:0.15 };
+		this._current_selection1.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
 		this._current_selection1.ggVisible=true;
 		this._current_selection1.className='ggskin ggskin_image';
 		this._current_selection1.ggType='image';
@@ -2251,12 +2266,12 @@ function pano2vrSkin(player,base) {
 				w=this.parentNode.offsetWidth;
 				this.style.left=Math.floor(-595 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=Math.floor(-214 + h/2) + 'px';
+				this.style.top=Math.floor(-195 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
 		hs+='left: -595px;';
-		hs+='top:  -214px;';
+		hs+='top:  -195px;';
 		hs+='width: 300px;';
 		hs+='height: 400px;';
 		hs+=cssPrefix + 'transform-origin: 50% 0%;';
@@ -2272,6 +2287,63 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._current_selection1__img);
 		this._current_selection1.appendChild(this._current_selection1__img);
 		this._map_1.appendChild(this._current_selection1);
+		this._orientierung1=document.createElement('div');
+		this._orientierung1.ggId="Orientierung1";
+		this._orientierung1.ggParameter={ rx:0,ry:0,a:0,sx:0.2,sy:0.2 };
+		this._orientierung1.ggVisible=true;
+		this._orientierung1.className='ggskin ggskin_image';
+		this._orientierung1.ggType='image';
+		this._orientierung1.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			if (this.parentNode) {
+				w=this.parentNode.offsetWidth;
+				this.style.left=Math.floor(-509 + w/2) + 'px';
+				h=this.parentNode.offsetHeight;
+				this.style.top=Math.floor(-222 + h/2) + 'px';
+			}
+		}
+		hs ='position:absolute;';
+		hs+='left: -509px;';
+		hs+='top:  -222px;';
+		hs+='width: 128px;';
+		hs+='height: 128px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._orientierung1.ggParameter) + ';';
+		hs+='visibility: inherit;';
+		this._orientierung1.setAttribute('style',hs);
+		this._orientierung1__img=document.createElement('img');
+		this._orientierung1__img.className='ggskin ggskin_image';
+		this._orientierung1__img.setAttribute('src',basePath + 'images/orientierung1.png');
+		this._orientierung1__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._orientierung1__img.className='ggskin ggskin_image';
+		this._orientierung1__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._orientierung1__img);
+		this._orientierung1.appendChild(this._orientierung1__img);
+		this._arrow0=document.createElement('div');
+		this._arrow0.ggId="Arrow";
+		this._arrow0.ggParameter={ rx:0,ry:0,a:0,sx:0.7,sy:0.7 };
+		this._arrow0.ggVisible=true;
+		this._arrow0.className='ggskin ggskin_image';
+		this._arrow0.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 3px;';
+		hs+='top:  -143px;';
+		hs+='width: 120px;';
+		hs+='height: 120px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._arrow0.ggParameter) + ';';
+		hs+='visibility: inherit;';
+		this._arrow0.setAttribute('style',hs);
+		this._arrow0__img=document.createElement('img');
+		this._arrow0__img.className='ggskin ggskin_image';
+		this._arrow0__img.setAttribute('src',basePath + 'images/arrow0.png');
+		this._arrow0__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._arrow0__img.className='ggskin ggskin_image';
+		this._arrow0__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._arrow0__img);
+		this._arrow0.appendChild(this._arrow0__img);
+		this._orientierung1.appendChild(this._arrow0);
+		this._map_1.appendChild(this._orientierung1);
 		this._mapholder.appendChild(this._map_1);
 		this._map_erdgeschoss=document.createElement('div');
 		this._map_erdgeschoss.ggId="Map_Erdgeschoss";
@@ -2808,7 +2880,7 @@ function pano2vrSkin(player,base) {
 		this._map_erdgeschoss.appendChild(this._aula);
 		this._current_selectione=document.createElement('div');
 		this._current_selectione.ggId="Current_SelectionE";
-		this._current_selectione.ggParameter={ rx:0,ry:0,a:0,sx:0.2,sy:0.2 };
+		this._current_selectione.ggParameter={ rx:0,ry:0,a:0,sx:0.15,sy:0.15 };
 		this._current_selectione.ggVisible=true;
 		this._current_selectione.className='ggskin ggskin_image';
 		this._current_selectione.ggType='image';
@@ -2816,14 +2888,14 @@ function pano2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=Math.floor(-624 + w/2) + 'px';
+				this.style.left=Math.floor(-623 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=Math.floor(-539 + h/2) + 'px';
+				this.style.top=Math.floor(-526 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -624px;';
-		hs+='top:  -539px;';
+		hs+='left: -623px;';
+		hs+='top:  -526px;';
 		hs+='width: 300px;';
 		hs+='height: 400px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3485,6 +3557,9 @@ function pano2vrSkin(player,base) {
 		me._current_selection1.style[domTransition]='none';
 		me._current_selection1.ggParameter.rx=254;me._current_selection1.ggParameter.ry=347;
 		me._current_selection1.style[domTransform]=parameterToTransform(me._current_selection1.ggParameter);
+		me._orientierung1.style[domTransition]='none';
+		me._orientierung1.ggParameter.rx=254;me._orientierung1.ggParameter.ry=347;
+		me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
 		me._current_selectione.style[domTransition]='none';
 		me._current_selectione.ggParameter.rx=330;me._current_selectione.ggParameter.ry=305;
 		me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
@@ -3564,6 +3639,12 @@ function pano2vrSkin(player,base) {
 	this.skinTimerEvent=function() {
 		setTimeout(function() { me.skinTimerEvent(); }, 10);
 		var hs='';
+		if (me._orientierung1.ggParameter) {
+			hs+=parameterToTransform(me._orientierung1.ggParameter) + ' ';
+		}
+		hs+='rotate(' + (-1.0*(1 * me.player.getPanNorth() + 180)) + 'deg) ';
+		me._orientierung1.style[domTransform]=hs;
+		var hs='';
 		if (me._orientierunge.ggParameter) {
 			hs+=parameterToTransform(me._orientierunge.ggParameter) + ' ';
 		}
@@ -3605,6 +3686,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=632;me.skin._orientierung1.ggParameter.ry=259;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -3723,6 +3807,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=699;me.skin._current_selection1.ggParameter.ry=325;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=699;me.skin._orientierung1.ggParameter.ry=325;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -3841,6 +3928,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=254;me.skin._current_selection1.ggParameter.ry=347;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=254;me.skin._orientierung1.ggParameter.ry=347;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -3959,6 +4049,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=101;me.skin._current_selection1.ggParameter.ry=312;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=101;me.skin._orientierung1.ggParameter.ry=312;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -4077,6 +4170,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=632;me.skin._orientierung1.ggParameter.ry=259;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -4195,6 +4291,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=254;me.skin._current_selection1.ggParameter.ry=347;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=254;me.skin._orientierung1.ggParameter.ry=347;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -4313,6 +4412,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=632;me.skin._current_selection1.ggParameter.ry=259;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=0;me.skin._orientierung1.ggParameter.ry=0;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -4431,6 +4533,9 @@ function pano2vrSkin(player,base) {
 				me.skin._current_selection1.style[domTransition]='none';
 				me.skin._current_selection1.ggParameter.rx=905;me.skin._current_selection1.ggParameter.ry=248;
 				me.skin._current_selection1.style[domTransform]=parameterToTransform(me.skin._current_selection1.ggParameter);
+				me.skin._orientierung1.style[domTransition]='none';
+				me.skin._orientierung1.ggParameter.rx=905;me.skin._orientierung1.ggParameter.ry=248;
+				me.skin._orientierung1.style[domTransform]=parameterToTransform(me.skin._orientierung1.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
