@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Mo 25. Okt 16:20:05 2021
+// Generated Mo 25. Okt 16:59:58 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1334,7 +1334,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_3_13__img);
 		this._gang_3_13.appendChild(this._gang_3_13__img);
 		this._gang_3_13.onclick=function () {
-			me.player.openNext("fehlt noch","");
+			me.player.openNext("Gang 3_13_out.xml","");
 			me._current_selection3.style[domTransition]='none';
 			me._current_selection3.ggParameter.rx=659;me._current_selection3.ggParameter.ry=211;
 			me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -1484,7 +1484,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_3_16__img);
 		this._room_3_16.appendChild(this._room_3_16__img);
 		this._room_3_16.onclick=function () {
-			me.player.openNext("fehlt noch","");
+			me.player.openNext("3_16_out.xml","");
 			me._current_selection3.style[domTransition]='none';
 			me._current_selection3.ggParameter.rx=1010;me._current_selection3.ggParameter.ry=204;
 			me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -3266,7 +3266,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._room_u_26__img);
 		this._room_u_26.appendChild(this._room_u_26__img);
 		this._room_u_26.onclick=function () {
-			me.player.openNext("Gang B1_24_out.xml","");
+			me.player.openNext("U_26_out.xml","");
 			me._current_selectionu.style[domTransition]='none';
 			me._current_selectionu.ggParameter.rx=400;me._current_selectionu.ggParameter.ry=209;
 			me._current_selectionu.style[domTransform]=parameterToTransform(me._current_selectionu.ggParameter);
