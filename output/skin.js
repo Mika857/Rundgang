@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Mo 25. Okt 16:18:33 2021
+// Generated Mo 25. Okt 16:20:05 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -3755,8 +3755,8 @@ function pano2vrSkin(player,base) {
 		me._map_2.style.opacity='0';
 		me._map_2.style.visibility='hidden';
 		me._map_1.style[domTransition]='none';
-		me._map_1.style.opacity='0';
-		me._map_1.style.visibility='hidden';
+		me._map_1.style.opacity='1';
+		me._map_1.style.visibility=me._map_1.ggVisible?'inherit':'hidden';
 		me._map_3.style[domTransition]='none';
 		me._map_3.style.opacity='0';
 		me._map_3.style.visibility='hidden';
@@ -3764,8 +3764,8 @@ function pano2vrSkin(player,base) {
 		me._map_erdgeschoss.style.opacity='0';
 		me._map_erdgeschoss.style.visibility='hidden';
 		me._map_keller.style[domTransition]='none';
-		me._map_keller.style.opacity='1';
-		me._map_keller.style.visibility=me._map_keller.ggVisible?'inherit':'hidden';
+		me._map_keller.style.opacity='0';
+		me._map_keller.style.visibility='hidden';
 		me._current_selection3.style[domTransition]='none';
 		me._current_selection3.ggParameter.rx=-12;me._current_selection3.ggParameter.ry=207;
 		me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
