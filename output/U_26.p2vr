@@ -4,18 +4,18 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/UG/BU_26/computerraum2_equi_equi.jpg</filename>
-      <type>auto</type>
+      <filename>../Raeume/UG/Computerraum/computerraum.jpg</filename>
+      <type>equirectangular</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>158.5</start>
+        <start>70</start>
         <min>-180</min>
         <max>180</max>
       </pan>
       <tilt>
-        <start>0.1</start>
+        <start>-3.9</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -33,7 +33,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/sync Drive/Schule/P-Seminar/Projekt/Rundgang so richtig rund!/output/U_26.html</filename>
+          <filename>U_26.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -82,7 +82,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/sync Drive/Schule/P-Seminar/Projekt/Rundgang so richtig rund!/output/U_26_out.xml</filename>
+        <filename>U_26_out.xml</filename>
         <tilesize>2285</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -100,7 +100,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

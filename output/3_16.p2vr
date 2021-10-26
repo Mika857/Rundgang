@@ -4,28 +4,28 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/3. Stock/B3_16/B3_16.jpg</filename>
-      <type>auto</type>
+      <filename>../Raeume/3. Stock/3_16/B3.16.jpg</filename>
+      <type>equirectangular</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>4.5</start>
+        <start>0</start>
         <min>-180</min>
         <max>180</max>
       </pan>
       <tilt>
-        <start>1.5</start>
+        <start>-6</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
       <fov>
-        <start>70</start>
+        <start>72</start>
         <minunit>degrees</minunit>
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>4.5</pannorth>
+      <pannorth>0</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots/>
@@ -33,7 +33,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/sync Drive/Schule/P-Seminar/Projekt/Rundgang so richtig rund!/output/3_16.html</filename>
+          <filename>3_16.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -82,8 +82,8 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/sync Drive/Schule/P-Seminar/Projekt/Rundgang so richtig rund!/output/3_16_out.xml</filename>
-        <tilesize>2285</tilesize>
+        <filename>3_16_out.xml</filename>
+        <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
         <cubefilename>images/$n_o.jpg</cubefilename>
@@ -100,7 +100,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
