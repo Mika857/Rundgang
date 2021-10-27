@@ -25,7 +25,7 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>0</pannorth>
+      <pannorth>143.5</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
@@ -43,6 +43,22 @@
         <type>point</type>
         <id>Room_Out_2_08</id>
         <skinid>Room_Out_2_08</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>49.2346</pan>
+          <tilt>1.71091</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_2_08_To_Room_2_07</id>
+        <title>Betrete 2_07</title>
+        <skinid>Room_2_08_To_Room_2_07</skinid>
       </hotspot>
     </hotspots>
     <output>

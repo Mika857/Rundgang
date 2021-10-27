@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="">
-  <view fovmode="0" pannorth="0">
+  <view fovmode="0" pannorth="143.5">
     <start pan="318" fov="70" tilt="-3"/>
     <min pan="0" fov="5" tilt="-90"/>
     <max pan="360" fov="120" tilt="90"/>
@@ -10,6 +10,7 @@
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
     <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="" target="" pan="-39.8963" skinid="Room_Out_2_08" url="" id="Room_Out_2_08" tilt="-0.273374"/>
+    <hotspot title="Betrete 2_07" target="" pan="-2.94033" skinid="Room_2_08_To_Room_2_07" url="" id="Room_2_08_To_Room_2_07" tilt="0.966243"/>
   </hotspots>
   <media/>
   <input tile0url="images/A2_08_o_0.jpg" prev5url="images/A2_08_o_preview_5.jpg" prev4url="images/A2_08_o_preview_4.jpg" prev3url="images/A2_08_o_preview_3.jpg" prev2url="images/A2_08_o_preview_2.jpg" prev1url="images/A2_08_o_preview_1.jpg" prev0url="images/A2_08_o_preview_0.jpg" tile5url="images/A2_08_o_5.jpg" tilesize="1542" tile4url="images/A2_08_o_4.jpg" tile3url="images/A2_08_o_3.jpg" tilescale="1.006485" tile2url="images/A2_08_o_2.jpg" tile1url="images/A2_08_o_1.jpg">

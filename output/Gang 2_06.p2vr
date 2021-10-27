@@ -25,7 +25,7 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>0</pannorth>
+      <pannorth>149.5</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
