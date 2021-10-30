@@ -28,7 +28,40 @@
       <pannorth>167.5</pannorth>
     </viewingparameter>
     <userdata/>
-    <hotspots/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-102.873</pan>
+          <tilt>-1.87228</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_3_13_To_Room_3_16</id>
+        <title>Betrete 3.16</title>
+        <skinid>Gang_3_13_To_Room_3_16</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>79.3823</pan>
+          <tilt>-1.30364</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_3_13_To_Gang_?</id>
+        <title>Gehe den Gang entlang</title>
+        <skinid>Gang_3_13_To_Gang_?</skinid>
+      </hotspot>
+    </hotspots>
     <output>
       <htmlcss>
         <html>
@@ -104,8 +137,8 @@
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
-        <previewresolution>4</previewresolution>
-        <previewcolor>#808080</previewcolor>
+        <previewresolution>8</previewresolution>
+        <previewcolor>#000000</previewcolor>
         <leveltileenabled>0</leveltileenabled>
         <leveltilesize>512</leveltilesize>
         <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
