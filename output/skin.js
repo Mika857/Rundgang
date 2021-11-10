@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Sa 30. Okt 19:05:51 2021
+// Generated Mi 10. Nov 18:01:15 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -913,7 +913,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._do_ug__img);
 		this._do_ug.appendChild(this._do_ug__img);
 		this._do_ug.onclick=function () {
-			me.player.openNext("U_26_out.xml","");
+			me.player.openNext("Gang U_21_out.xml","");
 			flag=(me._do_ug.style.visibility=='hidden');
 			me._do_ug.style[domTransition]='none';
 			me._do_ug.style.visibility=flag?'inherit':'hidden';
@@ -3332,7 +3332,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._gang_u_21__img);
 		this._gang_u_21.appendChild(this._gang_u_21__img);
 		this._gang_u_21.onclick=function () {
-			me.player.openNext("Gang B1_24_out.xml","");
+			me.player.openNext("Gang U_21_out.xml","");
 			me._current_selectionu.style[domTransition]='none';
 			me._current_selectionu.ggParameter.rx=315;me._current_selectionu.ggParameter.ry=132;
 			me._current_selectionu.style[domTransform]=parameterToTransform(me._current_selectionu.ggParameter);
@@ -3959,6 +3959,127 @@ function pano2vrSkin(player,base) {
 				me.player.hotspot=me.player.emptyHotspot;
 				me.skin.hotspotProxyOut(me.hotspot.id);
 			}
+			this._image_130=document.createElement('div');
+			this._image_130.ggId="Image 1";
+			this._image_130.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_130.ggVisible=true;
+			this._image_130.className='ggskin ggskin_image';
+			this._image_130.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_130.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_130.setAttribute('style',hs);
+			this._image_130__img=document.createElement('img');
+			this._image_130__img.className='ggskin ggskin_image';
+			this._image_130__img.setAttribute('src',basePath + 'images/image_130.png');
+			this._image_130__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_130__img.className='ggskin ggskin_image';
+			this._image_130__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_130__img);
+			this._image_130.appendChild(this._image_130__img);
+			this._image_130.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_130.style[domTransition]='none';
+				} else {
+					me._image_130.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_130.ggParameter.sx=0.2;me._image_130.ggParameter.sy=0.2;
+				me._image_130.style[domTransform]=parameterToTransform(me._image_130.ggParameter);
+				flag=(me._text_230.style.visibility=='hidden');
+				me._text_230.style[domTransition]='none';
+				me._text_230.style.visibility=flag?'inherit':'hidden';
+				me._text_230.ggVisible=flag;
+			}
+			this._image_130.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_130.style[domTransition]='none';
+				} else {
+					me._image_130.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_130.ggParameter.sx=0.1;me._image_130.ggParameter.sy=0.1;
+				me._image_130.style[domTransform]=parameterToTransform(me._image_130.ggParameter);
+				flag=(me._text_230.style.visibility=='hidden');
+				me._text_230.style[domTransition]='none';
+				me._text_230.style.visibility=flag?'inherit':'hidden';
+				me._text_230.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_130);
+			this._text_230=document.createElement('div');
+			this._text_230__text=document.createElement('div');
+			this._text_230.className='ggskin ggskin_textdiv';
+			this._text_230.ggTextDiv=this._text_230__text;
+			this._text_230.ggId="Text 2";
+			this._text_230.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_230.ggVisible=false;
+			this._text_230.className='ggskin ggskin_text';
+			this._text_230.ggType='text';
+			this._text_230.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_230.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_230__text.setAttribute('style',hs);
+			this._text_230.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_230.appendChild(this._text_230__text);
+			this.__div.appendChild(this._text_230);
+		} else
+		if (hotspot.skinid=='Room_Out_3_16') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_Out_3_16";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.player.openNext("Gang 3_13_out.xml","");
+				me.skin._current_selection3.style[domTransition]='none';
+				me.skin._current_selection3.ggParameter.rx=659;me.skin._current_selection3.ggParameter.ry=211;
+				me.skin._current_selection3.style[domTransform]=parameterToTransform(me.skin._current_selection3.ggParameter);
+				me.skin._orientierung3.style[domTransition]='none';
+				me.skin._orientierung3.ggParameter.rx=659;me.skin._orientierung3.ggParameter.ry=211;
+				me.skin._orientierung3.style[domTransform]=parameterToTransform(me.skin._orientierung3.ggParameter);
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
 			this._image_129=document.createElement('div');
 			this._image_129.ggId="Image 1";
 			this._image_129.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
@@ -4047,9 +4168,9 @@ function pano2vrSkin(player,base) {
 			this._text_229.appendChild(this._text_229__text);
 			this.__div.appendChild(this._text_229);
 		} else
-		if (hotspot.skinid=='Room_Out_3_16') {
+		if (hotspot.skinid=='Gang_3_13_To_Room_3_16') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_3_16";
+			this.__div.ggId="Gang_3_13_To_Room_3_16";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4063,12 +4184,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang 3_13_out.xml","");
+				me.player.openNext("3_16_out.xml","");
 				me.skin._current_selection3.style[domTransition]='none';
-				me.skin._current_selection3.ggParameter.rx=659;me.skin._current_selection3.ggParameter.ry=211;
+				me.skin._current_selection3.ggParameter.rx=1010;me.skin._current_selection3.ggParameter.ry=204;
 				me.skin._current_selection3.style[domTransform]=parameterToTransform(me.skin._current_selection3.ggParameter);
 				me.skin._orientierung3.style[domTransition]='none';
-				me.skin._orientierung3.ggParameter.rx=659;me.skin._orientierung3.ggParameter.ry=211;
+				me.skin._orientierung3.ggParameter.rx=1010;me.skin._orientierung3.ggParameter.ry=204;
 				me.skin._orientierung3.style[domTransform]=parameterToTransform(me.skin._orientierung3.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4168,9 +4289,9 @@ function pano2vrSkin(player,base) {
 			this._text_228.appendChild(this._text_228__text);
 			this.__div.appendChild(this._text_228);
 		} else
-		if (hotspot.skinid=='Gang_3_13_To_Room_3_16') {
+		if (hotspot.skinid=='Room_In_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_3_13_To_Room_3_16";
+			this.__div.ggId="Room_In_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4184,13 +4305,13 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("3_16_out.xml","");
-				me.skin._current_selection3.style[domTransition]='none';
-				me.skin._current_selection3.ggParameter.rx=1010;me.skin._current_selection3.ggParameter.ry=204;
-				me.skin._current_selection3.style[domTransform]=parameterToTransform(me.skin._current_selection3.ggParameter);
-				me.skin._orientierung3.style[domTransition]='none';
-				me.skin._orientierung3.ggParameter.rx=1010;me.skin._orientierung3.ggParameter.ry=204;
-				me.skin._orientierung3.style[domTransform]=parameterToTransform(me.skin._orientierung3.ggParameter);
+				me.player.openNext("2_14_out.xml","");
+				me.skin._current_selection2.style[domTransition]='none';
+				me.skin._current_selection2.ggParameter.rx=798;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
+				me.skin._orientierung2.style[domTransition]='none';
+				me.skin._orientierung2.ggParameter.rx=798;me.skin._orientierung2.ggParameter.ry=234;
+				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -4289,9 +4410,9 @@ function pano2vrSkin(player,base) {
 			this._text_227.appendChild(this._text_227__text);
 			this.__div.appendChild(this._text_227);
 		} else
-		if (hotspot.skinid=='Room_In_2_14') {
+		if (hotspot.skinid=='Room_In_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_14";
+			this.__div.ggId="Room_In_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4305,12 +4426,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_14_out.xml","");
+				me.player.openNext("2_13_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=798;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=798;me.skin._orientierung2.ggParameter.ry=234;
+				me.skin._orientierung2.ggParameter.rx=641;me.skin._orientierung2.ggParameter.ry=234;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4410,9 +4531,9 @@ function pano2vrSkin(player,base) {
 			this._text_226.appendChild(this._text_226__text);
 			this.__div.appendChild(this._text_226);
 		} else
-		if (hotspot.skinid=='Room_In_2_13') {
+		if (hotspot.skinid=='Room_In_2_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_13";
+			this.__div.ggId="Room_In_2_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4426,12 +4547,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_13_out.xml","");
+				me.player.openNext("2_11_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.ggParameter.rx=407;me.skin._current_selection2.ggParameter.ry=231;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=641;me.skin._orientierung2.ggParameter.ry=234;
+				me.skin._orientierung2.ggParameter.rx=407;me.skin._orientierung2.ggParameter.ry=231;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4531,9 +4652,9 @@ function pano2vrSkin(player,base) {
 			this._text_225.appendChild(this._text_225__text);
 			this.__div.appendChild(this._text_225);
 		} else
-		if (hotspot.skinid=='Room_In_2_11') {
+		if (hotspot.skinid=='Room_In_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_11";
+			this.__div.ggId="Room_In_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4547,12 +4668,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_11_out.xml","");
+				me.player.openNext("2_07_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=407;me.skin._current_selection2.ggParameter.ry=231;
+				me.skin._current_selection2.ggParameter.rx=10;me.skin._current_selection2.ggParameter.ry=231;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=407;me.skin._orientierung2.ggParameter.ry=231;
+				me.skin._orientierung2.ggParameter.rx=10;me.skin._orientierung2.ggParameter.ry=231;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4652,9 +4773,9 @@ function pano2vrSkin(player,base) {
 			this._text_224.appendChild(this._text_224__text);
 			this.__div.appendChild(this._text_224);
 		} else
-		if (hotspot.skinid=='Room_In_2_07') {
+		if (hotspot.skinid=='Room_In_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_07";
+			this.__div.ggId="Room_In_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4668,12 +4789,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_07_out.xml","");
+				me.player.openNext("2_08_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=10;me.skin._current_selection2.ggParameter.ry=231;
+				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=10;me.skin._orientierung2.ggParameter.ry=231;
+				me.skin._orientierung2.ggParameter.rx=120;me.skin._orientierung2.ggParameter.ry=234;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4773,9 +4894,9 @@ function pano2vrSkin(player,base) {
 			this._text_223.appendChild(this._text_223__text);
 			this.__div.appendChild(this._text_223);
 		} else
-		if (hotspot.skinid=='Room_In_2_08') {
+		if (hotspot.skinid=='Room_To_Room_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_08";
+			this.__div.ggId="Room_To_Room_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4789,12 +4910,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_08_out.xml","");
+				me.player.openNext("2_13_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=120;me.skin._orientierung2.ggParameter.ry=234;
+				me.skin._orientierung2.ggParameter.rx=0;me.skin._orientierung2.ggParameter.ry=0;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -4894,9 +5015,9 @@ function pano2vrSkin(player,base) {
 			this._text_222.appendChild(this._text_222__text);
 			this.__div.appendChild(this._text_222);
 		} else
-		if (hotspot.skinid=='Room_To_Room_2_13') {
+		if (hotspot.skinid=='Room_Out_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_2_13";
+			this.__div.ggId="Room_Out_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -4910,12 +5031,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_13_out.xml","");
+				me.player.openNext("Gang 2_14_out.xml","180");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=641;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=0;me.skin._orientierung2.ggParameter.ry=0;
+				me.skin._orientierung2.ggParameter.rx=528;me.skin._orientierung2.ggParameter.ry=168;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5015,9 +5136,9 @@ function pano2vrSkin(player,base) {
 			this._text_221.appendChild(this._text_221__text);
 			this.__div.appendChild(this._text_221);
 		} else
-		if (hotspot.skinid=='Room_Out_2_14') {
+		if (hotspot.skinid=='Room_Out_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_14";
+			this.__div.ggId="Room_Out_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5136,9 +5257,9 @@ function pano2vrSkin(player,base) {
 			this._text_220.appendChild(this._text_220__text);
 			this.__div.appendChild(this._text_220);
 		} else
-		if (hotspot.skinid=='Room_Out_2_13') {
+		if (hotspot.skinid=='Room_To_Room_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_13";
+			this.__div.ggId="Room_To_Room_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5152,12 +5273,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang 2_14_out.xml","180");
+				me.player.openNext("2_08_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
+				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=528;me.skin._orientierung2.ggParameter.ry=168;
+				me.skin._orientierung2.ggParameter.rx=120;me.skin._orientierung2.ggParameter.ry=234;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5257,9 +5378,9 @@ function pano2vrSkin(player,base) {
 			this._text_219.appendChild(this._text_219__text);
 			this.__div.appendChild(this._text_219);
 		} else
-		if (hotspot.skinid=='Room_To_Room_2_08') {
+		if (hotspot.skinid=='Room_Out_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_2_08";
+			this.__div.ggId="Room_Out_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5273,12 +5394,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_08_out.xml","");
+				me.player.openNext("Gang 2_06_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=120;me.skin._current_selection2.ggParameter.ry=234;
+				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=120;me.skin._orientierung2.ggParameter.ry=234;
+				me.skin._orientierung2.ggParameter.rx=80;me.skin._orientierung2.ggParameter.ry=155;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5378,9 +5499,9 @@ function pano2vrSkin(player,base) {
 			this._text_218.appendChild(this._text_218__text);
 			this.__div.appendChild(this._text_218);
 		} else
-		if (hotspot.skinid=='Room_Out_2_07') {
+		if (hotspot.skinid=='Room_Out_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_07";
+			this.__div.ggId="Room_Out_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5499,9 +5620,9 @@ function pano2vrSkin(player,base) {
 			this._text_217.appendChild(this._text_217__text);
 			this.__div.appendChild(this._text_217);
 		} else
-		if (hotspot.skinid=='Room_Out_2_08') {
+		if (hotspot.skinid=='Room_Out_2_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_08";
+			this.__div.ggId="Room_Out_2_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5515,12 +5636,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang 2_06_out.xml","");
+				me.player.openNext("Gang 2_14_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
+				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=80;me.skin._orientierung2.ggParameter.ry=155;
+				me.skin._orientierung2.ggParameter.rx=528;me.skin._orientierung2.ggParameter.ry=168;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5561,12 +5682,8 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_116.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_116.ggParameter.sx=0.2;me._image_116.ggParameter.sy=0.2;
+				me._image_116.ggParameter.sx=0.3;me._image_116.ggParameter.sy=0.3;
 				me._image_116.style[domTransform]=parameterToTransform(me._image_116.ggParameter);
-				flag=(me._text_216.style.visibility=='hidden');
-				me._text_216.style[domTransition]='none';
-				me._text_216.style.visibility=flag?'inherit':'hidden';
-				me._text_216.ggVisible=flag;
 			}
 			this._image_116.onmouseout=function () {
 				if (me.player.transitionsDisabled) {
@@ -5574,12 +5691,8 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_116.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_116.ggParameter.sx=0.1;me._image_116.ggParameter.sy=0.1;
+				me._image_116.ggParameter.sx=0.2;me._image_116.ggParameter.sy=0.2;
 				me._image_116.style[domTransform]=parameterToTransform(me._image_116.ggParameter);
-				flag=(me._text_216.style.visibility=='hidden');
-				me._text_216.style[domTransition]='none';
-				me._text_216.style.visibility=flag?'inherit':'hidden';
-				me._text_216.ggVisible=flag;
 			}
 			this.__div.appendChild(this._image_116);
 			this._text_216=document.createElement('div');
@@ -5620,9 +5733,9 @@ function pano2vrSkin(player,base) {
 			this._text_216.appendChild(this._text_216__text);
 			this.__div.appendChild(this._text_216);
 		} else
-		if (hotspot.skinid=='Room_Out_2_11') {
+		if (hotspot.skinid=='Gang_To_Gang_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_11";
+			this.__div.ggId="Gang_To_Gang_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5682,8 +5795,12 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_115.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_115.ggParameter.sx=0.3;me._image_115.ggParameter.sy=0.3;
+				me._image_115.ggParameter.sx=0.2;me._image_115.ggParameter.sy=0.2;
 				me._image_115.style[domTransform]=parameterToTransform(me._image_115.ggParameter);
+				flag=(me._text_215.style.visibility=='hidden');
+				me._text_215.style[domTransition]='none';
+				me._text_215.style.visibility=flag?'inherit':'hidden';
+				me._text_215.ggVisible=flag;
 			}
 			this._image_115.onmouseout=function () {
 				if (me.player.transitionsDisabled) {
@@ -5691,8 +5808,12 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_115.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_115.ggParameter.sx=0.2;me._image_115.ggParameter.sy=0.2;
+				me._image_115.ggParameter.sx=0.1;me._image_115.ggParameter.sy=0.1;
 				me._image_115.style[domTransform]=parameterToTransform(me._image_115.ggParameter);
+				flag=(me._text_215.style.visibility=='hidden');
+				me._text_215.style[domTransition]='none';
+				me._text_215.style.visibility=flag?'inherit':'hidden';
+				me._text_215.ggVisible=flag;
 			}
 			this.__div.appendChild(this._image_115);
 			this._text_215=document.createElement('div');
@@ -5733,9 +5854,9 @@ function pano2vrSkin(player,base) {
 			this._text_215.appendChild(this._text_215__text);
 			this.__div.appendChild(this._text_215);
 		} else
-		if (hotspot.skinid=='Gang_To_Gang_2_14') {
+		if (hotspot.skinid=='Gang_To_Gang_2_06') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_To_Gang_2_14";
+			this.__div.ggId="Gang_To_Gang_2_06";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5749,12 +5870,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang 2_14_out.xml","");
+				me.player.openNext("Gang 2_06_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=528;me.skin._current_selection2.ggParameter.ry=168;
+				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=528;me.skin._orientierung2.ggParameter.ry=168;
+				me.skin._orientierung2.ggParameter.rx=80;me.skin._orientierung2.ggParameter.ry=155;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5854,9 +5975,9 @@ function pano2vrSkin(player,base) {
 			this._text_214.appendChild(this._text_214__text);
 			this.__div.appendChild(this._text_214);
 		} else
-		if (hotspot.skinid=='Gang_To_Gang_2_06') {
+		if (hotspot.skinid=='Room_2_08_To_Room_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_To_Gang_2_06";
+			this.__div.ggId="Room_2_08_To_Room_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5870,12 +5991,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("Gang 2_06_out.xml","");
+				me.player.openNext("2_07_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=80;me.skin._current_selection2.ggParameter.ry=155;
+				me.skin._current_selection2.ggParameter.rx=10;me.skin._current_selection2.ggParameter.ry=231;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=80;me.skin._orientierung2.ggParameter.ry=155;
+				me.skin._orientierung2.ggParameter.rx=10;me.skin._orientierung2.ggParameter.ry=231;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
@@ -5975,9 +6096,9 @@ function pano2vrSkin(player,base) {
 			this._text_213.appendChild(this._text_213__text);
 			this.__div.appendChild(this._text_213);
 		} else
-		if (hotspot.skinid=='Room_2_08_To_Room_2_07') {
+		if (hotspot.skinid=='Room_2_13_To_Room_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_2_08_To_Room_2_07";
+			this.__div.ggId="Room_2_13_To_Room_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5991,12 +6112,12 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openNext("2_07_out.xml","");
+				me.player.openNext("2_14_out.xml","");
 				me.skin._current_selection2.style[domTransition]='none';
-				me.skin._current_selection2.ggParameter.rx=10;me.skin._current_selection2.ggParameter.ry=231;
+				me.skin._current_selection2.ggParameter.rx=798;me.skin._current_selection2.ggParameter.ry=234;
 				me.skin._current_selection2.style[domTransform]=parameterToTransform(me.skin._current_selection2.ggParameter);
 				me.skin._orientierung2.style[domTransition]='none';
-				me.skin._orientierung2.ggParameter.rx=10;me.skin._orientierung2.ggParameter.ry=231;
+				me.skin._orientierung2.ggParameter.rx=798;me.skin._orientierung2.ggParameter.ry=234;
 				me.skin._orientierung2.style[domTransform]=parameterToTransform(me.skin._orientierung2.ggParameter);
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}

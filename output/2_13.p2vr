@@ -45,6 +45,22 @@
         <title>Verlasse die Physiksammlung</title>
         <skinid>Room_Out_2_13</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-21.0591</pan>
+          <tilt>0.107316</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_2_13_To_Room_2_14</id>
+        <title>Betrete den Raum 2.14</title>
+        <skinid>Room_2_13_To_Room_2_14</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -63,14 +79,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
