@@ -28,7 +28,24 @@
       <pannorth>158.5</pannorth>
     </viewingparameter>
     <userdata/>
-    <hotspots/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>31.073</pan>
+          <tilt>-2.90773</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_Out_U_26</id>
+        <title>Verlasse U26</title>
+        <skinid>Room_Out_U_26</skinid>
+      </hotspot>
+    </hotspots>
     <output>
       <htmlcss>
         <html>
