@@ -10,12 +10,12 @@
     </input>
     <viewingparameter>
       <pan>
-        <start>0</start>
+        <start>296</start>
         <min>0</min>
         <max>360</max>
       </pan>
       <tilt>
-        <start>0</start>
+        <start>-2</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -27,15 +27,12 @@
       </fov>
       <pannorth>0</pannorth>
     </viewingparameter>
-    <userdata>
-      <datetime>2021:02:10 11:48:24</datetime>
-      <title>Aula</title>
-    </userdata>
+    <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>-138.069</pan>
-          <tilt>-1.68022</tilt>
+          <pan>121.035</pan>
+          <tilt>-1.03582</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -44,14 +41,13 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_Aula_To_Room_OGS</id>
-        <title>Betrete den Raum der OGS</title>
-        <skinid>Gang_Aula_To_Room_OGS</skinid>
+        <id>Gang_To_Gang_1_24</id>
+        <skinid>Gang_To_Gang_1_24</skinid>
       </hotspot>
       <hotspot>
         <position>
-          <pan>132.702</pan>
-          <tilt>-1.07166</tilt>
+          <pan>-51.5516</pan>
+          <tilt>0.600927</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -60,16 +56,15 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_Aula_To_Gang_0_24</id>
-        <title>Gehe weiter?</title>
-        <skinid>Gang_Aula_To_Gang_0_24</skinid>
+        <id>Room_In_1_08</id>
+        <skinid>Room_In_1_08</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Aula.html</filename>
+          <filename>Aula.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -118,7 +113,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Aula_out.xml</filename>
+        <filename>Aula_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
