@@ -100,14 +100,14 @@
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
         <filename>U_26_out.xml</filename>
-        <tilesize>2285</tilesize>
+        <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
         <cubefilename>images/$n_o.jpg</cubefilename>
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>vertical</fovmode>
+        <fovmode>nax</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>

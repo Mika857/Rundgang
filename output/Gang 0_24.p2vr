@@ -50,7 +50,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 0_24.html</filename>
+          <filename>Gang 0_24.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -63,14 +63,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
@@ -99,7 +99,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 0_24_out.xml</filename>
+        <filename>Gang 0_24_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -107,7 +107,7 @@
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>vertical</fovmode>
+        <fovmode>nax</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>

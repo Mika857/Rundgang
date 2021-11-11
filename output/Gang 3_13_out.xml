@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="">
-  <view fovmode="0" pannorth="167.5">
-    <start pan="78" fov="70" tilt="0"/>
+  <view fovmode="3" pannorth="167.5">
+    <start pan="78" fov="102.448" tilt="0"/>
     <min pan="-180" fov="5" tilt="-90"/>
     <max pan="180" fov="120" tilt="90"/>
   </view>

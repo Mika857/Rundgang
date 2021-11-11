@@ -121,7 +121,7 @@
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>vertical</fovmode>
+        <fovmode>nax</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>
@@ -131,7 +131,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

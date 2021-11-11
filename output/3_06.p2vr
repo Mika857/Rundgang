@@ -107,7 +107,7 @@
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>vertical</fovmode>
+        <fovmode>nax</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>
