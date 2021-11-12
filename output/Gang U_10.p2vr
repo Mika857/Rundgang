@@ -4,18 +4,18 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/Gang B2_14/Gang 2_14.jpg</filename>
+      <filename>../Raeume/UG/Gang U_10/Gang U_10.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>0</start>
+        <start>356.5</start>
         <min>0</min>
         <max>360</max>
       </pan>
       <tilt>
-        <start>0</start>
+        <start>-3</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -25,14 +25,14 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>89.5</pannorth>
+      <pannorth>267.5</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>-2.34867</pan>
-          <tilt>-0.0831038</tilt>
+          <pan>-4.62558</pan>
+          <tilt>-2.37466</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -41,64 +41,16 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_To_Gang_2_06</id>
+        <id>Gang_U_10_To_Gang_U_21</id>
         <title>Gehe weiter!</title>
-        <skinid>Gang_To_Gang_2_06</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>12.5782</pan>
-          <tilt>1.49923</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Room_In_2_11</id>
-        <title>Raum -Nummer-</title>
-        <skinid>Room_In_2_11</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>176.623</pan>
-          <tilt>0.0345488</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Room_In_2_14</id>
-        <title>Raum 2.14</title>
-        <skinid>Room_In_2_14</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>170.727</pan>
-          <tilt>0.0343746</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Room_In_2_13</id>
-        <title>Betrete die Physiksammlung</title>
-        <skinid>Room_In_2_13</skinid>
+        <skinid>Gang_U_10_To_Gang_U_21</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>Gang 2_14.html</filename>
+          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang U_10.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -111,14 +63,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
@@ -147,7 +99,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>Gang 2_14_out.xml</filename>
+        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang U_10_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>

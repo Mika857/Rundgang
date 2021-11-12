@@ -31,8 +31,8 @@
     <hotspots>
       <hotspot>
         <position>
-          <pan>-80.3688</pan>
-          <tilt>-1.0768</tilt>
+          <pan>-82.4036</pan>
+          <tilt>-0.811553</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -41,9 +41,9 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_U_21_To_Gang_?</id>
+        <id>Gang_U_21_To_Gang_27</id>
         <title>Gehe weiter!</title>
-        <skinid>Gang_U_21_To_Gang_?</skinid>
+        <skinid>Gang_U_21_To_Gang_27</skinid>
       </hotspot>
       <hotspot>
         <position>
@@ -57,24 +57,9 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_U_21_To_Gang_?</id>
-        <skinid>Gang_U_21_To_Gang_?</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>-85.6925</pan>
-          <tilt>-1.04186</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Room_In_U_26</id>
-        <title>Betrete U26</title>
-        <skinid>Room_In_U_26</skinid>
+        <id>Gang_U_21_To_Gang_U_10</id>
+        <title>Gehe weiter!</title>
+        <skinid>Gang_U_21_To_Gang_U_10</skinid>
       </hotspot>
     </hotspots>
     <output>
