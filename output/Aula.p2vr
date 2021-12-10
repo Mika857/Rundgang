@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/EG/Aula/Aula 2 Panorama.jpg</filename>
+      <filename>../Raeume/EG/Aula/aula.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -41,13 +41,13 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_To_Gang_1_24</id>
-        <skinid>Gang_To_Gang_1_24</skinid>
+        <id>Gang_Aula_To_Gang_0_24</id>
+        <skinid>Gang_Aula_To_Gang_0_24</skinid>
       </hotspot>
       <hotspot>
         <position>
-          <pan>-51.5516</pan>
-          <tilt>0.600927</tilt>
+          <pan>-151.517</pan>
+          <tilt>-1.00167</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -56,8 +56,24 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Room_In_1_08</id>
-        <skinid>Room_In_1_08</skinid>
+        <id>Gang_Aula_To_Gang_Turnhalle</id>
+        <skinid>Gang_Aula_To_Gang_Turnhalle</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-137.528</pan>
+          <tilt>-0.247329</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_OGS</id>
+        <title>Betrete die OGS</title>
+        <skinid>Room_In_OGS</skinid>
       </hotspot>
     </hotspots>
     <output>

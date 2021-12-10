@@ -63,8 +63,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>96.2985</pan>
-          <tilt>0.00681397</tilt>
+          <pan>-91.936</pan>
+          <tilt>-0.504139</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -82,7 +82,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang U_27.html</filename>
+          <filename>Gang U_27.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -131,7 +131,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>D:/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang U_27_out.xml</filename>
+        <filename>Gang U_27_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>

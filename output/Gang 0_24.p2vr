@@ -45,6 +45,22 @@
         <title>Gehe zur Aula</title>
         <skinid>Gang_0_24_To_Gang_Aula</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-119.484</pan>
+          <tilt>-2.33924</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_0_24</id>
+        <title>Betrete EG 24</title>
+        <skinid>Room_In_0_24</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="">
-  <view fovmode="3" pannorth="124.5">
-    <start pan="36.5" fov="89.1596" tilt="-2"/>
+  <view fovmode="3" pannorth="36.5">
+    <start pan="38" fov="100.348" tilt="-1"/>
     <min pan="0" fov="5" tilt="-90"/>
     <max pan="360" fov="120" tilt="90"/>
   </view>
   <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="Verlasse U23" target="" pan="-40.5893" skinid="Room_Out_U_23" url="" id="Room_Out_U_23" tilt="0.20855"/>
   </hotspots>
   <media/>
