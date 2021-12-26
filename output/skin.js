@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated So 26. Dez 18:38:40 2021
+// Generated So. Dez 26 20:10:25 2021
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1871,14 +1871,14 @@ function pano2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=Math.floor(44 + w/2) + 'px';
+				this.style.left=Math.floor(354 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=Math.floor(13 + h/2) + 'px';
+				this.style.top=Math.floor(84 + h/2) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: 44px;';
-		hs+='top:  13px;';
+		hs+='left: 354px;';
+		hs+='top:  84px;';
 		hs+='width: 300px;';
 		hs+='height: 400px;';
 		hs+=cssPrefix + 'transform-origin: 0% 0%;';
