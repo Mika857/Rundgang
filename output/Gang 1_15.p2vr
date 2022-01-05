@@ -4,18 +4,18 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/1. Stock/bib/bib_equi_equi.jpg</filename>
+      <filename>../Raeume/1. Stock/Gang 1_15/Gang 1_15.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>296</start>
+        <start>92.5</start>
         <min>0</min>
         <max>360</max>
       </pan>
       <tilt>
-        <start>-2</start>
+        <start>1</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -25,14 +25,14 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>0</pannorth>
+      <pannorth>89.5</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>147.789</pan>
-          <tilt>-0.307603</tilt>
+          <pan>111.978</pan>
+          <tilt>1.04967</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -41,14 +41,14 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_Bibliothek_To_Gang_1_25</id>
-        <title>Gehe weiter</title>
-        <skinid>Gang_Bibliothek_To_Gang_1_25</skinid>
+        <id>Gang_1_15_To_Bibliothek</id>
+        <title>Zur Vorderseite der Bibliothek</title>
+        <skinid>Gang_1_15_To_Bibliothek</skinid>
       </hotspot>
       <hotspot>
         <position>
-          <pan>-51.5516</pan>
-          <tilt>0.600927</tilt>
+          <pan>-132.214</pan>
+          <tilt>-0.136232</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -57,13 +57,14 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Room_In_1_08</id>
-        <skinid>Room_In_1_08</skinid>
+        <id>Gang_1_15_To_Gang_1_25</id>
+        <title>Gehe weiter</title>
+        <skinid>Gang_1_15_To_Gang_1_25</skinid>
       </hotspot>
       <hotspot>
         <position>
-          <pan>-92.2116</pan>
-          <tilt>0.418722</tilt>
+          <pan>86.9764</pan>
+          <tilt>-0.1389</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -72,16 +73,16 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Bibliothek_To_Gang_1_15</id>
-        <title>Gehe weiter</title>
-        <skinid>Bibliothek_To_Gang_1_15</skinid>
+        <id>Room_In_1_08_2</id>
+        <title>Betrete 1_08</title>
+        <skinid>Room_In_1_08_2</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>Bibliothek.html</filename>
+          <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 1_15.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -130,7 +131,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>Bibliothek_out.xml</filename>
+        <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 1_15_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -138,7 +139,7 @@
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>nax</fovmode>
+        <fovmode>diagonal</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>
