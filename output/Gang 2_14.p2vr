@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/Gang B2_14/Gang 2_14.jpg</filename>
+      <filename>../Raeume/2. Stock/Gang B2_14/Gang 2_14.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -41,9 +41,9 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_To_Gang_2_06</id>
+        <id>Gang_2_14_To_Gang_Treppe</id>
         <title>Gehe weiter!</title>
-        <skinid>Gang_To_Gang_2_06</skinid>
+        <skinid>Gang_2_14_To_Gang_Treppe</skinid>
       </hotspot>
       <hotspot>
         <position>
@@ -111,14 +111,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>

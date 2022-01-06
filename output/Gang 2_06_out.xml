@@ -8,8 +8,8 @@
   <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-    <hotspot title="Gehe weiter!" target="" pan="-123.185" skinid="Gang_To_Gang_2_14" url="" id="Gang_To_Gang_2_14" tilt="0.550119"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="Gehe weiter!" target="" pan="-120.674" skinid="Gang_2_06_To_Gang_2_Treppe" url="" id="Gang_2_06_To_Gang_2_Treppe" tilt="1.03088"/>
     <hotspot title="" target="" pan="110.616" skinid="Room_In_2_07" url="" id="Room_In_2_07" tilt="-2.10598"/>
     <hotspot title="Betrete die Chemiesammlung" target="" pan="-147.532" skinid="Room_In_2_08" url="" id="Room_In_2_08" tilt="1.10274"/>
   </hotspots>
