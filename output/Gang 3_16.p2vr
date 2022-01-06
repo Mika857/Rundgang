@@ -4,18 +4,18 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/3. Stock/Gang 3_13/Gang 3. Stock Nische.jpeg</filename>
+      <filename>../Raeume/3. Stock/Gang 3_16/Gang 3_16.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>78</start>
-        <min>-180</min>
-        <max>180</max>
+        <start>341.5</start>
+        <min>0</min>
+        <max>360</max>
       </pan>
       <tilt>
-        <start>0</start>
+        <start>-1</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -25,14 +25,14 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>167.5</pannorth>
+      <pannorth>71.5</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>-102.873</pan>
-          <tilt>-1.87228</tilt>
+          <pan>-19.1246</pan>
+          <tilt>-1.99664</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -41,14 +41,14 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_3_13_To_Gang_3_16</id>
+        <id>Gang_3_16_To_Gang_3_13</id>
         <title>Gehe den Gang entlang</title>
-        <skinid>Gang_3_13_To_Gang_3_16</skinid>
+        <skinid>Gang_3_16_To_Gang_3_13</skinid>
       </hotspot>
       <hotspot>
         <position>
-          <pan>79.3823</pan>
-          <tilt>-1.30364</tilt>
+          <pan>161.15</pan>
+          <tilt>-1.64635</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -57,16 +57,16 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Gang_3_13_To_Gang_3_06</id>
-        <title>Gehe den Gang entlang</title>
-        <skinid>Gang_3_13_To_Gang_3_06</skinid>
+        <id>Room_In_3_16</id>
+        <title>Betrete 3.16</title>
+        <skinid>Room_In_3_16</skinid>
       </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>Gang 3_13.html</filename>
+          <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 3_16.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -115,7 +115,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>Gang 3_13_out.xml</filename>
+        <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Gang 3_16_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -123,7 +123,7 @@
         <cubefacenaming>_5</cubefacenaming>
         <windowwidth>1920</windowwidth>
         <windowheight>1080</windowheight>
-        <fovmode>nax</fovmode>
+        <fovmode>diagonal</fovmode>
         <sensitivity>8</sensitivity>
         <masssimulation>1</masssimulation>
         <locked>0</locked>
@@ -137,8 +137,8 @@
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
-        <previewresolution>8</previewresolution>
-        <previewcolor>#000000</previewcolor>
+        <previewresolution>4</previewresolution>
+        <previewcolor>#808080</previewcolor>
         <leveltileenabled>0</leveltileenabled>
         <leveltilesize>512</leveltilesize>
         <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
