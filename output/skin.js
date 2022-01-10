@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated So. Jan 9 16:14:46 2022
+// Generated Mo. Jan 10 18:40:33 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -163,6 +163,21 @@ function pano2vrSkin(player,base) {
 		hs+='visibility: inherit;';
 		this._hotspots_u.setAttribute('style',hs);
 		this.divSkin.appendChild(this._hotspots_u);
+		this._hotspots_d=document.createElement('div');
+		this._hotspots_d.ggId="Hotspots_D";
+		this._hotspots_d.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._hotspots_d.ggVisible=true;
+		this._hotspots_d.className='ggskin ggskin_container';
+		this._hotspots_d.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 795px;';
+		hs+='top:  751px;';
+		hs+='width: 100px;';
+		hs+='height: 20px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._hotspots_d.setAttribute('style',hs);
+		this.divSkin.appendChild(this._hotspots_d);
 		this._mapholder=document.createElement('div');
 		this._mapholder.ggId="Mapholder";
 		this._mapholder.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
@@ -679,7 +694,7 @@ function pano2vrSkin(player,base) {
 		this._do_eg=document.createElement('div');
 		this._do_eg.ggId="DO_EG";
 		this._do_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_eg.ggVisible=false;
+		this._do_eg.ggVisible=true;
 		this._do_eg.className='ggskin ggskin_image';
 		this._do_eg.ggType='image';
 		hs ='position:absolute;';
@@ -688,7 +703,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._do_eg.setAttribute('style',hs);
 		this._do_eg__img=document.createElement('img');
@@ -761,7 +776,7 @@ function pano2vrSkin(player,base) {
 		this._do_1=document.createElement('div');
 		this._do_1.ggId="DO_1";
 		this._do_1.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_1.ggVisible=false;
+		this._do_1.ggVisible=true;
 		this._do_1.className='ggskin ggskin_image';
 		this._do_1.ggType='image';
 		hs ='position:absolute;';
@@ -770,7 +785,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._do_1.setAttribute('style',hs);
 		this._do_1__img=document.createElement('img');
@@ -843,7 +858,7 @@ function pano2vrSkin(player,base) {
 		this._do_2=document.createElement('div');
 		this._do_2.ggId="DO_2";
 		this._do_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._do_2.ggVisible=false;
+		this._do_2.ggVisible=true;
 		this._do_2.className='ggskin ggskin_image';
 		this._do_2.ggType='image';
 		hs ='position:absolute;';
@@ -852,7 +867,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._do_2.setAttribute('style',hs);
 		this._do_2__img=document.createElement('img');
@@ -940,7 +955,7 @@ function pano2vrSkin(player,base) {
 		this._up_3=document.createElement('div');
 		this._up_3.ggId="UP_3";
 		this._up_3.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_3.ggVisible=false;
+		this._up_3.ggVisible=true;
 		this._up_3.className='ggskin ggskin_image';
 		this._up_3.ggType='image';
 		hs ='position:absolute;';
@@ -949,7 +964,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._up_3.setAttribute('style',hs);
 		this._up_3__img=document.createElement('img');
@@ -1018,7 +1033,7 @@ function pano2vrSkin(player,base) {
 		this._up_2=document.createElement('div');
 		this._up_2.ggId="UP_2";
 		this._up_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_2.ggVisible=false;
+		this._up_2.ggVisible=true;
 		this._up_2.className='ggskin ggskin_image';
 		this._up_2.ggType='image';
 		hs ='position:absolute;';
@@ -1027,7 +1042,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._up_2.setAttribute('style',hs);
 		this._up_2__img=document.createElement('img');
@@ -1186,7 +1201,7 @@ function pano2vrSkin(player,base) {
 		this._up_eg=document.createElement('div');
 		this._up_eg.ggId="UP_EG";
 		this._up_eg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._up_eg.ggVisible=false;
+		this._up_eg.ggVisible=true;
 		this._up_eg.className='ggskin ggskin_image';
 		this._up_eg.ggType='image';
 		hs ='position:absolute;';
@@ -1195,7 +1210,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 128px;';
 		hs+='height: 80px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: hidden;';
+		hs+='visibility: inherit;';
 		hs+='cursor: pointer;';
 		this._up_eg.setAttribute('style',hs);
 		this._up_eg__img=document.createElement('img');
@@ -4591,30 +4606,30 @@ function pano2vrSkin(player,base) {
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		this._map_draussen.setAttribute('style',hs);
-		this._map_draussen0=document.createElement('div');
-		this._map_draussen0.ggId="Map_Draussen";
-		this._map_draussen0.ggParameter={ rx:0,ry:0,a:0,sx:0.09,sy:0.09 };
-		this._map_draussen0.ggVisible=true;
-		this._map_draussen0.className='ggskin ggskin_image';
-		this._map_draussen0.ggType='image';
+		this._map_draussen_=document.createElement('div');
+		this._map_draussen_.ggId="Map_Draussen_";
+		this._map_draussen_.ggParameter={ rx:0,ry:0,a:0,sx:0.09,sy:0.09 };
+		this._map_draussen_.ggVisible=true;
+		this._map_draussen_.className='ggskin ggskin_image';
+		this._map_draussen_.ggType='image';
 		hs ='position:absolute;';
 		hs+='left: 200px;';
 		hs+='top:  9px;';
 		hs+='width: 5430px;';
 		hs+='height: 4226px;';
 		hs+=cssPrefix + 'transform-origin: 0% 0%;';
-		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._map_draussen0.ggParameter) + ';';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._map_draussen_.ggParameter) + ';';
 		hs+='visibility: inherit;';
-		this._map_draussen0.setAttribute('style',hs);
-		this._map_draussen0__img=document.createElement('img');
-		this._map_draussen0__img.className='ggskin ggskin_image';
-		this._map_draussen0__img.setAttribute('src',basePath + 'images/map_draussen0.png');
-		this._map_draussen0__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
-		this._map_draussen0__img.className='ggskin ggskin_image';
-		this._map_draussen0__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._map_draussen0__img);
-		this._map_draussen0.appendChild(this._map_draussen0__img);
-		this._map_draussen.appendChild(this._map_draussen0);
+		this._map_draussen_.setAttribute('style',hs);
+		this._map_draussen___img=document.createElement('img');
+		this._map_draussen___img.className='ggskin ggskin_image';
+		this._map_draussen___img.setAttribute('src',basePath + 'images/map_draussen_.png');
+		this._map_draussen___img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._map_draussen___img.className='ggskin ggskin_image';
+		this._map_draussen___img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._map_draussen___img);
+		this._map_draussen_.appendChild(this._map_draussen___img);
+		this._map_draussen.appendChild(this._map_draussen_);
 		this._map_d_spots=document.createElement('div');
 		this._map_d_spots.ggId="Map_D_Spots";
 		this._map_d_spots.ggParameter={ rx:0,ry:0,a:0,sx:0.9,sy:0.9 };
@@ -5319,35 +5334,37 @@ function pano2vrSkin(player,base) {
 		this._button_draussen.ggTextDiv.innerHTML="Nach Drau\xdfen";
 		this._button_draussen.appendChild(this._button_draussen__text);
 		this._button_draussen.onclick=function () {
+			me._stockwerk_wechsel_text.style[domTransition]='none';
+			me._stockwerk_wechsel_text.style.visibility='hidden';
+			me._stockwerk_wechsel_text.ggVisible=false;
+			me._map_draussen.style[domTransition]='none';
+			me._map_draussen.style.visibility='inherit';
+			me._map_draussen.ggVisible=true;
+			me._d_haupteingang.onclick();
+			me._button_draussen.style[domTransition]='none';
+			me._button_draussen.style.visibility='hidden';
+			me._button_draussen.ggVisible=false;
+			me._button_drinnen.style[domTransition]='none';
+			me._button_drinnen.style.visibility='inherit';
+			me._button_drinnen.ggVisible=true;
 			me._stockwerk_wechsel.style[domTransition]='none';
 			me._stockwerk_wechsel.style.visibility='hidden';
 			me._stockwerk_wechsel.ggVisible=false;
 			me._map_keller.style[domTransition]='none';
-			me._map_keller.style.opacity='0';
 			me._map_keller.style.visibility='hidden';
+			me._map_keller.ggVisible=false;
 			me._map_erdgeschoss.style[domTransition]='none';
-			me._map_erdgeschoss.style.opacity='0';
 			me._map_erdgeschoss.style.visibility='hidden';
+			me._map_erdgeschoss.ggVisible=false;
 			me._map_1.style[domTransition]='none';
-			me._map_1.style.opacity='0';
 			me._map_1.style.visibility='hidden';
+			me._map_1.ggVisible=false;
 			me._map_2.style[domTransition]='none';
-			me._map_2.style.opacity='0';
 			me._map_2.style.visibility='hidden';
+			me._map_2.ggVisible=false;
 			me._map_3.style[domTransition]='none';
-			me._map_3.style.opacity='0';
 			me._map_3.style.visibility='hidden';
-			me._stockwerk_wechsel_text.style[domTransition]='none';
-			me._stockwerk_wechsel_text.style.visibility='hidden';
-			me._stockwerk_wechsel_text.ggVisible=false;
-			if (me.player.transitionsDisabled) {
-				me._map_draussen.style[domTransition]='none';
-			} else {
-				me._map_draussen.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._map_draussen.style.opacity='1';
-			me._map_draussen.style.visibility=me._map_draussen.ggVisible?'inherit':'hidden';
-			me._d_haupteingang.onclick();
+			me._map_3.ggVisible=false;
 		}
 		this._button_draussen.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -5368,7 +5385,164 @@ function pano2vrSkin(player,base) {
 			me._button_draussen.style[domTransform]=parameterToTransform(me._button_draussen.ggParameter);
 		}
 		this._mapholder.appendChild(this._button_draussen);
+		this._button_drinnen=document.createElement('div');
+		this._button_drinnen__text=document.createElement('div');
+		this._button_drinnen.className='ggskin ggskin_textdiv';
+		this._button_drinnen.ggTextDiv=this._button_drinnen__text;
+		this._button_drinnen.ggId="Button_Drinnen";
+		this._button_drinnen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._button_drinnen.ggVisible=true;
+		this._button_drinnen.className='ggskin ggskin_text';
+		this._button_drinnen.ggType='text';
+		hs ='position:absolute;';
+		hs+='left: 1077px;';
+		hs+='top:  362px;';
+		hs+='width: 171px;';
+		hs+='height: 25px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._button_drinnen.setAttribute('style',hs);
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 171px;';
+		hs+='height: 25px;';
+		hs+='background: #414141;';
+		hs+='border: 8px solid #414141;';
+		hs+='border-radius: 1px;';
+		hs+=cssPrefix + 'border-radius: 1px;';
+		hs+='color: #e8e8e8;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		this._button_drinnen__text.setAttribute('style',hs);
+		this._button_drinnen.ggTextDiv.innerHTML="Nach Drinnen";
+		this._button_drinnen.appendChild(this._button_drinnen__text);
+		this._button_drinnen.onclick=function () {
+			me._button_draussen.style[domTransition]='none';
+			me._button_draussen.style.visibility='inherit';
+			me._button_draussen.ggVisible=true;
+			me._reset.onclick();
+		}
+		this._button_drinnen.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_drinnen.style[domTransition]='none';
+			} else {
+				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_drinnen.ggParameter.sx=1.2;me._button_drinnen.ggParameter.sy=1.2;
+			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
+		}
+		this._button_drinnen.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_drinnen.style[domTransition]='none';
+			} else {
+				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_drinnen.ggParameter.sx=1;me._button_drinnen.ggParameter.sy=1;
+			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
+		}
+		this._mapholder.appendChild(this._button_drinnen);
 		this.divSkin.appendChild(this._mapholder);
+		this._reset=document.createElement('div');
+		this._reset.ggId="Reset";
+		this._reset.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._reset.ggVisible=true;
+		this._reset.className='ggskin ggskin_container';
+		this._reset.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 1px;';
+		hs+='height: 1px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._reset.setAttribute('style',hs);
+		this._reset.onclick=function () {
+			me._map_keller.style[domTransition]='none';
+			me._map_keller.style.visibility='inherit';
+			me._map_keller.ggVisible=true;
+			me._map_erdgeschoss.style[domTransition]='none';
+			me._map_erdgeschoss.style.visibility='inherit';
+			me._map_erdgeschoss.ggVisible=true;
+			me._map_1.style[domTransition]='none';
+			me._map_1.style.visibility='inherit';
+			me._map_1.ggVisible=true;
+			me._map_2.style[domTransition]='none';
+			me._map_2.style.visibility='inherit';
+			me._map_2.ggVisible=true;
+			me._map_3.style[domTransition]='none';
+			me._map_3.style.visibility='inherit';
+			me._map_3.ggVisible=true;
+			me._map_2.style[domTransition]='none';
+			me._map_2.style.opacity='0';
+			me._map_2.style.visibility='hidden';
+			me._map_1.style[domTransition]='none';
+			me._map_1.style.opacity='0';
+			me._map_1.style.visibility='hidden';
+			me._map_3.style[domTransition]='none';
+			me._map_3.style.opacity='0';
+			me._map_3.style.visibility='hidden';
+			me._map_erdgeschoss.style[domTransition]='none';
+			me._map_erdgeschoss.style.opacity='1';
+			me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
+			me._map_keller.style[domTransition]='none';
+			me._map_keller.style.opacity='0';
+			me._map_keller.style.visibility='hidden';
+			me._aula.onclick();
+			me._stockwerk_wechsel.style[domTransition]='none';
+			me._stockwerk_wechsel.style.visibility='inherit';
+			me._stockwerk_wechsel.ggVisible=true;
+			me._stockwerk_wechsel_text.style[domTransition]='none';
+			me._stockwerk_wechsel_text.style.visibility='inherit';
+			me._stockwerk_wechsel_text.ggVisible=true;
+			me._button_drinnen.style[domTransition]='none';
+			me._button_drinnen.style.visibility='hidden';
+			me._button_drinnen.ggVisible=false;
+			me._up_2.style[domTransition]='none';
+			me._up_2.style.visibility='hidden';
+			me._up_2.ggVisible=false;
+			me._up_3.style[domTransition]='none';
+			me._up_3.style.visibility='hidden';
+			me._up_3.ggVisible=false;
+			me._up_eg.style[domTransition]='none';
+			me._up_eg.style.visibility='hidden';
+			me._up_eg.ggVisible=false;
+			me._do_1.style[domTransition]='none';
+			me._do_1.style.visibility='hidden';
+			me._do_1.ggVisible=false;
+			me._do_eg.style[domTransition]='none';
+			me._do_eg.style.visibility='hidden';
+			me._do_eg.ggVisible=false;
+			me._do_2.style[domTransition]='none';
+			me._do_2.style.visibility='hidden';
+			me._do_2.ggVisible=false;
+			me._karte_vergroesern_button.onclick();
+			flag=(me._map_draussen.style.visibility=='hidden');
+			me._map_draussen.style[domTransition]='none';
+			me._map_draussen.style.visibility=flag?'inherit':'hidden';
+			me._map_draussen.ggVisible=flag;
+			me._openmap.onclick();
+			me._stockwerk_wechsel_text.ggText="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
+			me._stockwerk_wechsel_text.ggTextDiv.innerHTML=me._stockwerk_wechsel_text.ggText;
+			if (me._stockwerk_wechsel_text.ggUpdateText) {
+				me._stockwerk_wechsel_text.ggUpdateText=function() {
+					var hs="<p style=\"font-size:40px;color:white\"><b>Erdgeschoss<\/b><\/p>";
+					if (hs!=me._stockwerk_wechsel_text.ggText) {
+						me._stockwerk_wechsel_text.ggText=hs;
+						me._stockwerk_wechsel_text.ggTextDiv.innerHTML=hs;
+					}
+				}
+			}
+			me._up_1.style[domTransition]='none';
+			me._up_1.style.visibility='inherit';
+			me._up_1.ggVisible=true;
+			me._do_ug.style[domTransition]='none';
+			me._do_ug.style.visibility='inherit';
+			me._do_ug.ggVisible=true;
+		}
+		this.divSkin.appendChild(this._reset);
 		this._openmap=document.createElement('div');
 		this._openmap.ggId="OpenMap";
 		this._openmap.ggParameter={ rx:0,ry:0,a:0,sx:0.4,sy:0.4 };
@@ -5427,27 +5601,7 @@ function pano2vrSkin(player,base) {
 			me._openmap.style[domTransform]=parameterToTransform(me._openmap.ggParameter);
 		}
 		this.divSkin.appendChild(this._openmap);
-		me._map_2.style[domTransition]='none';
-		me._map_2.style.opacity='0';
-		me._map_2.style.visibility='hidden';
-		me._map_1.style[domTransition]='none';
-		me._map_1.style.opacity='0';
-		me._map_1.style.visibility='hidden';
-		me._map_3.style[domTransition]='none';
-		me._map_3.style.opacity='0';
-		me._map_3.style.visibility='hidden';
-		me._map_erdgeschoss.style[domTransition]='none';
-		me._map_erdgeschoss.style.opacity='1';
-		me._map_erdgeschoss.style.visibility=me._map_erdgeschoss.ggVisible?'inherit':'hidden';
-		me._map_keller.style[domTransition]='none';
-		me._map_keller.style.opacity='0';
-		me._map_keller.style.visibility='hidden';
-		me._openmap.onclick();
-		me._karte_vergroesern_button.onclick();
-		me._map_draussen.style[domTransition]='none';
-		me._map_draussen.style.opacity='0';
-		me._map_draussen.style.visibility='hidden';
-		me._button_draussen.onclick();
+		me._reset.onclick();
 		me._current_selection3.style[domTransition]='none';
 		me._current_selection3.ggParameter.rx=36;me._current_selection3.ggParameter.ry=133;
 		me._current_selection3.style[domTransform]=parameterToTransform(me._current_selection3.ggParameter);
@@ -5656,6 +5810,1501 @@ function pano2vrSkin(player,base) {
 				me.player.hotspot=me.player.emptyHotspot;
 				me.skin.hotspotProxyOut(me.hotspot.id);
 			}
+			this._image_181=document.createElement('div');
+			this._image_181.ggId="Image 1";
+			this._image_181.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_181.ggVisible=true;
+			this._image_181.className='ggskin ggskin_image';
+			this._image_181.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_181.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_181.setAttribute('style',hs);
+			this._image_181__img=document.createElement('img');
+			this._image_181__img.className='ggskin ggskin_image';
+			this._image_181__img.setAttribute('src',basePath + 'images/image_181.png');
+			this._image_181__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_181__img.className='ggskin ggskin_image';
+			this._image_181__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_181__img);
+			this._image_181.appendChild(this._image_181__img);
+			this._image_181.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_181.style[domTransition]='none';
+				} else {
+					me._image_181.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_181.ggParameter.sx=0.2;me._image_181.ggParameter.sy=0.2;
+				me._image_181.style[domTransform]=parameterToTransform(me._image_181.ggParameter);
+				flag=(me._text_281.style.visibility=='hidden');
+				me._text_281.style[domTransition]='none';
+				me._text_281.style.visibility=flag?'inherit':'hidden';
+				me._text_281.ggVisible=flag;
+			}
+			this._image_181.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_181.style[domTransition]='none';
+				} else {
+					me._image_181.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_181.ggParameter.sx=0.1;me._image_181.ggParameter.sy=0.1;
+				me._image_181.style[domTransform]=parameterToTransform(me._image_181.ggParameter);
+				flag=(me._text_281.style.visibility=='hidden');
+				me._text_281.style[domTransition]='none';
+				me._text_281.style.visibility=flag?'inherit':'hidden';
+				me._text_281.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_181);
+			this._text_281=document.createElement('div');
+			this._text_281__text=document.createElement('div');
+			this._text_281.className='ggskin ggskin_textdiv';
+			this._text_281.ggTextDiv=this._text_281__text;
+			this._text_281.ggId="Text 2";
+			this._text_281.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_281.ggVisible=false;
+			this._text_281.className='ggskin ggskin_text';
+			this._text_281.ggType='text';
+			this._text_281.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_281.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_281__text.setAttribute('style',hs);
+			this._text_281.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_281.appendChild(this._text_281__text);
+			this.__div.appendChild(this._text_281);
+		} else
+		if (hotspot.skinid=='Room_Out_3_16') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_Out_3_16";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._gang_3_16.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_180=document.createElement('div');
+			this._image_180.ggId="Image 1";
+			this._image_180.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_180.ggVisible=true;
+			this._image_180.className='ggskin ggskin_image';
+			this._image_180.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_180.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_180.setAttribute('style',hs);
+			this._image_180__img=document.createElement('img');
+			this._image_180__img.className='ggskin ggskin_image';
+			this._image_180__img.setAttribute('src',basePath + 'images/image_180.png');
+			this._image_180__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_180__img.className='ggskin ggskin_image';
+			this._image_180__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_180__img);
+			this._image_180.appendChild(this._image_180__img);
+			this._image_180.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_180.style[domTransition]='none';
+				} else {
+					me._image_180.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_180.ggParameter.sx=0.2;me._image_180.ggParameter.sy=0.2;
+				me._image_180.style[domTransform]=parameterToTransform(me._image_180.ggParameter);
+				flag=(me._text_280.style.visibility=='hidden');
+				me._text_280.style[domTransition]='none';
+				me._text_280.style.visibility=flag?'inherit':'hidden';
+				me._text_280.ggVisible=flag;
+			}
+			this._image_180.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_180.style[domTransition]='none';
+				} else {
+					me._image_180.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_180.ggParameter.sx=0.1;me._image_180.ggParameter.sy=0.1;
+				me._image_180.style[domTransform]=parameterToTransform(me._image_180.ggParameter);
+				flag=(me._text_280.style.visibility=='hidden');
+				me._text_280.style[domTransition]='none';
+				me._text_280.style.visibility=flag?'inherit':'hidden';
+				me._text_280.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_180);
+			this._text_280=document.createElement('div');
+			this._text_280__text=document.createElement('div');
+			this._text_280.className='ggskin ggskin_textdiv';
+			this._text_280.ggTextDiv=this._text_280__text;
+			this._text_280.ggId="Text 2";
+			this._text_280.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_280.ggVisible=false;
+			this._text_280.className='ggskin ggskin_text';
+			this._text_280.ggType='text';
+			this._text_280.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_280.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_280__text.setAttribute('style',hs);
+			this._text_280.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_280.appendChild(this._text_280__text);
+			this.__div.appendChild(this._text_280);
+		} else
+		if (hotspot.skinid=='Room_In_3_16') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_3_16";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_3_16.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_179=document.createElement('div');
+			this._image_179.ggId="Image 1";
+			this._image_179.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_179.ggVisible=true;
+			this._image_179.className='ggskin ggskin_image';
+			this._image_179.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_179.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_179.setAttribute('style',hs);
+			this._image_179__img=document.createElement('img');
+			this._image_179__img.className='ggskin ggskin_image';
+			this._image_179__img.setAttribute('src',basePath + 'images/image_179.png');
+			this._image_179__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_179__img.className='ggskin ggskin_image';
+			this._image_179__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_179__img);
+			this._image_179.appendChild(this._image_179__img);
+			this._image_179.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_179.style[domTransition]='none';
+				} else {
+					me._image_179.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_179.ggParameter.sx=0.2;me._image_179.ggParameter.sy=0.2;
+				me._image_179.style[domTransform]=parameterToTransform(me._image_179.ggParameter);
+				flag=(me._text_279.style.visibility=='hidden');
+				me._text_279.style[domTransition]='none';
+				me._text_279.style.visibility=flag?'inherit':'hidden';
+				me._text_279.ggVisible=flag;
+			}
+			this._image_179.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_179.style[domTransition]='none';
+				} else {
+					me._image_179.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_179.ggParameter.sx=0.1;me._image_179.ggParameter.sy=0.1;
+				me._image_179.style[domTransform]=parameterToTransform(me._image_179.ggParameter);
+				flag=(me._text_279.style.visibility=='hidden');
+				me._text_279.style[domTransition]='none';
+				me._text_279.style.visibility=flag?'inherit':'hidden';
+				me._text_279.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_179);
+			this._text_279=document.createElement('div');
+			this._text_279__text=document.createElement('div');
+			this._text_279.className='ggskin ggskin_textdiv';
+			this._text_279.ggTextDiv=this._text_279__text;
+			this._text_279.ggId="Text 2";
+			this._text_279.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_279.ggVisible=false;
+			this._text_279.className='ggskin ggskin_text';
+			this._text_279.ggType='text';
+			this._text_279.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_279.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_279__text.setAttribute('style',hs);
+			this._text_279.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_279.appendChild(this._text_279__text);
+			this.__div.appendChild(this._text_279);
+		} else
+		if (hotspot.skinid=='Gang_3_16_To_Gang_3_13') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Gang_3_16_To_Gang_3_13";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._gang_3_13.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_178=document.createElement('div');
+			this._image_178.ggId="Image 1";
+			this._image_178.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_178.ggVisible=true;
+			this._image_178.className='ggskin ggskin_image';
+			this._image_178.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_178.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_178.setAttribute('style',hs);
+			this._image_178__img=document.createElement('img');
+			this._image_178__img.className='ggskin ggskin_image';
+			this._image_178__img.setAttribute('src',basePath + 'images/image_178.png');
+			this._image_178__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_178__img.className='ggskin ggskin_image';
+			this._image_178__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_178__img);
+			this._image_178.appendChild(this._image_178__img);
+			this._image_178.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_178.style[domTransition]='none';
+				} else {
+					me._image_178.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_178.ggParameter.sx=0.2;me._image_178.ggParameter.sy=0.2;
+				me._image_178.style[domTransform]=parameterToTransform(me._image_178.ggParameter);
+				flag=(me._text_278.style.visibility=='hidden');
+				me._text_278.style[domTransition]='none';
+				me._text_278.style.visibility=flag?'inherit':'hidden';
+				me._text_278.ggVisible=flag;
+			}
+			this._image_178.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_178.style[domTransition]='none';
+				} else {
+					me._image_178.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_178.ggParameter.sx=0.1;me._image_178.ggParameter.sy=0.1;
+				me._image_178.style[domTransform]=parameterToTransform(me._image_178.ggParameter);
+				flag=(me._text_278.style.visibility=='hidden');
+				me._text_278.style[domTransition]='none';
+				me._text_278.style.visibility=flag?'inherit':'hidden';
+				me._text_278.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_178);
+			this._text_278=document.createElement('div');
+			this._text_278__text=document.createElement('div');
+			this._text_278.className='ggskin ggskin_textdiv';
+			this._text_278.ggTextDiv=this._text_278__text;
+			this._text_278.ggId="Text 2";
+			this._text_278.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_278.ggVisible=false;
+			this._text_278.className='ggskin ggskin_text';
+			this._text_278.ggType='text';
+			this._text_278.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_278.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_278__text.setAttribute('style',hs);
+			this._text_278.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_278.appendChild(this._text_278__text);
+			this.__div.appendChild(this._text_278);
+		} else
+		if (hotspot.skinid=='Gang_3_13_To_Gang_3_16') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Gang_3_13_To_Gang_3_16";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._gang_3_16.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_177=document.createElement('div');
+			this._image_177.ggId="Image 1";
+			this._image_177.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_177.ggVisible=true;
+			this._image_177.className='ggskin ggskin_image';
+			this._image_177.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_177.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_177.setAttribute('style',hs);
+			this._image_177__img=document.createElement('img');
+			this._image_177__img.className='ggskin ggskin_image';
+			this._image_177__img.setAttribute('src',basePath + 'images/image_177.png');
+			this._image_177__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_177__img.className='ggskin ggskin_image';
+			this._image_177__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_177__img);
+			this._image_177.appendChild(this._image_177__img);
+			this._image_177.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_177.style[domTransition]='none';
+				} else {
+					me._image_177.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_177.ggParameter.sx=0.2;me._image_177.ggParameter.sy=0.2;
+				me._image_177.style[domTransform]=parameterToTransform(me._image_177.ggParameter);
+				flag=(me._text_277.style.visibility=='hidden');
+				me._text_277.style[domTransition]='none';
+				me._text_277.style.visibility=flag?'inherit':'hidden';
+				me._text_277.ggVisible=flag;
+			}
+			this._image_177.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_177.style[domTransition]='none';
+				} else {
+					me._image_177.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_177.ggParameter.sx=0.1;me._image_177.ggParameter.sy=0.1;
+				me._image_177.style[domTransform]=parameterToTransform(me._image_177.ggParameter);
+				flag=(me._text_277.style.visibility=='hidden');
+				me._text_277.style[domTransition]='none';
+				me._text_277.style.visibility=flag?'inherit':'hidden';
+				me._text_277.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_177);
+			this._text_277=document.createElement('div');
+			this._text_277__text=document.createElement('div');
+			this._text_277.className='ggskin ggskin_textdiv';
+			this._text_277.ggTextDiv=this._text_277__text;
+			this._text_277.ggId="Text 2";
+			this._text_277.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_277.ggVisible=false;
+			this._text_277.className='ggskin ggskin_text';
+			this._text_277.ggType='text';
+			this._text_277.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_277.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_277__text.setAttribute('style',hs);
+			this._text_277.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_277.appendChild(this._text_277__text);
+			this.__div.appendChild(this._text_277);
+		} else
+		if (hotspot.skinid=='Gang_3_06_To_Gang_3_13') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Gang_3_06_To_Gang_3_13";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._gang_3_13.onclick();
+				me.player.openNext("Gang 3_13_out.xml","-270");
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_176=document.createElement('div');
+			this._image_176.ggId="Image 1";
+			this._image_176.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_176.ggVisible=true;
+			this._image_176.className='ggskin ggskin_image';
+			this._image_176.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_176.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_176.setAttribute('style',hs);
+			this._image_176__img=document.createElement('img');
+			this._image_176__img.className='ggskin ggskin_image';
+			this._image_176__img.setAttribute('src',basePath + 'images/image_176.png');
+			this._image_176__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_176__img.className='ggskin ggskin_image';
+			this._image_176__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_176__img);
+			this._image_176.appendChild(this._image_176__img);
+			this._image_176.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_176.style[domTransition]='none';
+				} else {
+					me._image_176.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_176.ggParameter.sx=0.2;me._image_176.ggParameter.sy=0.2;
+				me._image_176.style[domTransform]=parameterToTransform(me._image_176.ggParameter);
+				flag=(me._text_276.style.visibility=='hidden');
+				me._text_276.style[domTransition]='none';
+				me._text_276.style.visibility=flag?'inherit':'hidden';
+				me._text_276.ggVisible=flag;
+			}
+			this._image_176.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_176.style[domTransition]='none';
+				} else {
+					me._image_176.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_176.ggParameter.sx=0.1;me._image_176.ggParameter.sy=0.1;
+				me._image_176.style[domTransform]=parameterToTransform(me._image_176.ggParameter);
+				flag=(me._text_276.style.visibility=='hidden');
+				me._text_276.style[domTransition]='none';
+				me._text_276.style.visibility=flag?'inherit':'hidden';
+				me._text_276.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_176);
+			this._text_276=document.createElement('div');
+			this._text_276__text=document.createElement('div');
+			this._text_276.className='ggskin ggskin_textdiv';
+			this._text_276.ggTextDiv=this._text_276__text;
+			this._text_276.ggId="Text 2";
+			this._text_276.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_276.ggVisible=false;
+			this._text_276.className='ggskin ggskin_text';
+			this._text_276.ggType='text';
+			this._text_276.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_276.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_276__text.setAttribute('style',hs);
+			this._text_276.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_276.appendChild(this._text_276__text);
+			this.__div.appendChild(this._text_276);
+		} else
+		if (hotspot.skinid=='Gang_3_13_To_Gang_3_06') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Gang_3_13_To_Gang_3_06";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._gang_3_06.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_175=document.createElement('div');
+			this._image_175.ggId="Image 1";
+			this._image_175.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_175.ggVisible=true;
+			this._image_175.className='ggskin ggskin_image';
+			this._image_175.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_175.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_175.setAttribute('style',hs);
+			this._image_175__img=document.createElement('img');
+			this._image_175__img.className='ggskin ggskin_image';
+			this._image_175__img.setAttribute('src',basePath + 'images/image_175.png');
+			this._image_175__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_175__img.className='ggskin ggskin_image';
+			this._image_175__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_175__img);
+			this._image_175.appendChild(this._image_175__img);
+			this._image_175.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_175.style[domTransition]='none';
+				} else {
+					me._image_175.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_175.ggParameter.sx=0.2;me._image_175.ggParameter.sy=0.2;
+				me._image_175.style[domTransform]=parameterToTransform(me._image_175.ggParameter);
+				flag=(me._text_275.style.visibility=='hidden');
+				me._text_275.style[domTransition]='none';
+				me._text_275.style.visibility=flag?'inherit':'hidden';
+				me._text_275.ggVisible=flag;
+			}
+			this._image_175.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_175.style[domTransition]='none';
+				} else {
+					me._image_175.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_175.ggParameter.sx=0.1;me._image_175.ggParameter.sy=0.1;
+				me._image_175.style[domTransform]=parameterToTransform(me._image_175.ggParameter);
+				flag=(me._text_275.style.visibility=='hidden');
+				me._text_275.style[domTransition]='none';
+				me._text_275.style.visibility=flag?'inherit':'hidden';
+				me._text_275.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_175);
+			this._text_275=document.createElement('div');
+			this._text_275__text=document.createElement('div');
+			this._text_275.className='ggskin ggskin_textdiv';
+			this._text_275.ggTextDiv=this._text_275__text;
+			this._text_275.ggId="Text 2";
+			this._text_275.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_275.ggVisible=false;
+			this._text_275.className='ggskin ggskin_text';
+			this._text_275.ggType='text';
+			this._text_275.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_275.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_275__text.setAttribute('style',hs);
+			this._text_275.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_275.appendChild(this._text_275__text);
+			this.__div.appendChild(this._text_275);
+		} else
+		if (hotspot.skinid=='Room_In_3_06') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_3_06";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_3_06.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_174=document.createElement('div');
+			this._image_174.ggId="Image 1";
+			this._image_174.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_174.ggVisible=true;
+			this._image_174.className='ggskin ggskin_image';
+			this._image_174.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_174.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_174.setAttribute('style',hs);
+			this._image_174__img=document.createElement('img');
+			this._image_174__img.className='ggskin ggskin_image';
+			this._image_174__img.setAttribute('src',basePath + 'images/image_174.png');
+			this._image_174__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_174__img.className='ggskin ggskin_image';
+			this._image_174__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_174__img);
+			this._image_174.appendChild(this._image_174__img);
+			this._image_174.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_174.style[domTransition]='none';
+				} else {
+					me._image_174.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_174.ggParameter.sx=0.2;me._image_174.ggParameter.sy=0.2;
+				me._image_174.style[domTransform]=parameterToTransform(me._image_174.ggParameter);
+				flag=(me._text_274.style.visibility=='hidden');
+				me._text_274.style[domTransition]='none';
+				me._text_274.style.visibility=flag?'inherit':'hidden';
+				me._text_274.ggVisible=flag;
+			}
+			this._image_174.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_174.style[domTransition]='none';
+				} else {
+					me._image_174.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_174.ggParameter.sx=0.1;me._image_174.ggParameter.sy=0.1;
+				me._image_174.style[domTransform]=parameterToTransform(me._image_174.ggParameter);
+				flag=(me._text_274.style.visibility=='hidden');
+				me._text_274.style[domTransition]='none';
+				me._text_274.style.visibility=flag?'inherit':'hidden';
+				me._text_274.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_174);
+			this._text_274=document.createElement('div');
+			this._text_274__text=document.createElement('div');
+			this._text_274.className='ggskin ggskin_textdiv';
+			this._text_274.ggTextDiv=this._text_274__text;
+			this._text_274.ggId="Text 2";
+			this._text_274.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_274.ggVisible=false;
+			this._text_274.className='ggskin ggskin_text';
+			this._text_274.ggType='text';
+			this._text_274.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_274.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_274__text.setAttribute('style',hs);
+			this._text_274.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_274.appendChild(this._text_274__text);
+			this.__div.appendChild(this._text_274);
+		} else
+		if (hotspot.skinid=='Room_In_2_14') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_2_14";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_2_14.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_173=document.createElement('div');
+			this._image_173.ggId="Image 1";
+			this._image_173.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_173.ggVisible=true;
+			this._image_173.className='ggskin ggskin_image';
+			this._image_173.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_173.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_173.setAttribute('style',hs);
+			this._image_173__img=document.createElement('img');
+			this._image_173__img.className='ggskin ggskin_image';
+			this._image_173__img.setAttribute('src',basePath + 'images/image_173.png');
+			this._image_173__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_173__img.className='ggskin ggskin_image';
+			this._image_173__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_173__img);
+			this._image_173.appendChild(this._image_173__img);
+			this._image_173.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_173.style[domTransition]='none';
+				} else {
+					me._image_173.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_173.ggParameter.sx=0.2;me._image_173.ggParameter.sy=0.2;
+				me._image_173.style[domTransform]=parameterToTransform(me._image_173.ggParameter);
+				flag=(me._text_273.style.visibility=='hidden');
+				me._text_273.style[domTransition]='none';
+				me._text_273.style.visibility=flag?'inherit':'hidden';
+				me._text_273.ggVisible=flag;
+			}
+			this._image_173.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_173.style[domTransition]='none';
+				} else {
+					me._image_173.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_173.ggParameter.sx=0.1;me._image_173.ggParameter.sy=0.1;
+				me._image_173.style[domTransform]=parameterToTransform(me._image_173.ggParameter);
+				flag=(me._text_273.style.visibility=='hidden');
+				me._text_273.style[domTransition]='none';
+				me._text_273.style.visibility=flag?'inherit':'hidden';
+				me._text_273.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_173);
+			this._text_273=document.createElement('div');
+			this._text_273__text=document.createElement('div');
+			this._text_273.className='ggskin ggskin_textdiv';
+			this._text_273.ggTextDiv=this._text_273__text;
+			this._text_273.ggId="Text 2";
+			this._text_273.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_273.ggVisible=false;
+			this._text_273.className='ggskin ggskin_text';
+			this._text_273.ggType='text';
+			this._text_273.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_273.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_273__text.setAttribute('style',hs);
+			this._text_273.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_273.appendChild(this._text_273__text);
+			this.__div.appendChild(this._text_273);
+		} else
+		if (hotspot.skinid=='Room_In_2_13') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_2_13";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_172=document.createElement('div');
+			this._image_172.ggId="Image 1";
+			this._image_172.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_172.ggVisible=true;
+			this._image_172.className='ggskin ggskin_image';
+			this._image_172.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_172.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_172.setAttribute('style',hs);
+			this._image_172__img=document.createElement('img');
+			this._image_172__img.className='ggskin ggskin_image';
+			this._image_172__img.setAttribute('src',basePath + 'images/image_172.png');
+			this._image_172__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_172__img.className='ggskin ggskin_image';
+			this._image_172__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_172__img);
+			this._image_172.appendChild(this._image_172__img);
+			this._image_172.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_172.style[domTransition]='none';
+				} else {
+					me._image_172.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_172.ggParameter.sx=0.2;me._image_172.ggParameter.sy=0.2;
+				me._image_172.style[domTransform]=parameterToTransform(me._image_172.ggParameter);
+				flag=(me._text_272.style.visibility=='hidden');
+				me._text_272.style[domTransition]='none';
+				me._text_272.style.visibility=flag?'inherit':'hidden';
+				me._text_272.ggVisible=flag;
+			}
+			this._image_172.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_172.style[domTransition]='none';
+				} else {
+					me._image_172.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_172.ggParameter.sx=0.1;me._image_172.ggParameter.sy=0.1;
+				me._image_172.style[domTransform]=parameterToTransform(me._image_172.ggParameter);
+				flag=(me._text_272.style.visibility=='hidden');
+				me._text_272.style[domTransition]='none';
+				me._text_272.style.visibility=flag?'inherit':'hidden';
+				me._text_272.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_172);
+			this._text_272=document.createElement('div');
+			this._text_272__text=document.createElement('div');
+			this._text_272.className='ggskin ggskin_textdiv';
+			this._text_272.ggTextDiv=this._text_272__text;
+			this._text_272.ggId="Text 2";
+			this._text_272.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_272.ggVisible=false;
+			this._text_272.className='ggskin ggskin_text';
+			this._text_272.ggType='text';
+			this._text_272.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_272.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_272__text.setAttribute('style',hs);
+			this._text_272.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_272.appendChild(this._text_272__text);
+			this.__div.appendChild(this._text_272);
+		} else
+		if (hotspot.skinid=='Room_In_2_11') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_2_11";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_2_11.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_171=document.createElement('div');
+			this._image_171.ggId="Image 1";
+			this._image_171.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_171.ggVisible=true;
+			this._image_171.className='ggskin ggskin_image';
+			this._image_171.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_171.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_171.setAttribute('style',hs);
+			this._image_171__img=document.createElement('img');
+			this._image_171__img.className='ggskin ggskin_image';
+			this._image_171__img.setAttribute('src',basePath + 'images/image_171.png');
+			this._image_171__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_171__img.className='ggskin ggskin_image';
+			this._image_171__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_171__img);
+			this._image_171.appendChild(this._image_171__img);
+			this._image_171.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_171.style[domTransition]='none';
+				} else {
+					me._image_171.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_171.ggParameter.sx=0.2;me._image_171.ggParameter.sy=0.2;
+				me._image_171.style[domTransform]=parameterToTransform(me._image_171.ggParameter);
+				flag=(me._text_271.style.visibility=='hidden');
+				me._text_271.style[domTransition]='none';
+				me._text_271.style.visibility=flag?'inherit':'hidden';
+				me._text_271.ggVisible=flag;
+			}
+			this._image_171.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_171.style[domTransition]='none';
+				} else {
+					me._image_171.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_171.ggParameter.sx=0.1;me._image_171.ggParameter.sy=0.1;
+				me._image_171.style[domTransform]=parameterToTransform(me._image_171.ggParameter);
+				flag=(me._text_271.style.visibility=='hidden');
+				me._text_271.style[domTransition]='none';
+				me._text_271.style.visibility=flag?'inherit':'hidden';
+				me._text_271.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_171);
+			this._text_271=document.createElement('div');
+			this._text_271__text=document.createElement('div');
+			this._text_271.className='ggskin ggskin_textdiv';
+			this._text_271.ggTextDiv=this._text_271__text;
+			this._text_271.ggId="Text 2";
+			this._text_271.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_271.ggVisible=false;
+			this._text_271.className='ggskin ggskin_text';
+			this._text_271.ggType='text';
+			this._text_271.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_271.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_271__text.setAttribute('style',hs);
+			this._text_271.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_271.appendChild(this._text_271__text);
+			this.__div.appendChild(this._text_271);
+		} else
+		if (hotspot.skinid=='Room_In_2_07') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_2_07";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_2_07.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_170=document.createElement('div');
+			this._image_170.ggId="Image 1";
+			this._image_170.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_170.ggVisible=true;
+			this._image_170.className='ggskin ggskin_image';
+			this._image_170.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_170.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_170.setAttribute('style',hs);
+			this._image_170__img=document.createElement('img');
+			this._image_170__img.className='ggskin ggskin_image';
+			this._image_170__img.setAttribute('src',basePath + 'images/image_170.png');
+			this._image_170__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_170__img.className='ggskin ggskin_image';
+			this._image_170__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_170__img);
+			this._image_170.appendChild(this._image_170__img);
+			this._image_170.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_170.style[domTransition]='none';
+				} else {
+					me._image_170.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_170.ggParameter.sx=0.2;me._image_170.ggParameter.sy=0.2;
+				me._image_170.style[domTransform]=parameterToTransform(me._image_170.ggParameter);
+				flag=(me._text_270.style.visibility=='hidden');
+				me._text_270.style[domTransition]='none';
+				me._text_270.style.visibility=flag?'inherit':'hidden';
+				me._text_270.ggVisible=flag;
+			}
+			this._image_170.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_170.style[domTransition]='none';
+				} else {
+					me._image_170.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_170.ggParameter.sx=0.1;me._image_170.ggParameter.sy=0.1;
+				me._image_170.style[domTransform]=parameterToTransform(me._image_170.ggParameter);
+				flag=(me._text_270.style.visibility=='hidden');
+				me._text_270.style[domTransition]='none';
+				me._text_270.style.visibility=flag?'inherit':'hidden';
+				me._text_270.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_170);
+			this._text_270=document.createElement('div');
+			this._text_270__text=document.createElement('div');
+			this._text_270.className='ggskin ggskin_textdiv';
+			this._text_270.ggTextDiv=this._text_270__text;
+			this._text_270.ggId="Text 2";
+			this._text_270.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_270.ggVisible=false;
+			this._text_270.className='ggskin ggskin_text';
+			this._text_270.ggType='text';
+			this._text_270.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_270.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_270__text.setAttribute('style',hs);
+			this._text_270.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_270.appendChild(this._text_270__text);
+			this.__div.appendChild(this._text_270);
+		} else
+		if (hotspot.skinid=='Room_In_2_08') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_In_2_08";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_2_08.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._image_169=document.createElement('div');
+			this._image_169.ggId="Image 1";
+			this._image_169.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this._image_169.ggVisible=true;
+			this._image_169.className='ggskin ggskin_image';
+			this._image_169.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -260px;';
+			hs+='top:  -208px;';
+			hs+='width: 521px;';
+			hs+='height: 387px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_169.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._image_169.setAttribute('style',hs);
+			this._image_169__img=document.createElement('img');
+			this._image_169__img.className='ggskin ggskin_image';
+			this._image_169__img.setAttribute('src',basePath + 'images/image_169.png');
+			this._image_169__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._image_169__img.className='ggskin ggskin_image';
+			this._image_169__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._image_169__img);
+			this._image_169.appendChild(this._image_169__img);
+			this._image_169.onmouseover=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_169.style[domTransition]='none';
+				} else {
+					me._image_169.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_169.ggParameter.sx=0.2;me._image_169.ggParameter.sy=0.2;
+				me._image_169.style[domTransform]=parameterToTransform(me._image_169.ggParameter);
+				flag=(me._text_269.style.visibility=='hidden');
+				me._text_269.style[domTransition]='none';
+				me._text_269.style.visibility=flag?'inherit':'hidden';
+				me._text_269.ggVisible=flag;
+			}
+			this._image_169.onmouseout=function () {
+				if (me.player.transitionsDisabled) {
+					me._image_169.style[domTransition]='none';
+				} else {
+					me._image_169.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me._image_169.ggParameter.sx=0.1;me._image_169.ggParameter.sy=0.1;
+				me._image_169.style[domTransform]=parameterToTransform(me._image_169.ggParameter);
+				flag=(me._text_269.style.visibility=='hidden');
+				me._text_269.style[domTransition]='none';
+				me._text_269.style.visibility=flag?'inherit':'hidden';
+				me._text_269.ggVisible=flag;
+			}
+			this.__div.appendChild(this._image_169);
+			this._text_269=document.createElement('div');
+			this._text_269__text=document.createElement('div');
+			this._text_269.className='ggskin ggskin_textdiv';
+			this._text_269.ggTextDiv=this._text_269__text;
+			this._text_269.ggId="Text 2";
+			this._text_269.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this._text_269.ggVisible=false;
+			this._text_269.className='ggskin ggskin_text';
+			this._text_269.ggType='text';
+			this._text_269.ggUpdatePosition=function() {
+				this.style[domTransition]='none';
+				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
+			}
+			hs ='position:absolute;';
+			hs+='left: -76px;';
+			hs+='top:  -111px;';
+			hs+='width: 150px;';
+			hs+='height: 37px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: hidden;';
+			this._text_269.setAttribute('style',hs);
+			hs ='position:absolute;';
+			hs+='left: 0px;';
+			hs+='top:  0px;';
+			hs+='width: auto;';
+			hs+='height: auto;';
+			hs+='background: #000000;';
+			hs+='border: 1px solid #000000;';
+			hs+='color: #ffffff;';
+			hs+='text-align: center;';
+			hs+='white-space: nowrap;';
+			hs+='padding: 0px 1px 0px 1px;';
+			hs+='overflow: hidden;';
+			this._text_269__text.setAttribute('style',hs);
+			this._text_269.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
+			this._text_269.appendChild(this._text_269__text);
+			this.__div.appendChild(this._text_269);
+		} else
+		if (hotspot.skinid=='Room_To_Room_2_13') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Room_To_Room_2_13";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin._room_2_13.onclick();
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
 			this._image_168=document.createElement('div');
 			this._image_168.ggId="Image 1";
 			this._image_168.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
@@ -5744,9 +7393,9 @@ function pano2vrSkin(player,base) {
 			this._text_268.appendChild(this._text_268__text);
 			this.__div.appendChild(this._text_268);
 		} else
-		if (hotspot.skinid=='Room_Out_3_16') {
+		if (hotspot.skinid=='Room_Out_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_3_16";
+			this.__div.ggId="Room_Out_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5760,7 +7409,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_3_16.onclick();
+				me.skin._gang_2_14.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -5859,9 +7508,9 @@ function pano2vrSkin(player,base) {
 			this._text_267.appendChild(this._text_267__text);
 			this.__div.appendChild(this._text_267);
 		} else
-		if (hotspot.skinid=='Room_In_3_16') {
+		if (hotspot.skinid=='Room_Out_2_13') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_3_16";
+			this.__div.ggId="Room_Out_2_13";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5875,7 +7524,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_3_16.onclick();
+				me.skin._gang_2_14.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -5974,9 +7623,9 @@ function pano2vrSkin(player,base) {
 			this._text_266.appendChild(this._text_266__text);
 			this.__div.appendChild(this._text_266);
 		} else
-		if (hotspot.skinid=='Gang_3_16_To_Gang_3_13') {
+		if (hotspot.skinid=='Room_To_Room_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_3_16_To_Gang_3_13";
+			this.__div.ggId="Room_To_Room_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -5990,7 +7639,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_3_13.onclick();
+				me.skin._room_2_08.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6089,9 +7738,9 @@ function pano2vrSkin(player,base) {
 			this._text_265.appendChild(this._text_265__text);
 			this.__div.appendChild(this._text_265);
 		} else
-		if (hotspot.skinid=='Gang_3_13_To_Gang_3_16') {
+		if (hotspot.skinid=='Room_Out_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_3_13_To_Gang_3_16";
+			this.__div.ggId="Room_Out_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6105,7 +7754,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_3_16.onclick();
+				me.skin._gang_2_06.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6204,9 +7853,9 @@ function pano2vrSkin(player,base) {
 			this._text_264.appendChild(this._text_264__text);
 			this.__div.appendChild(this._text_264);
 		} else
-		if (hotspot.skinid=='Gang_3_06_To_Gang_3_13') {
+		if (hotspot.skinid=='Room_Out_2_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_3_06_To_Gang_3_13";
+			this.__div.ggId="Room_Out_2_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6220,8 +7869,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_3_13.onclick();
-				me.player.openNext("Gang 3_13_out.xml","-270");
+				me.skin._gang_2_06.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6320,9 +7968,9 @@ function pano2vrSkin(player,base) {
 			this._text_263.appendChild(this._text_263__text);
 			this.__div.appendChild(this._text_263);
 		} else
-		if (hotspot.skinid=='Gang_3_13_To_Gang_3_06') {
+		if (hotspot.skinid=='Room_Out_2_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_3_13_To_Gang_3_06";
+			this.__div.ggId="Room_Out_2_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6336,7 +7984,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_3_06.onclick();
+				me.skin._gang_2_14.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6376,12 +8024,8 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_162.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_162.ggParameter.sx=0.2;me._image_162.ggParameter.sy=0.2;
+				me._image_162.ggParameter.sx=0.3;me._image_162.ggParameter.sy=0.3;
 				me._image_162.style[domTransform]=parameterToTransform(me._image_162.ggParameter);
-				flag=(me._text_262.style.visibility=='hidden');
-				me._text_262.style[domTransition]='none';
-				me._text_262.style.visibility=flag?'inherit':'hidden';
-				me._text_262.ggVisible=flag;
 			}
 			this._image_162.onmouseout=function () {
 				if (me.player.transitionsDisabled) {
@@ -6389,12 +8033,8 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_162.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_162.ggParameter.sx=0.1;me._image_162.ggParameter.sy=0.1;
+				me._image_162.ggParameter.sx=0.2;me._image_162.ggParameter.sy=0.2;
 				me._image_162.style[domTransform]=parameterToTransform(me._image_162.ggParameter);
-				flag=(me._text_262.style.visibility=='hidden');
-				me._text_262.style[domTransition]='none';
-				me._text_262.style.visibility=flag?'inherit':'hidden';
-				me._text_262.ggVisible=flag;
 			}
 			this.__div.appendChild(this._image_162);
 			this._text_262=document.createElement('div');
@@ -6435,9 +8075,9 @@ function pano2vrSkin(player,base) {
 			this._text_262.appendChild(this._text_262__text);
 			this.__div.appendChild(this._text_262);
 		} else
-		if (hotspot.skinid=='Room_In_3_06') {
+		if (hotspot.skinid=='Gang_2_06_To_Gang_2_Treppe') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_3_06";
+			this.__div.ggId="Gang_2_06_To_Gang_2_Treppe";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6451,7 +8091,8 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_3_06.onclick();
+				me.skin._gang_2_treppe.onclick();
+				me.player.openNext("Gang 2_Treppe_out.xml","180");
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6550,9 +8191,9 @@ function pano2vrSkin(player,base) {
 			this._text_261.appendChild(this._text_261__text);
 			this.__div.appendChild(this._text_261);
 		} else
-		if (hotspot.skinid=='Room_In_2_14') {
+		if (hotspot.skinid=='Gang_2_14_To_Gang_Treppe') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_14";
+			this.__div.ggId="Gang_2_14_To_Gang_Treppe";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6566,7 +8207,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_14.onclick();
+				me.skin._gang_2_treppe.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6665,9 +8306,9 @@ function pano2vrSkin(player,base) {
 			this._text_260.appendChild(this._text_260__text);
 			this.__div.appendChild(this._text_260);
 		} else
-		if (hotspot.skinid=='Room_In_2_13') {
+		if (hotspot.skinid=='Room_2_08_To_Room_2_07') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_13";
+			this.__div.ggId="Room_2_08_To_Room_2_07";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6681,6 +8322,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
+				me.skin._room_2_07.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6779,9 +8421,9 @@ function pano2vrSkin(player,base) {
 			this._text_259.appendChild(this._text_259__text);
 			this.__div.appendChild(this._text_259);
 		} else
-		if (hotspot.skinid=='Room_In_2_11') {
+		if (hotspot.skinid=='Room_2_13_To_Room_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_11";
+			this.__div.ggId="Room_2_13_To_Room_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6795,7 +8437,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_11.onclick();
+				me.skin._room_2_14.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -6894,9 +8536,9 @@ function pano2vrSkin(player,base) {
 			this._text_258.appendChild(this._text_258__text);
 			this.__div.appendChild(this._text_258);
 		} else
-		if (hotspot.skinid=='Room_In_2_07') {
+		if (hotspot.skinid=='Gang_2_Treppe_To_Gang_2_14') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_07";
+			this.__div.ggId="Gang_2_Treppe_To_Gang_2_14";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -6910,7 +8552,8 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_07.onclick();
+				me.skin._gang_2_14.onclick();
+				me.player.openNext("Gang 2_14_out.xml","180");
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7009,9 +8652,9 @@ function pano2vrSkin(player,base) {
 			this._text_257.appendChild(this._text_257__text);
 			this.__div.appendChild(this._text_257);
 		} else
-		if (hotspot.skinid=='Room_In_2_08') {
+		if (hotspot.skinid=='Gang_2_Treppe_To_Gang_2_06') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_2_08";
+			this.__div.ggId="Gang_2_Treppe_To_Gang_2_06";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -7025,7 +8668,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_08.onclick();
+				me.skin._gang_2_06.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7124,23 +8767,23 @@ function pano2vrSkin(player,base) {
 			this._text_256.appendChild(this._text_256__text);
 			this.__div.appendChild(this._text_256);
 		} else
-		if (hotspot.skinid=='Room_To_Room_2_13') {
+		if (hotspot.skinid=='Room_Out_1_28') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_2_13";
+			this.__div.ggId="Room_Out_1_28";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_13.onclick();
+				me.skin._gang_1_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7239,23 +8882,23 @@ function pano2vrSkin(player,base) {
 			this._text_255.appendChild(this._text_255__text);
 			this.__div.appendChild(this._text_255);
 		} else
-		if (hotspot.skinid=='Room_Out_2_14') {
+		if (hotspot.skinid=='Room_In_1_28') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_14";
+			this.__div.ggId="Room_In_1_28";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_14.onclick();
+				me.skin._room_1_28.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7354,23 +8997,23 @@ function pano2vrSkin(player,base) {
 			this._text_254.appendChild(this._text_254__text);
 			this.__div.appendChild(this._text_254);
 		} else
-		if (hotspot.skinid=='Room_Out_2_13') {
+		if (hotspot.skinid=='Gang_1_24_To_Gang_Bibliothek') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_13";
+			this.__div.ggId="Gang_1_24_To_Gang_Bibliothek";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_14.onclick();
+				me.skin._gang_1_25.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7469,23 +9112,23 @@ function pano2vrSkin(player,base) {
 			this._text_253.appendChild(this._text_253__text);
 			this.__div.appendChild(this._text_253);
 		} else
-		if (hotspot.skinid=='Room_To_Room_2_08') {
+		if (hotspot.skinid=='Room_In_1_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_To_Room_2_08";
+			this.__div.ggId="Room_In_1_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_08.onclick();
+				me.skin._room_1_08.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7584,23 +9227,23 @@ function pano2vrSkin(player,base) {
 			this._text_252.appendChild(this._text_252__text);
 			this.__div.appendChild(this._text_252);
 		} else
-		if (hotspot.skinid=='Room_Out_2_07') {
+		if (hotspot.skinid=='Gang_Bibliothek_To_Gang_1_25') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_07";
+			this.__div.ggId="Gang_Bibliothek_To_Gang_1_25";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_06.onclick();
+				me.skin._gang_1_25.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7699,23 +9342,23 @@ function pano2vrSkin(player,base) {
 			this._text_251.appendChild(this._text_251__text);
 			this.__div.appendChild(this._text_251);
 		} else
-		if (hotspot.skinid=='Room_Out_2_08') {
+		if (hotspot.skinid=='Room_Out_1_08') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_08";
+			this.__div.ggId="Room_Out_1_08";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_06.onclick();
+				me.skin._bibliothek.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7814,23 +9457,23 @@ function pano2vrSkin(player,base) {
 			this._text_250.appendChild(this._text_250__text);
 			this.__div.appendChild(this._text_250);
 		} else
-		if (hotspot.skinid=='Room_Out_2_11') {
+		if (hotspot.skinid=='Room_Out_1_31') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_2_11";
+			this.__div.ggId="Room_Out_1_31";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_14.onclick();
+				me.skin._gang_1_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -7870,8 +9513,12 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_149.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_149.ggParameter.sx=0.3;me._image_149.ggParameter.sy=0.3;
+				me._image_149.ggParameter.sx=0.2;me._image_149.ggParameter.sy=0.2;
 				me._image_149.style[domTransform]=parameterToTransform(me._image_149.ggParameter);
+				flag=(me._text_249.style.visibility=='hidden');
+				me._text_249.style[domTransition]='none';
+				me._text_249.style.visibility=flag?'inherit':'hidden';
+				me._text_249.ggVisible=flag;
 			}
 			this._image_149.onmouseout=function () {
 				if (me.player.transitionsDisabled) {
@@ -7879,8 +9526,12 @@ function pano2vrSkin(player,base) {
 				} else {
 					me._image_149.style[domTransition]='all 500ms ease-out 0ms';
 				}
-				me._image_149.ggParameter.sx=0.2;me._image_149.ggParameter.sy=0.2;
+				me._image_149.ggParameter.sx=0.1;me._image_149.ggParameter.sy=0.1;
 				me._image_149.style[domTransform]=parameterToTransform(me._image_149.ggParameter);
+				flag=(me._text_249.style.visibility=='hidden');
+				me._text_249.style[domTransition]='none';
+				me._text_249.style.visibility=flag?'inherit':'hidden';
+				me._text_249.ggVisible=flag;
 			}
 			this.__div.appendChild(this._image_149);
 			this._text_249=document.createElement('div');
@@ -7921,24 +9572,23 @@ function pano2vrSkin(player,base) {
 			this._text_249.appendChild(this._text_249__text);
 			this.__div.appendChild(this._text_249);
 		} else
-		if (hotspot.skinid=='Gang_2_06_To_Gang_2_Treppe') {
+		if (hotspot.skinid=='Room_In_1_31') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_2_06_To_Gang_2_Treppe";
+			this.__div.ggId="Room_In_1_31";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_treppe.onclick();
-				me.player.openNext("Gang 2_Treppe_out.xml","180");
+				me.skin._room_1_31.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8037,23 +9687,23 @@ function pano2vrSkin(player,base) {
 			this._text_248.appendChild(this._text_248__text);
 			this.__div.appendChild(this._text_248);
 		} else
-		if (hotspot.skinid=='Gang_2_14_To_Gang_Treppe') {
+		if (hotspot.skinid=='Gang_1_Treppe_To_Stock_2') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_2_14_To_Gang_Treppe";
+			this.__div.ggId="Gang_1_Treppe_To_Stock_2";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_treppe.onclick();
+				me.skin._up_2.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8152,23 +9802,23 @@ function pano2vrSkin(player,base) {
 			this._text_247.appendChild(this._text_247__text);
 			this.__div.appendChild(this._text_247);
 		} else
-		if (hotspot.skinid=='Room_2_08_To_Room_2_07') {
+		if (hotspot.skinid=='Gang_1_Treppe_To_Gang_1_D') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_2_08_To_Room_2_07";
+			this.__div.ggId="Gang_1_Treppe_To_Gang_1_D";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_07.onclick();
+				me.skin._gang_1_d.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8267,23 +9917,23 @@ function pano2vrSkin(player,base) {
 			this._text_246.appendChild(this._text_246__text);
 			this.__div.appendChild(this._text_246);
 		} else
-		if (hotspot.skinid=='Room_2_13_To_Room_2_14') {
+		if (hotspot.skinid=='Gang_1_Treppe_To_Gang_1_25') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_2_13_To_Room_2_14";
+			this.__div.ggId="Gang_1_Treppe_To_Gang_1_25";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_2_14.onclick();
+				me.skin._gang_1_25.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8382,24 +10032,23 @@ function pano2vrSkin(player,base) {
 			this._text_245.appendChild(this._text_245__text);
 			this.__div.appendChild(this._text_245);
 		} else
-		if (hotspot.skinid=='Gang_2_Treppe_To_Gang_2_14') {
+		if (hotspot.skinid=='Gang_1_25_To_Gang_1_24') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_2_Treppe_To_Gang_2_14";
+			this.__div.ggId="Gang_1_25_To_Gang_1_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_14.onclick();
-				me.player.openNext("Gang 2_14_out.xml","180");
+				me.skin._gang_1_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8498,23 +10147,23 @@ function pano2vrSkin(player,base) {
 			this._text_244.appendChild(this._text_244__text);
 			this.__div.appendChild(this._text_244);
 		} else
-		if (hotspot.skinid=='Gang_2_Treppe_To_Gang_2_06') {
+		if (hotspot.skinid=='Gang_1_25_To_Gang_1_Treppe') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_2_Treppe_To_Gang_2_06";
+			this.__div.ggId="Gang_1_25_To_Gang_1_Treppe";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -413px;';
-			hs+='top:  -40px;';
+			hs+='left: -429px;';
+			hs+='top:  -60px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_2_06.onclick();
+				me.skin._gang_1_treppe.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8613,9 +10262,9 @@ function pano2vrSkin(player,base) {
 			this._text_243.appendChild(this._text_243__text);
 			this.__div.appendChild(this._text_243);
 		} else
-		if (hotspot.skinid=='Room_Out_1_28') {
+		if (hotspot.skinid=='Gang_1_25_To_Bibliothek') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_1_28";
+			this.__div.ggId="Gang_1_25_To_Bibliothek";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -8629,7 +10278,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_24.onclick();
+				me.skin._bibliothek.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8728,9 +10377,9 @@ function pano2vrSkin(player,base) {
 			this._text_242.appendChild(this._text_242__text);
 			this.__div.appendChild(this._text_242);
 		} else
-		if (hotspot.skinid=='Room_In_1_28') {
+		if (hotspot.skinid=='Gang_1_15_To_Bibliothek') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_1_28";
+			this.__div.ggId="Gang_1_15_To_Bibliothek";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -8744,7 +10393,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_1_28.onclick();
+				me.skin._bibliothek.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8843,9 +10492,9 @@ function pano2vrSkin(player,base) {
 			this._text_241.appendChild(this._text_241__text);
 			this.__div.appendChild(this._text_241);
 		} else
-		if (hotspot.skinid=='Gang_1_24_To_Gang_Bibliothek') {
+		if (hotspot.skinid=='Gang_1_15_To_Gang_1_25') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_24_To_Gang_Bibliothek";
+			this.__div.ggId="Gang_1_15_To_Gang_1_25";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -8958,9 +10607,9 @@ function pano2vrSkin(player,base) {
 			this._text_240.appendChild(this._text_240__text);
 			this.__div.appendChild(this._text_240);
 		} else
-		if (hotspot.skinid=='Room_In_1_08') {
+		if (hotspot.skinid=='Bibliothek_To_Gang_1_15') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_1_08";
+			this.__div.ggId="Bibliothek_To_Gang_1_15";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -8974,7 +10623,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_1_08.onclick();
+				me.skin._gang_1_15.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9073,9 +10722,9 @@ function pano2vrSkin(player,base) {
 			this._text_239.appendChild(this._text_239__text);
 			this.__div.appendChild(this._text_239);
 		} else
-		if (hotspot.skinid=='Gang_Bibliothek_To_Gang_1_25') {
+		if (hotspot.skinid=='Gang_1_25_To_Gang_1_15') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_Bibliothek_To_Gang_1_25";
+			this.__div.ggId="Gang_1_25_To_Gang_1_15";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -9089,7 +10738,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_25.onclick();
+				me.skin._gang_1_15.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9188,9 +10837,9 @@ function pano2vrSkin(player,base) {
 			this._text_238.appendChild(this._text_238__text);
 			this.__div.appendChild(this._text_238);
 		} else
-		if (hotspot.skinid=='Room_Out_1_08') {
+		if (hotspot.skinid=='Room_In_1_08_2') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_1_08";
+			this.__div.ggId="Room_In_1_08_2";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -9204,7 +10853,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._bibliothek.onclick();
+				me.skin._room_1_08.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9303,9 +10952,9 @@ function pano2vrSkin(player,base) {
 			this._text_237.appendChild(this._text_237__text);
 			this.__div.appendChild(this._text_237);
 		} else
-		if (hotspot.skinid=='Room_Out_1_31') {
+		if (hotspot.skinid=='Gang_1_D_To_Gang_1_Treppe') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_1_31";
+			this.__div.ggId="Gang_1_D_To_Gang_1_Treppe";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -9319,7 +10968,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_24.onclick();
+				me.skin._gang_1_treppe.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9418,23 +11067,23 @@ function pano2vrSkin(player,base) {
 			this._text_236.appendChild(this._text_236__text);
 			this.__div.appendChild(this._text_236);
 		} else
-		if (hotspot.skinid=='Room_In_1_31') {
+		if (hotspot.skinid=='Room_In_OGS') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_1_31";
+			this.__div.ggId="Room_In_OGS";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_1_31.onclick();
+				me.skin._ogs.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9533,23 +11182,23 @@ function pano2vrSkin(player,base) {
 			this._text_235.appendChild(this._text_235__text);
 			this.__div.appendChild(this._text_235);
 		} else
-		if (hotspot.skinid=='Gang_1_Treppe_To_Stock_2') {
+		if (hotspot.skinid=='Room_Out_OGS') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_Treppe_To_Stock_2";
+			this.__div.ggId="Room_Out_OGS";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._up_2.onclick();
+				me.skin._aula.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9648,23 +11297,23 @@ function pano2vrSkin(player,base) {
 			this._text_234.appendChild(this._text_234__text);
 			this.__div.appendChild(this._text_234);
 		} else
-		if (hotspot.skinid=='Gang_1_Treppe_To_Gang_1_D') {
+		if (hotspot.skinid=='Room_Out_Turnhalle') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_Treppe_To_Gang_1_D";
+			this.__div.ggId="Room_Out_Turnhalle";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_d.onclick();
+				me.skin._aula.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9763,23 +11412,23 @@ function pano2vrSkin(player,base) {
 			this._text_233.appendChild(this._text_233__text);
 			this.__div.appendChild(this._text_233);
 		} else
-		if (hotspot.skinid=='Gang_1_Treppe_To_Gang_1_25') {
+		if (hotspot.skinid=='Gang_Aula_To_Gang_0_24') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_Treppe_To_Gang_1_25";
+			this.__div.ggId="Gang_Aula_To_Gang_0_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_25.onclick();
+				me.skin._gang_0_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9878,23 +11527,23 @@ function pano2vrSkin(player,base) {
 			this._text_232.appendChild(this._text_232__text);
 			this.__div.appendChild(this._text_232);
 		} else
-		if (hotspot.skinid=='Gang_1_25_To_Gang_1_24') {
+		if (hotspot.skinid=='Gang_0_24_To_Gang_Aula') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_25_To_Gang_1_24";
+			this.__div.ggId="Gang_0_24_To_Gang_Aula";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_24.onclick();
+				me.skin._aula.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -9993,23 +11642,23 @@ function pano2vrSkin(player,base) {
 			this._text_231.appendChild(this._text_231__text);
 			this.__div.appendChild(this._text_231);
 		} else
-		if (hotspot.skinid=='Gang_1_25_To_Gang_1_Treppe') {
+		if (hotspot.skinid=='Room_Out_0_24') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_25_To_Gang_1_Treppe";
+			this.__div.ggId="Room_Out_0_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_treppe.onclick();
+				me.skin._gang_0_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10108,23 +11757,23 @@ function pano2vrSkin(player,base) {
 			this._text_230.appendChild(this._text_230__text);
 			this.__div.appendChild(this._text_230);
 		} else
-		if (hotspot.skinid=='Gang_1_25_To_Bibliothek') {
+		if (hotspot.skinid=='Room_In_0_24') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_25_To_Bibliothek";
+			this.__div.ggId="Room_In_0_24";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._bibliothek.onclick();
+				me.skin._room_0_24.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10223,23 +11872,23 @@ function pano2vrSkin(player,base) {
 			this._text_229.appendChild(this._text_229__text);
 			this.__div.appendChild(this._text_229);
 		} else
-		if (hotspot.skinid=='Gang_1_15_To_Bibliothek') {
+		if (hotspot.skinid=='Gang_Aula_To_Gang_Turnhalle') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_15_To_Bibliothek";
+			this.__div.ggId="Gang_Aula_To_Gang_Turnhalle";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._bibliothek.onclick();
+				me.skin._turnhalle.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10338,23 +11987,23 @@ function pano2vrSkin(player,base) {
 			this._text_228.appendChild(this._text_228__text);
 			this.__div.appendChild(this._text_228);
 		} else
-		if (hotspot.skinid=='Gang_1_15_To_Gang_1_25') {
+		if (hotspot.skinid=='Mensa_To_Aula') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_15_To_Gang_1_25";
+			this.__div.ggId="Mensa_To_Aula";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_25.onclick();
+				me.skin._aula.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10453,23 +12102,23 @@ function pano2vrSkin(player,base) {
 			this._text_227.appendChild(this._text_227__text);
 			this.__div.appendChild(this._text_227);
 		} else
-		if (hotspot.skinid=='Bibliothek_To_Gang_1_15') {
+		if (hotspot.skinid=='Aula_To_Mensa') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Bibliothek_To_Gang_1_15";
+			this.__div.ggId="Aula_To_Mensa";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_15.onclick();
+				me.skin._mensa.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10568,23 +12217,23 @@ function pano2vrSkin(player,base) {
 			this._text_226.appendChild(this._text_226__text);
 			this.__div.appendChild(this._text_226);
 		} else
-		if (hotspot.skinid=='Gang_1_25_To_Gang_1_15') {
+		if (hotspot.skinid=='Room_Out_SMV') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_25_To_Gang_1_15";
+			this.__div.ggId="Room_Out_SMV";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_15.onclick();
+				me.skin._aula.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10683,23 +12332,23 @@ function pano2vrSkin(player,base) {
 			this._text_225.appendChild(this._text_225__text);
 			this.__div.appendChild(this._text_225);
 		} else
-		if (hotspot.skinid=='Room_In_1_08_2') {
+		if (hotspot.skinid=='Room_In_SMV') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_1_08_2";
+			this.__div.ggId="Room_In_SMV";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: 268px;';
+			hs+='top:  -17px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_1_08.onclick();
+				me.skin._smv.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10798,23 +12447,23 @@ function pano2vrSkin(player,base) {
 			this._text_224.appendChild(this._text_224__text);
 			this.__div.appendChild(this._text_224);
 		} else
-		if (hotspot.skinid=='Gang_1_D_To_Gang_1_Treppe') {
+		if (hotspot.skinid=='Room_Out_U_26') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_1_D_To_Gang_1_Treppe";
+			this.__div.ggId="Room_Out_U_26";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: -429px;';
-			hs+='top:  -60px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_1_treppe.onclick();
+				me.skin._gang_u_27.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -10913,23 +12562,23 @@ function pano2vrSkin(player,base) {
 			this._text_223.appendChild(this._text_223__text);
 			this.__div.appendChild(this._text_223);
 		} else
-		if (hotspot.skinid=='Room_In_OGS') {
+		if (hotspot.skinid=='Room_In_U_26') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_OGS";
+			this.__div.ggId="Room_In_U_26";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._ogs.onclick();
+				me.skin._room_u_26.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11028,23 +12677,23 @@ function pano2vrSkin(player,base) {
 			this._text_222.appendChild(this._text_222__text);
 			this.__div.appendChild(this._text_222);
 		} else
-		if (hotspot.skinid=='Room_Out_OGS') {
+		if (hotspot.skinid=='Gang_U_10_To_Gang_U_21') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_OGS";
+			this.__div.ggId="Gang_U_10_To_Gang_U_21";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._aula.onclick();
+				me.skin._gang_u_21.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11143,23 +12792,23 @@ function pano2vrSkin(player,base) {
 			this._text_221.appendChild(this._text_221__text);
 			this.__div.appendChild(this._text_221);
 		} else
-		if (hotspot.skinid=='Room_Out_Turnhalle') {
+		if (hotspot.skinid=='Gang_U_21_To_Gang_U_10') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_Turnhalle";
+			this.__div.ggId="Gang_U_21_To_Gang_U_10";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._aula.onclick();
+				me.skin._gang_u_10.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11258,23 +12907,23 @@ function pano2vrSkin(player,base) {
 			this._text_220.appendChild(this._text_220__text);
 			this.__div.appendChild(this._text_220);
 		} else
-		if (hotspot.skinid=='Gang_Aula_To_Gang_0_24') {
+		if (hotspot.skinid=='Gang_U_27_To_Gang_U_21') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_Aula_To_Gang_0_24";
+			this.__div.ggId="Gang_U_27_To_Gang_U_21";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_0_24.onclick();
+				me.skin._gang_u_21.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11373,23 +13022,23 @@ function pano2vrSkin(player,base) {
 			this._text_219.appendChild(this._text_219__text);
 			this.__div.appendChild(this._text_219);
 		} else
-		if (hotspot.skinid=='Gang_0_24_To_Gang_Aula') {
+		if (hotspot.skinid=='Gang_U_21_To_Gang_27') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_0_24_To_Gang_Aula";
+			this.__div.ggId="Gang_U_21_To_Gang_27";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._aula.onclick();
+				me.skin._gang_u_27.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11488,23 +13137,23 @@ function pano2vrSkin(player,base) {
 			this._text_218.appendChild(this._text_218__text);
 			this.__div.appendChild(this._text_218);
 		} else
-		if (hotspot.skinid=='Room_Out_0_24') {
+		if (hotspot.skinid=='Room_Out_U_23') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_0_24";
+			this.__div.ggId="Room_Out_U_23";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_0_24.onclick();
+				me.skin._gang_u_27.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11603,23 +13252,23 @@ function pano2vrSkin(player,base) {
 			this._text_217.appendChild(this._text_217__text);
 			this.__div.appendChild(this._text_217);
 		} else
-		if (hotspot.skinid=='Room_In_0_24') {
+		if (hotspot.skinid=='Room_In_U_23') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_0_24";
+			this.__div.ggId="Room_In_U_23";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_0_24.onclick();
+				me.skin._room_u_23.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11718,23 +13367,23 @@ function pano2vrSkin(player,base) {
 			this._text_216.appendChild(this._text_216__text);
 			this.__div.appendChild(this._text_216);
 		} else
-		if (hotspot.skinid=='Gang_Aula_To_Gang_Turnhalle') {
+		if (hotspot.skinid=='Room_Out_U_22') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_Aula_To_Gang_Turnhalle";
+			this.__div.ggId="Room_Out_U_22";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._turnhalle.onclick();
+				me.skin._gang_u_21.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11833,23 +13482,23 @@ function pano2vrSkin(player,base) {
 			this._text_215.appendChild(this._text_215__text);
 			this.__div.appendChild(this._text_215);
 		} else
-		if (hotspot.skinid=='Mensa_To_Aula') {
+		if (hotspot.skinid=='Room_In_U_22') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Mensa_To_Aula";
+			this.__div.ggId="Room_In_U_22";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._aula.onclick();
+				me.skin._room_u_22.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -11948,23 +13597,23 @@ function pano2vrSkin(player,base) {
 			this._text_214.appendChild(this._text_214__text);
 			this.__div.appendChild(this._text_214);
 		} else
-		if (hotspot.skinid=='Aula_To_Mensa') {
+		if (hotspot.skinid=='Room_Out_U_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Aula_To_Mensa";
+			this.__div.ggId="Room_Out_U_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._mensa.onclick();
+				me.skin._gang_u_10.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12063,23 +13712,23 @@ function pano2vrSkin(player,base) {
 			this._text_213.appendChild(this._text_213__text);
 			this.__div.appendChild(this._text_213);
 		} else
-		if (hotspot.skinid=='Room_Out_SMV') {
+		if (hotspot.skinid=='Room_In_U_11') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_SMV";
+			this.__div.ggId="Room_In_U_11";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._aula.onclick();
+				me.skin._room_u_11.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12178,23 +13827,23 @@ function pano2vrSkin(player,base) {
 			this._text_212.appendChild(this._text_212__text);
 			this.__div.appendChild(this._text_212);
 		} else
-		if (hotspot.skinid=='Room_In_SMV') {
+		if (hotspot.skinid=='D_Turnhalle_To_D_Vorschule') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_SMV";
+			this.__div.ggId="D_Turnhalle_To_D_Vorschule";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
-			hs+='left: 268px;';
-			hs+='top:  -17px;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._smv.onclick();
+				me.skin._d_vorschule.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12293,9 +13942,9 @@ function pano2vrSkin(player,base) {
 			this._text_211.appendChild(this._text_211__text);
 			this.__div.appendChild(this._text_211);
 		} else
-		if (hotspot.skinid=='Room_Out_U_26') {
+		if (hotspot.skinid=='D_Vorschule_To_D_Turnhalle') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_U_26";
+			this.__div.ggId="D_Vorschule_To_D_Turnhalle";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12309,7 +13958,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_27.onclick();
+				me.skin._d_turnhalle.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12408,9 +14057,9 @@ function pano2vrSkin(player,base) {
 			this._text_210.appendChild(this._text_210__text);
 			this.__div.appendChild(this._text_210);
 		} else
-		if (hotspot.skinid=='Room_In_U_26') {
+		if (hotspot.skinid=='D_Vorschule_To_D_Haupteingang') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_U_26";
+			this.__div.ggId="D_Vorschule_To_D_Haupteingang";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12424,7 +14073,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_u_26.onclick();
+				me.skin._d_haupteingang.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12523,9 +14172,9 @@ function pano2vrSkin(player,base) {
 			this._text_29.appendChild(this._text_29__text);
 			this.__div.appendChild(this._text_29);
 		} else
-		if (hotspot.skinid=='Gang_U_10_To_Gang_U_21') {
+		if (hotspot.skinid=='D_Pausenhof_To_D_Roterplatz') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_U_10_To_Gang_U_21";
+			this.__div.ggId="D_Pausenhof_To_D_Roterplatz";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12539,7 +14188,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_21.onclick();
+				me.skin._d_roterplatz.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12638,9 +14287,9 @@ function pano2vrSkin(player,base) {
 			this._text_28.appendChild(this._text_28__text);
 			this.__div.appendChild(this._text_28);
 		} else
-		if (hotspot.skinid=='Gang_U_21_To_Gang_U_10') {
+		if (hotspot.skinid=='D_Pausenhof_To_D_Haupteingang') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_U_21_To_Gang_U_10";
+			this.__div.ggId="D_Pausenhof_To_D_Haupteingang";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12654,7 +14303,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_10.onclick();
+				me.skin._d_haupteingang.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12753,9 +14402,9 @@ function pano2vrSkin(player,base) {
 			this._text_27.appendChild(this._text_27__text);
 			this.__div.appendChild(this._text_27);
 		} else
-		if (hotspot.skinid=='Gang_U_27_To_Gang_U_21') {
+		if (hotspot.skinid=='D_Haupteingang_To_Aula') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_U_27_To_Gang_U_21";
+			this.__div.ggId="D_Haupteingang_To_Aula";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12769,7 +14418,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_21.onclick();
+				me.skin._button_drinnen.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12868,9 +14517,9 @@ function pano2vrSkin(player,base) {
 			this._text_26.appendChild(this._text_26__text);
 			this.__div.appendChild(this._text_26);
 		} else
-		if (hotspot.skinid=='Gang_U_21_To_Gang_27') {
+		if (hotspot.skinid=='D_Haupteingang_To_D_Pausenhof') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Gang_U_21_To_Gang_27";
+			this.__div.ggId="D_Haupteingang_To_D_Pausenhof";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12884,7 +14533,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_27.onclick();
+				me.skin._d_pausenhof.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -12983,9 +14632,9 @@ function pano2vrSkin(player,base) {
 			this._text_25.appendChild(this._text_25__text);
 			this.__div.appendChild(this._text_25);
 		} else
-		if (hotspot.skinid=='Room_Out_U_23') {
+		if (hotspot.skinid=='D_Haupteingang_To_D_Vorschule') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_U_23";
+			this.__div.ggId="D_Haupteingang_To_D_Vorschule";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -12999,7 +14648,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_27.onclick();
+				me.skin._d_vorschule.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -13098,9 +14747,9 @@ function pano2vrSkin(player,base) {
 			this._text_24.appendChild(this._text_24__text);
 			this.__div.appendChild(this._text_24);
 		} else
-		if (hotspot.skinid=='Room_In_U_23') {
+		if (hotspot.skinid=='D_Roterplatz_To_D_Pausenhof') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_U_23";
+			this.__div.ggId="D_Roterplatz_To_D_Pausenhof";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -13114,7 +14763,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_u_23.onclick();
+				me.skin._d_pausenhof.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -13213,9 +14862,9 @@ function pano2vrSkin(player,base) {
 			this._text_23.appendChild(this._text_23__text);
 			this.__div.appendChild(this._text_23);
 		} else
-		if (hotspot.skinid=='Room_Out_U_22') {
+		if (hotspot.skinid=='D_Roterplatz_To_D_Vorschulwald') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_U_22";
+			this.__div.ggId="D_Roterplatz_To_D_Vorschulwald";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -13229,7 +14878,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_21.onclick();
+				me.skin._d_vorschulwald.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -13328,9 +14977,9 @@ function pano2vrSkin(player,base) {
 			this._text_22.appendChild(this._text_22__text);
 			this.__div.appendChild(this._text_22);
 		} else
-		if (hotspot.skinid=='Room_In_U_22') {
+		if (hotspot.skinid=='D_Vorschulwald_To_D_Schulwald') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_U_22";
+			this.__div.ggId="D_Vorschulwald_To_D_Schulwald";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -13344,7 +14993,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_u_22.onclick();
+				me.skin._d_schulwald.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -13443,9 +15092,9 @@ function pano2vrSkin(player,base) {
 			this._text_21.appendChild(this._text_21__text);
 			this.__div.appendChild(this._text_21);
 		} else
-		if (hotspot.skinid=='Room_Out_U_11') {
+		if (hotspot.skinid=='D_Vorschulwald_To_D_Roterplatz') {
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_Out_U_11";
+			this.__div.ggId="D_Vorschulwald_To_D_Roterplatz";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -13459,7 +15108,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._gang_u_10.onclick();
+				me.skin._d_roterplatz.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -13560,7 +15209,7 @@ function pano2vrSkin(player,base) {
 		} else
 		{
 			this.__div=document.createElement('div');
-			this.__div.ggId="Room_In_U_11";
+			this.__div.ggId="D_Schulwald_To_D_Vorschulwald";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot';
@@ -13574,7 +15223,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.skin._room_u_11.onclick();
+				me.skin._d_vorschulwald.onclick();
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {

@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/Draussen/vor Haupteingang/vor Haupteingang_equi.jpg</filename>
+      <filename>../Raeume/Draussen/D_Haupteingang/vor Haupteingang_equi.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -28,7 +28,56 @@
       <pannorth>0</pannorth>
     </viewingparameter>
     <userdata/>
-    <hotspots/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>179.237</pan>
+          <tilt>-0.917308</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>D_Haupteingang_To_Aula</id>
+        <title>Gehe ins Gebäude</title>
+        <skinid>D_Haupteingang_To_Aula</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-74.4298</pan>
+          <tilt>-1.45307</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>D_Haupteingang_To_D_Vorschule</id>
+        <title>Gehe vor die Schule</title>
+        <skinid>D_Haupteingang_To_D_Vorschule</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>85.428</pan>
+          <tilt>0.357611</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>D_Haupteingang_To_D_Pausenhof</id>
+        <title>Gehe auf den Pausenhof</title>
+        <skinid>D_Haupteingang_To_D_Pausenhof</skinid>
+      </hotspot>
+    </hotspots>
     <output>
       <htmlcss>
         <html>
@@ -46,14 +95,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>

@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/Draussen/Pausenhof/Pausenhof.equi.jpeg</filename>
+      <filename>../Raeume/Draussen/D_Pausenhof/Pausenhof.equi.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -28,7 +28,40 @@
       <pannorth>178</pannorth>
     </viewingparameter>
     <userdata/>
-    <hotspots/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>89.4566</pan>
+          <tilt>-0.243316</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>D_Pausenhof_To_D_Haupteingang</id>
+        <title>Gehe zum Haupteingang</title>
+        <skinid>D_Pausenhof_To_D_Haupteingang</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-44.2411</pan>
+          <tilt>-0.00158669</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>D_Pausenhof_To_D_Roterplatz</id>
+        <title>Gehe zum Roten Platz</title>
+        <skinid>D_Pausenhof_To_D_Roterplatz</skinid>
+      </hotspot>
+    </hotspots>
     <output>
       <htmlcss>
         <html>
@@ -46,14 +79,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>
