@@ -14,6 +14,7 @@
     <hotspot title="Betrete die OGS" target="" pan="-137.528" skinid="Room_In_OGS" url="" id="Room_In_OGS" tilt="-0.247329"/>
     <hotspot title="Gehe zur Mensa" target="" pan="178.383" skinid="Aula_To_Mensa" url="" id="Aula_To_Mensa" tilt="-0.487327"/>
     <hotspot title="Betrete das Zimmer der SMV" target="" pan="138.316" skinid="Room_In_SMV" url="" id="Room_In_SMV" tilt="0.0508763"/>
+    <hotspot title="Gehe nach draußen" target="" pan="62.5077" skinid="Aula_To_D_Haupteingang" url="" id="Aula_To_D_Haupteingang" tilt="0.584865"/>
   </hotspots>
   <media/>
   <input tile0url="images/aula_o_0.jpg" prev5url="images/aula_o_preview_5.jpg" prev4url="images/aula_o_preview_4.jpg" prev3url="images/aula_o_preview_3.jpg" prev2url="images/aula_o_preview_2.jpg" prev1url="images/aula_o_preview_1.jpg" prev0url="images/aula_o_preview_0.jpg" tile5url="images/aula_o_5.jpg" tilesize="1542" tile4url="images/aula_o_4.jpg" tile3url="images/aula_o_3.jpg" tilescale="1.006485" tile2url="images/aula_o_2.jpg" tile1url="images/aula_o_1.jpg">

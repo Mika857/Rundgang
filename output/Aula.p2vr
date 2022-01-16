@@ -107,6 +107,22 @@
         <title>Betrete das Zimmer der SMV</title>
         <skinid>Room_In_SMV</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>62.5077</pan>
+          <tilt>0.584865</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Aula_To_D_Haupteingang</id>
+        <title>Gehe nach draußen</title>
+        <skinid>Aula_To_D_Haupteingang</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
