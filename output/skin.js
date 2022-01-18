@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Di 18. Jan 18:41:18 2022
+// Generated Di 18. Jan 18:45:42 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1416,7 +1416,7 @@ function pano2vrSkin(player,base) {
 		this._map_3=document.createElement('div');
 		this._map_3.ggId="Map_3";
 		this._map_3.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._map_3.ggVisible=true;
+		this._map_3.ggVisible=false;
 		this._map_3.className='ggskin ggskin_container';
 		this._map_3.ggType='container';
 		hs ='position:absolute;';
@@ -1425,7 +1425,8 @@ function pano2vrSkin(player,base) {
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
+		hs+='opacity: 0;';
+		hs+='visibility: hidden;';
 		this._map_3.setAttribute('style',hs);
 		this._map_30=document.createElement('div');
 		this._map_30.ggId="Map_3";
@@ -4675,7 +4676,7 @@ function pano2vrSkin(player,base) {
 		this._u_stairs_down=document.createElement('div');
 		this._u_stairs_down.ggId="U_stairs_down";
 		this._u_stairs_down.ggParameter={ rx:0,ry:0,a:0,sx:0.05,sy:0.05 };
-		this._u_stairs_down.ggVisible=true;
+		this._u_stairs_down.ggVisible=false;
 		this._u_stairs_down.className='ggskin ggskin_image';
 		this._u_stairs_down.ggType='image';
 		this._u_stairs_down.ggUpdatePosition=function() {
@@ -4694,7 +4695,8 @@ function pano2vrSkin(player,base) {
 		hs+='height: 569px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._u_stairs_down.ggParameter) + ';';
-		hs+='visibility: inherit;';
+		hs+='opacity: 0;';
+		hs+='visibility: hidden;';
 		hs+='cursor: pointer;';
 		this._u_stairs_down.setAttribute('style',hs);
 		this._u_stairs_down__img=document.createElement('img');
