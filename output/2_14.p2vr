@@ -46,8 +46,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>-41.5056</pan>
-          <tilt>0.797714</tilt>
+          <pan>-40.4807</pan>
+          <tilt>0.103622</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -58,6 +58,21 @@
         <type>point</type>
         <id>Room_To_Room_2_13</id>
         <skinid>Room_To_Room_2_13</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>9.62518</pan>
+          <tilt>3.36904</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Video_Physik</id>
+        <skinid>Video_Physik</skinid>
       </hotspot>
     </hotspots>
     <output>
@@ -131,7 +146,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
