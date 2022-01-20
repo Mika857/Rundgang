@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Mi 19. Jan 16:54:54 2022
+// Generated Mi 19. Jan 17:15:28 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -6940,6 +6940,7 @@ function pano2vrSkin(player,base) {
 				me.skin._room_2_14.onclick();
 				me.player.enterFullscreen();
 				me.player.playSound("_main","");
+				me.player.openUrl("ftp:\/\/w0171d83@w0171d83.kasserver.com\/maxner-mm.de\/Rundgang\/Videos\/MAH09836.MP4","");
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
