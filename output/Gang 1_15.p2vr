@@ -47,8 +47,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>-132.214</pan>
-          <tilt>-0.136232</tilt>
+          <pan>-138.743</pan>
+          <tilt>-0.0992397</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -76,6 +76,21 @@
         <id>Room_In_1_08_2</id>
         <title>Betrete 1_08</title>
         <skinid>Room_In_1_08_2</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-90.1558</pan>
+          <tilt>0.453305</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_15_To_Gang_1_48</id>
+        <skinid>Gang_1_15_To_Gang_1_48</skinid>
       </hotspot>
     </hotspots>
     <output>

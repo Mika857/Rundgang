@@ -4,13 +4,13 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/3. Stock/Gang 3_16/Gang 3_16.jpeg</filename>
+      <filename>../Raeume/3. Stock/Gang 3_16/Gang B 3.16 bearbeitet.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
       <pan>
-        <start>341.5</start>
+        <start>275</start>
         <min>0</min>
         <max>360</max>
       </pan>
@@ -25,14 +25,14 @@
         <min>5</min>
         <max>120</max>
       </fov>
-      <pannorth>71.5</pannorth>
+      <pannorth>10</pannorth>
     </viewingparameter>
     <userdata/>
     <hotspots>
       <hotspot>
         <position>
-          <pan>-19.1246</pan>
-          <tilt>-1.99664</tilt>
+          <pan>-85.256</pan>
+          <tilt>-1.5266</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -47,8 +47,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>161.15</pan>
-          <tilt>-1.64635</tilt>
+          <pan>95.0365</pan>
+          <tilt>-1.523</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -79,14 +79,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>

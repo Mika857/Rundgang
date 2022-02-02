@@ -57,6 +57,7 @@
         <polygon/>
         <type>point</type>
         <id>Gang_Aula_To_Gang_Turnhalle</id>
+        <title>Betrete die Turnhalle</title>
         <skinid>Gang_Aula_To_Gang_Turnhalle</skinid>
       </hotspot>
       <hotspot>
@@ -88,7 +89,7 @@
         <polygon/>
         <type>point</type>
         <id>Aula_To_Mensa</id>
-        <title>Gehe zur Mensa</title>
+        <title>Betrete die Mensa</title>
         <skinid>Aula_To_Mensa</skinid>
       </hotspot>
       <hotspot>
@@ -120,8 +121,24 @@
         <polygon/>
         <type>point</type>
         <id>Aula_To_D_Haupteingang</id>
-        <title>Gehe nach draußen</title>
+        <title>Gehe nach Draußen</title>
         <skinid>Aula_To_D_Haupteingang</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-45.3847</pan>
+          <tilt>2.678</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_0_13</id>
+        <title>Betrete Eg 13</title>
+        <skinid>Room_In_0_13</skinid>
       </hotspot>
     </hotspots>
     <output>
