@@ -3,9 +3,19 @@
 <pano2vrconfig>
   <panorama>
     <input>
-      <patch/>
+      <patch>
+        <imagepatch>
+          <filename>aula_patch_1.png</filename>
+          <pan>322.5</pan>
+          <tilt>20.5</tilt>
+          <roll>0</roll>
+          <fov>14</fov>
+          <type>image</type>
+          <quality>90</quality>
+        </imagepatch>
+      </patch>
       <filename>../Raeume/EG/Aula/aula.jpg</filename>
-      <type>auto</type>
+      <type>equirectangular</type>
       <hfov>360</hfov>
     </input>
     <viewingparameter>
@@ -140,6 +150,21 @@
         <title>Betrete Eg 13</title>
         <skinid>Room_In_0_13</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-36.8096</pan>
+          <tilt>21.4205</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>EggieScheinwerfer</id>
+        <skinid>EggieScheinwerfer</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -212,7 +237,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

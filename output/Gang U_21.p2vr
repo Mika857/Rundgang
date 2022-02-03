@@ -42,7 +42,6 @@
         <polygon/>
         <type>point</type>
         <id>Gang_U_21_To_Gang_27</id>
-        <title>Gehe weiter!</title>
         <skinid>Gang_U_21_To_Gang_27</skinid>
       </hotspot>
       <hotspot>
@@ -58,7 +57,6 @@
         <polygon/>
         <type>point</type>
         <id>Gang_U_21_To_Gang_U_10</id>
-        <title>Gehe weiter!</title>
         <skinid>Gang_U_21_To_Gang_U_10</skinid>
       </hotspot>
       <hotspot>
@@ -76,6 +74,22 @@
         <id>Room_In_U_22</id>
         <title>Betrete U 22</title>
         <skinid>Room_In_U_22</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>27.8763</pan>
+          <tilt>2.72035</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_U_21_To_Erdgeschoss</id>
+        <title>Treppe hoch</title>
+        <skinid>Gang_U_21_To_Erdgeschoss</skinid>
       </hotspot>
     </hotspots>
     <output>
@@ -149,7 +163,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
