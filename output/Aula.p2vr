@@ -163,6 +163,7 @@
         <polygon/>
         <type>point</type>
         <id>EggieScheinwerfer</id>
+        <title>Ha, ein Easteregg!</title>
         <skinid>EggieScheinwerfer</skinid>
       </hotspot>
     </hotspots>
