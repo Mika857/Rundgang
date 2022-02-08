@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/EG/Aula/aula.jpg</filename>
+      <filename>../Raeume/EG/Aula/aula mit eggie.jpg</filename>
       <type>equirectangular</type>
       <hfov>360</hfov>
     </input>

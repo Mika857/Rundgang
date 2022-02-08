@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Di. Feb 8 19:25:41 2022
+// Generated Di. Feb 8 19:54:09 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -5915,24 +5915,6 @@ function pano2vrSkin(player,base) {
 		me._orientierung1.style[domTransition]='none';
 		me._orientierung1.ggParameter.rx=432;me._orientierung1.ggParameter.ry=-2;
 		me._orientierung1.style[domTransform]=parameterToTransform(me._orientierung1.ggParameter);
-		me._current_selectione.style[domTransition]='none';
-		me._current_selectione.ggParameter.rx=293;me._current_selectione.ggParameter.ry=186;
-		me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
-		me._orientierunge.style[domTransition]='none';
-		me._orientierunge.ggParameter.rx=293;me._orientierunge.ggParameter.ry=186;
-		me._orientierunge.style[domTransform]=parameterToTransform(me._orientierunge.ggParameter);
-		me._current_selectione.style[domTransition]='none';
-		me._current_selectione.ggParameter.rx=284;me._current_selectione.ggParameter.ry=85;
-		me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
-		me._orientierunge.style[domTransition]='none';
-		me._orientierunge.ggParameter.rx=284;me._orientierunge.ggParameter.ry=85;
-		me._orientierunge.style[domTransform]=parameterToTransform(me._orientierunge.ggParameter);
-		me._current_selectione.style[domTransition]='none';
-		me._current_selectione.ggParameter.rx=398;me._current_selectione.ggParameter.ry=-20;
-		me._current_selectione.style[domTransform]=parameterToTransform(me._current_selectione.ggParameter);
-		me._orientierunge.style[domTransition]='none';
-		me._orientierunge.ggParameter.rx=398;me._orientierunge.ggParameter.ry=-20;
-		me._orientierunge.style[domTransform]=parameterToTransform(me._orientierunge.ggParameter);
 		me._current_selectionu.style[domTransition]='none';
 		me._current_selectionu.ggParameter.rx=338;me._current_selectionu.ggParameter.ry=90;
 		me._current_selectionu.style[domTransform]=parameterToTransform(me._current_selectionu.ggParameter);
