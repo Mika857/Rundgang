@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/EG/Aula/aula neu.jpg</filename>
+      <filename>../Raeume/EG/Aula/aula.jpg</filename>
       <type>equirectangular</type>
       <hfov>360</hfov>
     </input>
@@ -156,6 +156,21 @@
         <title>Ha, ein Easteregg!</title>
         <skinid>EggieScheinwerfer</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>0.775797</pan>
+          <tilt>3.0885</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Aula_To_Buehne</id>
+        <skinid>Aula_To_Buehne</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -228,7 +243,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
