@@ -8,11 +8,17 @@
   <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="Gehe zum Roten Platz" target="" pan="110.058" skinid="D_Vorschulwald_To_D_Roterplatz" url="" id="D_Vorschulwald_To_D_Roterplatz" tilt="1.15232"/>
     <hotspot title="Gehe weiter" target="" pan="-150.81" skinid="D_Vorschulwald_To_D_Schulwald" url="" id="D_Vorschulwald_To_D_Schulwald" tilt="-0.608693"/>
+    <hotspot title="" target="" pan="-167.626" skinid="Eggiechainsaw" url="" id="Eggiechainsaw" tilt="1.12264"/>
+    <hotspot title="" target="" pan="129.233" skinid="Eggiechainsawa" url="" id="Eggiechainsawa" tilt="18.422"/>
   </hotspots>
-  <media/>
+  <media>
+    <sound ambientlevel="0.000" pansize="0.000" mode="1" loop="1" field="90.000" pan="-1.000" tiltsize="0.000" id="_background" level="1.000" tilt="-1.000">
+      <source url="Chainsaw.mp4"/>
+    </sound>
+  </media>
   <input tile0url="images/Schulwald Eingang_o_0.jpg" prev5url="images/Schulwald Eingang_o_preview_5.jpg" prev4url="images/Schulwald Eingang_o_preview_4.jpg" prev3url="images/Schulwald Eingang_o_preview_3.jpg" prev2url="images/Schulwald Eingang_o_preview_2.jpg" prev1url="images/Schulwald Eingang_o_preview_1.jpg" prev0url="images/Schulwald Eingang_o_preview_0.jpg" tile5url="images/Schulwald Eingang_o_5.jpg" tilesize="1542" tile4url="images/Schulwald Eingang_o_4.jpg" tile3url="images/Schulwald Eingang_o_3.jpg" tilescale="1.006485" tile2url="images/Schulwald Eingang_o_2.jpg" tile1url="images/Schulwald Eingang_o_1.jpg">
     <preview color="0x808080"/>
   </input>

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Di. Feb 8 19:54:09 2022
+// Generated Di 8. Feb 22:25:46 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -13722,7 +13722,7 @@ function pano2vrSkin(player,base) {
 				if (me._image_2.ggParameter) {
 					hs+=parameterToTransform(me._image_2.ggParameter) + ' ';
 				}
-				hs+='rotate(' + (-1.0*(0.5 * me.player.getPanN() + -6)) + 'deg) ';
+				hs+='rotate(' + (-1.0*(0.6 * me.player.getPanN() + -6)) + 'deg) ';
 				me._image_2.style[domTransform]=hs;
 			}
 			this.hotspotTimerEvent();
@@ -16904,7 +16904,7 @@ function pano2vrSkin(player,base) {
 			this._text_20.appendChild(this._text_20__text);
 			this.__div.appendChild(this._text_20);
 		} else
-		{
+		if (hotspot.skinid=='D_Schulwald_To_D_Vorschulwald') {
 			this.__div=document.createElement('div');
 			this.__div.ggId="D_Schulwald_To_D_Vorschulwald";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -17018,6 +17018,134 @@ function pano2vrSkin(player,base) {
 			this._text_2.ggTextDiv.innerHTML="<p style=\"font-size:14px;color:white\">"+me.hotspot.title+"<\/p>";
 			this._text_2.appendChild(this._text_2__text);
 			this.__div.appendChild(this._text_2);
+		} else
+		if (hotspot.skinid=='Eggiechainsaw') {
+			this.__div=document.createElement('div');
+			this.__div.ggId="Eggiechainsaw";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -292px;';
+			hs+='top:  -75px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+='visibility: inherit;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._cain=document.createElement('div');
+			this._cain.ggId="Cain";
+			this._cain.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
+			this._cain.ggVisible=true;
+			this._cain.className='ggskin ggskin_image';
+			this._cain.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -388px;';
+			hs+='top:  -269px;';
+			hs+='width: 700px;';
+			hs+='height: 508px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._cain.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._cain.setAttribute('style',hs);
+			this._cain__img=document.createElement('img');
+			this._cain__img.className='ggskin ggskin_image';
+			this._cain__img.setAttribute('src',basePath + 'images/cain.png');
+			this._cain__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._cain__img.className='ggskin ggskin_image';
+			this._cain__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._cain__img);
+			this._cain.appendChild(this._cain__img);
+			this.__div.appendChild(this._cain);
+		} else
+		{
+			this.__div=document.createElement('div');
+			this.__div.ggId="Eggiechainsawa";
+			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:0.1,sy:0.1 };
+			this.__div.ggVisible=true;
+			this.__div.className='ggskin ggskin_hotspot';
+			this.__div.ggType='hotspot';
+			hs ='position:absolute;';
+			hs+='left: -413px;';
+			hs+='top:  -40px;';
+			hs+='width: 5px;';
+			hs+='height: 5px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this.__div.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			hs+='cursor: pointer;';
+			this.__div.setAttribute('style',hs);
+			this.__div.onclick=function () {
+				me.skin.hotspotProxyClick(me.hotspot.id);
+			}
+			this.__div.onmouseover=function () {
+				me.player.hotspot=me.hotspot;
+				me.skin.hotspotProxyOver(me.hotspot.id);
+			}
+			this.__div.onmouseout=function () {
+				me.player.hotspot=me.player.emptyHotspot;
+				me.skin.hotspotProxyOut(me.hotspot.id);
+			}
+			this._bird=document.createElement('div');
+			this._bird.ggId="Bird";
+			this._bird.ggParameter={ rx:0,ry:0,a:0,sx:0.02,sy:0.02 };
+			this._bird.ggVisible=true;
+			this._bird.className='ggskin ggskin_image';
+			this._bird.ggType='image';
+			hs ='position:absolute;';
+			hs+='left: -103px;';
+			hs+='top:  -67px;';
+			hs+='width: 200px;';
+			hs+='height: 133px;';
+			hs+=cssPrefix + 'transform-origin: 50% 50%;';
+			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._bird.ggParameter) + ';';
+			hs+='visibility: inherit;';
+			this._bird.setAttribute('style',hs);
+			this._bird__img=document.createElement('img');
+			this._bird__img.className='ggskin ggskin_image';
+			this._bird__img.setAttribute('src',basePath + 'images/bird.png');
+			this._bird__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+			this._bird__img.className='ggskin ggskin_image';
+			this._bird__img['ondragstart']=function() { return false; };
+			me.player.checkLoaded.push(this._bird__img);
+			this._bird.appendChild(this._bird__img);
+			this._bird.onclick=function () {
+				if (me.player.transitionsDisabled) {
+					me.skin.__div.style[domTransition]='none';
+				} else {
+					me.skin.__div.style[domTransition]='all 500ms ease-out 0ms';
+				}
+				me.skin.__div.ggParameter.sx=2;me.skin.__div.ggParameter.sy=2;
+				me.skin.__div.style[domTransform]=parameterToTransform(me.skin.__div.ggParameter);
+				me.player.playSound("_main","");
+				me.player.playSound("_background","");
+				me.player.playSound("_background","");
+			}
+			this._bird.onmouseover=function () {
+				me.skin.__div.style[domTransition]='none';
+				me.skin.__div.style.visibility='inherit';
+				me.skin.__div.ggVisible=true;
+			}
+			this._bird.onmouseout=function () {
+				me.skin.__div.style[domTransition]='none';
+				me.skin.__div.style.visibility='hidden';
+				me.skin.__div.ggVisible=false;
+			}
+			this.__div.appendChild(this._bird);
+			this.ggUse3d=true;
+			this.gg3dDistance=100;
 		}
 	};
 	this.addSkinHotspot=function(hotspot) {
