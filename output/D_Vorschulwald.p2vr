@@ -63,21 +63,6 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>-167.626</pan>
-          <tilt>1.12264</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Eggiechainsaw</id>
-        <skinid>Eggiechainsaw</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
           <pan>129.233</pan>
           <tilt>18.422</tilt>
         </position>
@@ -88,8 +73,8 @@
         </next>
         <polygon/>
         <type>point</type>
-        <id>Eggiechainsawa</id>
-        <skinid>Eggiechainsawa</skinid>
+        <id>Bird</id>
+        <skinid>Bird</skinid>
       </hotspot>
     </hotspots>
     <output>
