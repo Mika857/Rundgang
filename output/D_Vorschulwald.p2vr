@@ -178,22 +178,6 @@
         <previewquality>25</previewquality>
       </htmlcss>
     </output>
-    <sounds>
-      <sound>
-        <position>
-          <pan>-1</pan>
-          <tilt>-1</tilt>
-        </position>
-        <videorect/>
-        <type>audio</type>
-        <id>_background</id>
-        <filename>D:\Users\mposq 2\Downloads\Chainsaw.mp4</filename>
-        <mode>1</mode>
-        <level>1</level>
-        <loop>1</loop>
-        <external>0</external>
-        <copyfile>1</copyfile>
-      </sound>
-    </sounds>
+    <sounds/>
   </panorama>
 </pano2vrconfig>

@@ -14,11 +14,7 @@
     <hotspot title="" target="" pan="-167.626" skinid="Eggiechainsaw" url="" id="Eggiechainsaw" tilt="1.12264"/>
     <hotspot title="" target="" pan="129.233" skinid="Eggiechainsawa" url="" id="Eggiechainsawa" tilt="18.422"/>
   </hotspots>
-  <media>
-    <sound ambientlevel="0.000" pansize="0.000" mode="1" loop="1" field="90.000" pan="-1.000" tiltsize="0.000" id="_background" level="1.000" tilt="-1.000">
-      <source url="Chainsaw.mp4"/>
-    </sound>
-  </media>
+  <media/>
   <input tile0url="images/Schulwald Eingang_o_0.jpg" prev5url="images/Schulwald Eingang_o_preview_5.jpg" prev4url="images/Schulwald Eingang_o_preview_4.jpg" prev3url="images/Schulwald Eingang_o_preview_3.jpg" prev2url="images/Schulwald Eingang_o_preview_2.jpg" prev1url="images/Schulwald Eingang_o_preview_1.jpg" prev0url="images/Schulwald Eingang_o_preview_0.jpg" tile5url="images/Schulwald Eingang_o_5.jpg" tilesize="1542" tile4url="images/Schulwald Eingang_o_4.jpg" tile3url="images/Schulwald Eingang_o_3.jpg" tilescale="1.006485" tile2url="images/Schulwald Eingang_o_2.jpg" tile1url="images/Schulwald Eingang_o_1.jpg">
     <preview color="0x808080"/>
   </input>
