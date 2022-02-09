@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Di 8. Feb 22:25:46 2022
+// Generated Mi 9. Feb 18:14:44 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -17023,7 +17023,7 @@ function pano2vrSkin(player,base) {
 			this.__div=document.createElement('div');
 			this.__div.ggId="Eggiechainsaw";
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-			this.__div.ggVisible=true;
+			this.__div.ggVisible=false;
 			this.__div.className='ggskin ggskin_hotspot';
 			this.__div.ggType='hotspot';
 			hs ='position:absolute;';
@@ -17032,7 +17032,7 @@ function pano2vrSkin(player,base) {
 			hs+='width: 5px;';
 			hs+='height: 5px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
-			hs+='visibility: inherit;';
+			hs+='visibility: hidden;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
 				me.skin.hotspotProxyClick(me.hotspot.id);
@@ -17048,7 +17048,7 @@ function pano2vrSkin(player,base) {
 			this._cain=document.createElement('div');
 			this._cain.ggId="Cain";
 			this._cain.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
-			this._cain.ggVisible=true;
+			this._cain.ggVisible=false;
 			this._cain.className='ggskin ggskin_image';
 			this._cain.ggType='image';
 			hs ='position:absolute;';
@@ -17058,7 +17058,8 @@ function pano2vrSkin(player,base) {
 			hs+='height: 508px;';
 			hs+=cssPrefix + 'transform-origin: 50% 50%;';
 			hs+=cssPrefix + 'transform: ' + parameterToTransform(this._cain.ggParameter) + ';';
-			hs+='visibility: inherit;';
+			hs+='opacity: 0;';
+			hs+='visibility: hidden;';
 			this._cain.setAttribute('style',hs);
 			this._cain__img=document.createElement('img');
 			this._cain__img.className='ggskin ggskin_image';
@@ -17129,9 +17130,6 @@ function pano2vrSkin(player,base) {
 				}
 				me.skin.__div.ggParameter.sx=2;me.skin.__div.ggParameter.sy=2;
 				me.skin.__div.style[domTransform]=parameterToTransform(me.skin.__div.ggParameter);
-				me.player.playSound("_main","");
-				me.player.playSound("_background","");
-				me.player.playSound("_background","");
 			}
 			this._bird.onmouseover=function () {
 				me.skin.__div.style[domTransition]='none';

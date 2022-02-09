@@ -61,12 +61,42 @@
         <title>Gehe weiter</title>
         <skinid>D_Vorschulwald_To_D_Schulwald</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-167.626</pan>
+          <tilt>1.12264</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Eggiechainsaw</id>
+        <skinid>Eggiechainsaw</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>129.233</pan>
+          <tilt>18.422</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Eggiechainsawa</id>
+        <skinid>Eggiechainsawa</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/D_Vorschulwald.html</filename>
+          <filename>D_Vorschulwald.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -115,7 +145,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/D_Vorschulwald_out.xml</filename>
+        <filename>D_Vorschulwald_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -133,7 +163,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
@@ -148,6 +178,22 @@
         <previewquality>25</previewquality>
       </htmlcss>
     </output>
-    <sounds/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-1</pan>
+          <tilt>-1</tilt>
+        </position>
+        <videorect/>
+        <type>audio</type>
+        <id>_background</id>
+        <filename>D:\Users\mposq 2\Downloads\Chainsaw.mp4</filename>
+        <mode>1</mode>
+        <level>1</level>
+        <loop>1</loop>
+        <external>0</external>
+        <copyfile>1</copyfile>
+      </sound>
+    </sounds>
   </panorama>
 </pano2vrconfig>
