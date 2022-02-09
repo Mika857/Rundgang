@@ -16754,6 +16754,7 @@ function pano2vrSkin(player,base) {
 				this.style[domTransition]='none';
 				this.ggTextDiv.style.left=Math.floor(0 + (152-this.ggTextDiv.offsetWidth)/2) + 'px';
 			}
+			// Huhu, sie haben ein easteregg gefunden!
 			hs ='position:absolute;';
 			hs+='left: -76px;';
 			hs+='top:  -111px;';
