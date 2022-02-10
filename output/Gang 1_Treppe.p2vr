@@ -42,7 +42,6 @@
         <polygon/>
         <type>point</type>
         <id>Gang_1_Treppe_To_Gang_1_25</id>
-        <title>Gehe weiter? nö eig kein bock - lass ma stecken lol</title>
         <skinid>Gang_1_Treppe_To_Gang_1_25</skinid>
       </hotspot>
       <hotspot>
@@ -58,7 +57,6 @@
         <polygon/>
         <type>point</type>
         <id>Gang_1_Treppe_To_Gang_1_D</id>
-        <title>Gehe weiter, vielleicht später mal</title>
         <skinid>Gang_1_Treppe_To_Gang_1_D</skinid>
       </hotspot>
       <hotspot>
@@ -87,9 +85,9 @@
           <values>
             <value id="bgcolor">#ffffff</value>
             <value id="fullscreen">true</value>
-            <value id="gyro">true</value>
+            <value id="gyro">false</value>
             <value id="gyrodisable">false</value>
-            <value id="gyronorth">true</value>
+            <value id="gyronorth">false</value>
             <value id="jsxml">false</value>
             <value id="manifest">false</value>
             <value id="maps">false</value>

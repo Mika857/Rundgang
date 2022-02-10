@@ -181,9 +181,9 @@
           <values>
             <value id="bgcolor">#ffffff</value>
             <value id="fullscreen">true</value>
-            <value id="gyro">true</value>
+            <value id="gyro">false</value>
             <value id="gyrodisable">false</value>
-            <value id="gyronorth">true</value>
+            <value id="gyronorth">false</value>
             <value id="jsxml">false</value>
             <value id="manifest">false</value>
             <value id="maps">false</value>
