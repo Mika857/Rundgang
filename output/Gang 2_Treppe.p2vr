@@ -61,6 +61,21 @@
         <title>Gehe weiter</title>
         <skinid>Gang_2_Treppe_To_Gang_2_14</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>73.3379</pan>
+          <tilt>-2.35982</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_2_D</id>
+        <skinid>Room_In_2_D</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>

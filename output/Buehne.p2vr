@@ -44,6 +44,37 @@
         <id>Buehne_To_Aula</id>
         <skinid>Buehne_To_Aula</skinid>
       </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon>
+          <vertex>
+            <pan>-24.5286</pan>
+            <tilt>-48.9575</tilt>
+          </vertex>
+          <vertex>
+            <pan>-24</pan>
+            <tilt>-54.676</tilt>
+          </vertex>
+          <vertex>
+            <pan>-37.275</pan>
+            <tilt>-54.1146</tilt>
+          </vertex>
+          <vertex>
+            <pan>-36.233</pan>
+            <tilt>-48.306</tilt>
+          </vertex>
+        </polygon>
+        <type>poly</type>
+        <id>E_Gruppenbild</id>
+        <url>Buehne_Gruppenbild_out.xml</url>
+        <target>_blank</target>
+        <skinid>E_Gruppenbild</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
