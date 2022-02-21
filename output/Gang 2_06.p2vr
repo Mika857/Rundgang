@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/Gang A2_06/Gang 2_06.jpg</filename>
+      <filename>../Raeume/2. Stock/Gang 2_06/Gang 2_06.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -76,6 +76,40 @@
         <title>Betrete die Chemiesammlung</title>
         <skinid>Room_In_2_08</skinid>
       </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon>
+          <vertex>
+            <pan>-159.347</pan>
+            <tilt>9.7017</tilt>
+          </vertex>
+          <vertex>
+            <pan>168.346</pan>
+            <tilt>13.2314</tilt>
+          </vertex>
+          <vertex>
+            <pan>168.532</pan>
+            <tilt>-30.6548</tilt>
+          </vertex>
+          <vertex>
+            <pan>-159.294</pan>
+            <tilt>-21.3691</tilt>
+          </vertex>
+          <vertex>
+            <pan>-158.491</pan>
+            <tilt>-7.95367</tilt>
+          </vertex>
+        </polygon>
+        <type>poly</type>
+        <id>E_Gaming</id>
+        <url>Gang 2_06_E_out.xml</url>
+        <skinid>E_Gaming</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -94,14 +128,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>

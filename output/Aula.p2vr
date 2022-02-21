@@ -171,6 +171,23 @@
         <id>Aula_To_Buehne</id>
         <skinid>Aula_To_Buehne</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>37.9732</pan>
+          <tilt>-9.45842</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Test_HS</id>
+        <title>Buehne</title>
+        <url>Buehne</url>
+        <skinid>HS_Template</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
