@@ -19,6 +19,12 @@
       <vertex pan="-159.294" tilt="-21.3691"/>
       <vertex pan="-158.491" tilt="-7.95367"/>
     </polyhotspot>
+    <polyhotspot title="" target="" url="Gang 2_06_E_2_out.xml" id="E_2">
+      <vertex pan="-63.8797" tilt="-8.64216"/>
+      <vertex pan="-79.7564" tilt="-6.98034"/>
+      <vertex pan="-79.4052" tilt="9.15878"/>
+      <vertex pan="-63.9539" tilt="10.3785"/>
+    </polyhotspot>
   </hotspots>
   <media/>
   <input tile0url="images/Gang 2_06_o_0.jpg" prev5url="images/Gang 2_06_o_preview_5.jpg" prev4url="images/Gang 2_06_o_preview_4.jpg" prev3url="images/Gang 2_06_o_preview_3.jpg" prev2url="images/Gang 2_06_o_preview_2.jpg" prev1url="images/Gang 2_06_o_preview_1.jpg" prev0url="images/Gang 2_06_o_preview_0.jpg" tile5url="images/Gang 2_06_o_5.jpg" tilesize="1542" tile4url="images/Gang 2_06_o_4.jpg" tile3url="images/Gang 2_06_o_3.jpg" tilescale="1.006485" tile2url="images/Gang 2_06_o_2.jpg" tile1url="images/Gang 2_06_o_1.jpg">

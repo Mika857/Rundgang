@@ -110,6 +110,35 @@
         <url>Gang 2_06_E_out.xml</url>
         <skinid>E_Gaming</skinid>
       </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon>
+          <vertex>
+            <pan>-63.8797</pan>
+            <tilt>-8.64216</tilt>
+          </vertex>
+          <vertex>
+            <pan>-79.7564</pan>
+            <tilt>-6.98034</tilt>
+          </vertex>
+          <vertex>
+            <pan>-79.4052</pan>
+            <tilt>9.15878</tilt>
+          </vertex>
+          <vertex>
+            <pan>-63.9539</pan>
+            <tilt>10.3785</tilt>
+          </vertex>
+        </polygon>
+        <type>poly</type>
+        <id>E_2</id>
+        <url>Gang 2_06_E_2_out.xml</url>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
