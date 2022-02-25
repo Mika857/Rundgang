@@ -61,8 +61,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>9.62518</pan>
-          <tilt>3.36904</tilt>
+          <pan>1.49943</pan>
+          <tilt>-1.1243</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -72,6 +72,9 @@
         <polygon/>
         <type>point</type>
         <id>Video_Physik</id>
+        <title>Pysikalisches Expirimetieren mit Herrn Groß (Video)</title>
+        <url>http://maxner-mm.de/Rundgang/Vids/Physik.mp4</url>
+        <target>_self</target>
         <skinid>Video_Physik</skinid>
       </hotspot>
     </hotspots>

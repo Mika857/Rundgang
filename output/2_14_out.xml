@@ -11,13 +11,9 @@
     <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="" target="" pan="-57.8119" skinid="Room_Out_2_14" url="" id="Room_Out_2_14" tilt="0.364022"/>
     <hotspot title="" target="" pan="-40.4807" skinid="Room_To_Room_2_13" url="" id="Room_To_Room_2_13" tilt="0.103622"/>
-    <hotspot title="" target="" pan="9.62518" skinid="Video_Physik" url="" id="Video_Physik" tilt="3.36904"/>
+    <hotspot title="Pysikalisches Expirimetieren mit Herrn Groß (Video)" target="_self" pan="1.49943" skinid="Video_Physik" url="http://maxner-mm.de/Rundgang/Vids/Physik.mp4" id="Video_Physik" tilt="-1.1243"/>
   </hotspots>
-  <media>
-    <sound ambientlevel="0.000" pansize="0.000" mode="1" loop="1" field="90.000" pan="-1.000" tiltsize="0.000" id="_background" level="1.000" tilt="-1.000">
-      <source url="MAH09836.MP4"/>
-    </sound>
-  </media>
+  <media/>
   <input tile0url="images/B2_14_o_0.jpg" prev5url="images/B2_14_o_preview_5.jpg" prev4url="images/B2_14_o_preview_4.jpg" prev3url="images/B2_14_o_preview_3.jpg" prev2url="images/B2_14_o_preview_2.jpg" prev1url="images/B2_14_o_preview_1.jpg" prev0url="images/B2_14_o_preview_0.jpg" tile5url="images/B2_14_o_5.jpg" tilesize="1542" tile4url="images/B2_14_o_4.jpg" tile3url="images/B2_14_o_3.jpg" tilescale="1.006485" tile2url="images/B2_14_o_2.jpg" tile1url="images/B2_14_o_1.jpg">
     <preview color="0x808080"/>
   </input>
