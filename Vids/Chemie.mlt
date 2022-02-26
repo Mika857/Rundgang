@@ -67,6 +67,15 @@
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:00.400</property>
     </filter>
+    <filter id="filter3" in="00:00:01.440" out="00:00:14.800">
+      <property name="rect">248 0 1491 1080 1</property>
+      <property name="circle">0</property>
+      <property name="color">#000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
   </chain>
   <chain id="chain1" out="00:03:23.000">
     <property name="length">00:03:23.040</property>
@@ -81,7 +90,7 @@
     <property name="shotcut:caption">MAH09834.MP4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
     <property name="xml">was here</property>
-    <filter id="filter3" in="00:01:01.120" out="00:01:06.440">
+    <filter id="filter4" in="00:01:01.120" out="00:01:06.440">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.360=1</property>
       <property name="mlt_service">brightness</property>
@@ -89,13 +98,22 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:00.400</property>
     </filter>
-    <filter id="filter4" in="00:01:01.120" out="00:01:06.440">
+    <filter id="filter5" in="00:01:01.120" out="00:01:06.440">
       <property name="start">1</property>
       <property name="level">00:00:04.960=1;00:00:05.320=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:00.400</property>
+    </filter>
+    <filter id="filter6" in="00:01:01.120" out="00:01:06.440">
+      <property name="rect">248 0 1491 1080 1</property>
+      <property name="circle">0</property>
+      <property name="color">#000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
     </filter>
   </chain>
   <chain id="chain2" out="00:03:23.000">
@@ -111,7 +129,7 @@
     <property name="shotcut:caption">MAH09834.MP4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
     <property name="xml">was here</property>
-    <filter id="filter5" in="00:03:15.880" out="00:03:19.000">
+    <filter id="filter7" in="00:03:15.880" out="00:03:19.000">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.360=1</property>
       <property name="mlt_service">brightness</property>
@@ -119,7 +137,7 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:00.400</property>
     </filter>
-    <filter id="filter6" in="00:03:15.880" out="00:03:19.000">
+    <filter id="filter8" in="00:03:15.880" out="00:03:19.000">
       <property name="start">1</property>
       <property name="level">00:00:02.760=1;00:00:03.120=0</property>
       <property name="mlt_service">brightness</property>
@@ -140,7 +158,7 @@
     <property name="shotcut:hash">4865cd5f23c4fd31531b5ec0e327bef3</property>
     <property name="shotcut:caption">MAH09835.MP4</property>
     <property name="xml">was here</property>
-    <filter id="filter7" in="00:00:47.120" out="00:00:50.600">
+    <filter id="filter9" in="00:00:47.120" out="00:00:50.600">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.360=1</property>
       <property name="mlt_service">brightness</property>
@@ -148,7 +166,32 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:00.400</property>
     </filter>
-    <filter id="filter8" in="00:00:47.120" out="00:00:50.600">
+    <filter id="filter10" in="00:00:47.120" out="00:00:50.600">
+      <property name="argument"></property>
+      <property name="geometry">10 979 1536 820 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:50pt; font-weight:600; color:rgba(255,255,255,0.584314);&quot;&gt;Jonas Kaiser, Q12&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter11" in="00:00:47.120" out="00:00:50.600">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:03.120=0;00:00:03.480=-60</property>
