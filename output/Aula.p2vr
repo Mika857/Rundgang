@@ -3,7 +3,11 @@
 <pano2vrconfig>
   <panorama>
     <input>
-      <patch/>
+      <patch>
+        <imagepatch>
+          <filename>aula mit eggie_patch_0.tif</filename>
+        </imagepatch>
+      </patch>
       <filename>../Raeume/EG/Aula/aula mit eggie.jpg</filename>
       <type>equirectangular</type>
       <hfov>360</hfov>
@@ -110,8 +114,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>62.5077</pan>
-          <tilt>0.584865</tilt>
+          <pan>61.1465</pan>
+          <tilt>-0.935757</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -139,22 +143,6 @@
         <id>Room_In_0_13</id>
         <title>Betrete Eg 13</title>
         <skinid>Room_In_0_13</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
-          <pan>-36.4988</pan>
-          <tilt>24.5469</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>EggieScheinwerfer</id>
-        <title>Ha, ein Easteregg!</title>
-        <skinid>EggieScheinwerfer</skinid>
       </hotspot>
       <hotspot>
         <position>
@@ -187,6 +175,38 @@
         <title>Buehne</title>
         <url>Buehne</url>
         <skinid>HS_Template</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>134.091</pan>
+          <tilt>29.8691</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Aula_To_Bib</id>
+        <title>Betrete die Empore</title>
+        <skinid>Aula_To_Bib</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-37.4516</pan>
+          <tilt>21.1342</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>EggieScheinwerfer</id>
+        <title>Ha, ein Easteregg!</title>
+        <skinid>EggieScheinwerfer</skinid>
       </hotspot>
     </hotspots>
     <output>
@@ -260,7 +280,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
