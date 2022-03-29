@@ -76,6 +76,38 @@
         <title>Gehe weiter</title>
         <skinid>Bibliothek_To_Gang_1_15</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>102.544</pan>
+          <tilt>0.903328</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Sekretariat_In</id>
+        <title>Sekretariat</title>
+        <skinid>Sekretariat_In</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>80.5773</pan>
+          <tilt>2.12331</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Lehrerzimmer_In</id>
+        <title>Lehrerzimmer</title>
+        <skinid>Lehrerzimmer_In</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>

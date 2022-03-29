@@ -58,6 +58,7 @@
       <property name="shotcut:filter">fadeInBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
+      <property name="disable">0</property>
     </filter>
     <filter id="filter2" in="00:00:00.680" out="00:01:18.640">
       <property name="start">1</property>
@@ -66,6 +67,12 @@
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+    <filter id="filter3" in="00:00:00.680" out="00:01:18.640">
+      <property name="start">1</property>
+      <property name="level">1.525</property>
+      <property name="mlt_service">brightness</property>
+      <property name="disable">0</property>
     </filter>
   </chain>
   <chain id="chain1" out="00:00:22.520">
@@ -86,7 +93,7 @@
     <property name="shotcut:defaultAudioIndex">1</property>
     <property name="shotcut:caption">MAH09838.MP4</property>
     <property name="xml">was here</property>
-    <filter id="filter3" out="00:00:17.040">
+    <filter id="filter4" out="00:00:17.040">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -94,7 +101,7 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter4" out="00:00:17.040">
+    <filter id="filter5" out="00:00:17.040">
       <property name="start">1</property>
       <property name="level">00:00:16.080=1;00:00:17.040=0</property>
       <property name="mlt_service">brightness</property>
@@ -141,13 +148,15 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
     <blank length="00:00:02.000"/>
-    <entry producer="chain2" in="00:00:00.000" out="00:01:17.920"/>
+    <entry producer="chain2" in="00:00:00.760" out="00:01:17.920"/>
+    <blank length="00:00:00.760"/>
     <entry producer="chain3" in="00:00:00.000" out="00:00:17.040"/>
   </playlist>
   <tractor id="tractor0" title="Shotcut version ARCH-22.01.30" in="00:00:00.000" out="00:01:37.040">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">1.91662</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1" hide="video"/>

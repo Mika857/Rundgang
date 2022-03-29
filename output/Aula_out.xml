@@ -8,7 +8,7 @@
   <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="" target="" pan="121.035" skinid="Gang_Aula_To_Gang_0_24" url="" id="Gang_Aula_To_Gang_0_24" tilt="-1.03582"/>
     <hotspot title="Betrete die Turnhalle" target="" pan="-151.517" skinid="Gang_Aula_To_Gang_Turnhalle" url="" id="Gang_Aula_To_Gang_Turnhalle" tilt="-1.00167"/>
     <hotspot title="Betrete die OGS" target="" pan="-137.528" skinid="Room_In_OGS" url="" id="Room_In_OGS" tilt="-0.247329"/>
@@ -17,7 +17,6 @@
     <hotspot title="Gehe nach Draußen" target="" pan="61.1465" skinid="Aula_To_D_Haupteingang" url="" id="Aula_To_D_Haupteingang" tilt="-0.935757"/>
     <hotspot title="Betrete Eg 13" target="" pan="-45.3847" skinid="Room_In_0_13" url="" id="Room_In_0_13" tilt="2.678"/>
     <hotspot title="" target="" pan="0.775797" skinid="Aula_To_Buehne" url="" id="Aula_To_Buehne" tilt="3.0885"/>
-    <hotspot title="Buehne" target="" pan="37.9732" skinid="HS_Template" url="Buehne" id="Test_HS" tilt="-9.45842"/>
     <hotspot title="Betrete die Empore" target="" pan="134.091" skinid="Aula_To_Bib" url="" id="Aula_To_Bib" tilt="29.8691"/>
     <hotspot title="Ha, ein Easteregg!" target="" pan="-37.4516" skinid="EggieScheinwerfer" url="" id="EggieScheinwerfer" tilt="21.1342"/>
   </hotspots>

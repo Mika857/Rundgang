@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/Gang B2_14/Gang 2_14.jpeg</filename>
+      <filename>../Raeume/2. Stock/Gang 2_14/Gang 2_14.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -90,7 +90,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_2_13</id>
-        <title>Betrete die Physiksammlung</title>
+        <title>Physiksammlung</title>
         <skinid>Room_In_2_13</skinid>
       </hotspot>
     </hotspots>

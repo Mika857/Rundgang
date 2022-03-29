@@ -161,23 +161,6 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>37.9732</pan>
-          <tilt>-9.45842</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Test_HS</id>
-        <title>Buehne</title>
-        <url>Buehne</url>
-        <skinid>HS_Template</skinid>
-      </hotspot>
-      <hotspot>
-        <position>
           <pan>134.091</pan>
           <tilt>29.8691</tilt>
         </position>
@@ -280,7 +263,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
