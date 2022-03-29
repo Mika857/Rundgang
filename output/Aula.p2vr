@@ -77,7 +77,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_OGS</id>
-        <title>Betrete die OGS</title>
+        <title>OGS</title>
         <skinid>Room_In_OGS</skinid>
       </hotspot>
       <hotspot>
@@ -93,7 +93,7 @@
         <polygon/>
         <type>point</type>
         <id>Aula_To_Mensa</id>
-        <title>Betrete die Mensa</title>
+        <title>Mensa</title>
         <skinid>Aula_To_Mensa</skinid>
       </hotspot>
       <hotspot>
@@ -109,7 +109,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_SMV</id>
-        <title>Betrete das Zimmer der SMV</title>
+        <title>SMV</title>
         <skinid>Room_In_SMV</skinid>
       </hotspot>
       <hotspot>
