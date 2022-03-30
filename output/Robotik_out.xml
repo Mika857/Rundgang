@@ -12,7 +12,7 @@
     <hotspot title="" target="" pan="12.7401" skinid="Robotik_Out" url="" id="Robotik_Out" tilt="-0.348482"/>
   </hotspots>
   <media/>
-  <input tile0url="images/DSC09733 Panorama_o_0.jpg" prev5url="images/DSC09733 Panorama_o_preview_5.jpg" prev4url="images/DSC09733 Panorama_o_preview_4.jpg" prev3url="images/DSC09733 Panorama_o_preview_3.jpg" prev2url="images/DSC09733 Panorama_o_preview_2.jpg" prev1url="images/DSC09733 Panorama_o_preview_1.jpg" prev0url="images/DSC09733 Panorama_o_preview_0.jpg" tile5url="images/DSC09733 Panorama_o_5.jpg" tilesize="1542" tile4url="images/DSC09733 Panorama_o_4.jpg" tile3url="images/DSC09733 Panorama_o_3.jpg" tilescale="1.006485" tile2url="images/DSC09733 Panorama_o_2.jpg" tile1url="images/DSC09733 Panorama_o_1.jpg">
+  <input tile0url="images/Robotik_o_0.jpg" prev5url="images/Robotik_o_preview_5.jpg" prev4url="images/Robotik_o_preview_4.jpg" prev3url="images/Robotik_o_preview_3.jpg" prev2url="images/Robotik_o_preview_2.jpg" prev1url="images/Robotik_o_preview_1.jpg" prev0url="images/Robotik_o_preview_0.jpg" tile5url="images/Robotik_o_5.jpg" tilesize="1542" tile4url="images/Robotik_o_4.jpg" tile3url="images/Robotik_o_3.jpg" tilescale="1.006485" tile2url="images/Robotik_o_2.jpg" tile1url="images/Robotik_o_1.jpg">
     <preview color="0x808080"/>
   </input>
   <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
