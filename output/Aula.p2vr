@@ -61,7 +61,7 @@
         <polygon/>
         <type>point</type>
         <id>Gang_Aula_To_Gang_Turnhalle</id>
-        <title>Betrete die Turnhalle</title>
+        <title>Turnhalle</title>
         <skinid>Gang_Aula_To_Gang_Turnhalle</skinid>
       </hotspot>
       <hotspot>
@@ -125,7 +125,7 @@
         <polygon/>
         <type>point</type>
         <id>Aula_To_D_Haupteingang</id>
-        <title>Gehe nach Draußen</title>
+        <title>Haupteingang</title>
         <skinid>Aula_To_D_Haupteingang</skinid>
       </hotspot>
       <hotspot>
@@ -146,8 +146,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>0.775797</pan>
-          <tilt>3.0885</tilt>
+          <pan>1.96644</pan>
+          <tilt>1.94063</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -157,6 +157,7 @@
         <polygon/>
         <type>point</type>
         <id>Aula_To_Buehne</id>
+        <title>Bühne</title>
         <skinid>Aula_To_Buehne</skinid>
       </hotspot>
       <hotspot>

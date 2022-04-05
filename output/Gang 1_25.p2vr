@@ -93,6 +93,38 @@
         <title>Gehe weiter</title>
         <skinid>Gang_1_25_To_Gang_1_15</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>174.23</pan>
+          <tilt>-0.669289</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Lehrerzimmer_In</id>
+        <title>Lehrerzimmer</title>
+        <skinid>Lehrerzimmer_In</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-169.324</pan>
+          <tilt>-0.453558</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Sekretariat_In</id>
+        <title>Sekretariat</title>
+        <skinid>Sekretariat_In</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>

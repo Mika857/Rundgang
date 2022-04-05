@@ -10,12 +10,12 @@
     </input>
     <viewingparameter>
       <pan>
-        <start>296</start>
+        <start>106.5</start>
         <min>0</min>
         <max>360</max>
       </pan>
       <tilt>
-        <start>-2</start>
+        <start>-3</start>
         <min>-90</min>
         <max>90</max>
       </tilt>
@@ -118,9 +118,9 @@
           <values>
             <value id="bgcolor">#ffffff</value>
             <value id="fullscreen">true</value>
-            <value id="gyro">true</value>
+            <value id="gyro">false</value>
             <value id="gyrodisable">false</value>
-            <value id="gyronorth">true</value>
+            <value id="gyronorth">false</value>
             <value id="jsxml">false</value>
             <value id="manifest">false</value>
             <value id="maps">false</value>

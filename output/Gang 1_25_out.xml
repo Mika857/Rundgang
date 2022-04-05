@@ -13,6 +13,8 @@
     <hotspot title="Zu den Treppen" target="" pan="-69.327" skinid="Gang_1_25_To_Gang_1_Treppe" url="" id="Gang_1_25_To_Gang_1_Treppe" tilt="-1.24859"/>
     <hotspot title="Weiter?" target="" pan="-96.0822" skinid="Gang_1_25_To_Gang_1_24" url="" id="Gang_1_25_To_Gang_1_24" tilt="-0.982839"/>
     <hotspot title="Gehe weiter" target="" pan="72.9574" skinid="Gang_1_25_To_Gang_1_15" url="" id="Gang_1_25_To_Gang_1_15" tilt="-0.731875"/>
+    <hotspot title="Lehrerzimmer" target="" pan="174.23" skinid="Lehrerzimmer_In" url="" id="Lehrerzimmer_In" tilt="-0.669289"/>
+    <hotspot title="Sekretariat" target="" pan="-169.324" skinid="Sekretariat_In" url="" id="Sekretariat_In" tilt="-0.453558"/>
   </hotspots>
   <media/>
   <input tile0url="images/Gang 1_25_o_0.jpg" prev5url="images/Gang 1_25_o_preview_5.jpg" prev4url="images/Gang 1_25_o_preview_4.jpg" prev3url="images/Gang 1_25_o_preview_3.jpg" prev2url="images/Gang 1_25_o_preview_2.jpg" prev1url="images/Gang 1_25_o_preview_1.jpg" prev0url="images/Gang 1_25_o_preview_0.jpg" tile5url="images/Gang 1_25_o_5.jpg" tilesize="1542" tile4url="images/Gang 1_25_o_4.jpg" tile3url="images/Gang 1_25_o_3.jpg" tilescale="1.006485" tile2url="images/Gang 1_25_o_2.jpg" tile1url="images/Gang 1_25_o_1.jpg">

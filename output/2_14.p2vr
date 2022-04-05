@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/B2_14/B2.14.jpg</filename>
+      <filename>../Raeume/2. Stock/2_14/B2.14.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -72,7 +72,7 @@
         <polygon/>
         <type>point</type>
         <id>Video_Physik</id>
-        <title>Pysikalisches Expirimetieren mit Herrn Groß (Video)</title>
+        <title>Experiment mit Herr Groß (Video)</title>
         <url>http://maxner-mm.de/Rundgang/Vids/Physik.mp4</url>
         <target>_self</target>
         <skinid>Video_Physik</skinid>
@@ -149,7 +149,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

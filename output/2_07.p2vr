@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/2. Stock/A2_07/A2.07.jpeg</filename>
+      <filename>../Raeume/2. Stock/2_07/A2.07.jpeg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -72,7 +72,7 @@
         <polygon/>
         <type>point</type>
         <id>Video_Chemie</id>
-        <title>So großer Feuerball Jugeeeee!</title>
+        <title>Experiment mit Frau Köstler (Video)</title>
         <skinid>Video_Chemie</skinid>
       </hotspot>
     </hotspots>
@@ -147,7 +147,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
