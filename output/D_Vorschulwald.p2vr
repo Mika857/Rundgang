@@ -61,21 +61,6 @@
         <title>Gehe weiter</title>
         <skinid>D_Vorschulwald_To_D_Schulwald</skinid>
       </hotspot>
-      <hotspot>
-        <position>
-          <pan>129.233</pan>
-          <tilt>18.422</tilt>
-        </position>
-        <next>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>0</fov>
-        </next>
-        <polygon/>
-        <type>point</type>
-        <id>Bird</id>
-        <skinid>Bird</skinid>
-      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -94,14 +79,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"></value>
+            <value id="swf"/>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>

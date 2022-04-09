@@ -58,6 +58,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_2_07</id>
+        <title>Chemieklassenzimmer mit feurigem Versuch!</title>
         <skinid>Room_In_2_07</skinid>
       </hotspot>
       <hotspot>
@@ -107,6 +108,7 @@
         </polygon>
         <type>poly</type>
         <id>E_Gaming</id>
+        <title>Moment mal!</title>
         <url>Gang 2_06_E_out.xml</url>
         <skinid>E_Gaming</skinid>
       </hotspot>
@@ -137,6 +139,7 @@
         </polygon>
         <type>poly</type>
         <id>E_2</id>
+        <title>Faule Socke!</title>
         <url>Gang 2_06_E_2_out.xml</url>
       </hotspot>
     </hotspots>
@@ -223,7 +226,7 @@
         <leveltileoverlap>1</leveltileoverlap>
         <levelswitchbias>0.4</levelswitchbias>
         <previewquality>25</previewquality>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
       </htmlcss>
     </output>
     <sounds/>

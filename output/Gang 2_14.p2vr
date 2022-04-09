@@ -74,7 +74,7 @@
         <polygon/>
         <type>point</type>
         <id>Room_In_2_14</id>
-        <title>Raum 2.14</title>
+        <title>Physikraum (mit coolem Versuch)</title>
         <skinid>Room_In_2_14</skinid>
       </hotspot>
       <hotspot>
@@ -165,7 +165,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
