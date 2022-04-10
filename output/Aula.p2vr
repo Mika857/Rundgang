@@ -192,6 +192,22 @@
         <title>Ha, ein Easteregg!</title>
         <skinid>EggieScheinwerfer</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-125.079</pan>
+          <tilt>-0.953236</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Aula_To_Pausenverkauf</id>
+        <title>Pausenverkauf</title>
+        <skinid>Aula_To_Pausenverkauf</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
@@ -264,7 +280,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>

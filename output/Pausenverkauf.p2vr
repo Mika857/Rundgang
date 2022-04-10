@@ -44,6 +44,21 @@
         <id>Pausenverkauf_To_Aula</id>
         <skinid>Pausenverkauf_To_Aula</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>-86.4751</pan>
+          <tilt>2.70903</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Pausenverkaufa</id>
+        <skinid>Pausenverkaufa</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
