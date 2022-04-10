@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Sa 9. Apr 21:42:39 2022
+// Generated So 10. Apr 13:02:26 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1315,8 +1315,8 @@ function pano2vrSkin(player,base) {
 		this._map_3.className='ggskin ggskin_container';
 		this._map_3.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='left: 50px;';
+		hs+='top:  8px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -1763,8 +1763,8 @@ function pano2vrSkin(player,base) {
 		this._map_2.className='ggskin ggskin_container';
 		this._map_2.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='left: 16px;';
+		hs+='top:  6px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3176,8 +3176,8 @@ function pano2vrSkin(player,base) {
 		this._map_erdgeschoss.className='ggskin ggskin_container';
 		this._map_erdgeschoss.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='left: 1px;';
+		hs+='top:  -7px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3785,8 +3785,8 @@ function pano2vrSkin(player,base) {
 		this._map_keller.className='ggskin ggskin_container';
 		this._map_keller.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='left: -79px;';
+		hs+='top:  -3px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
