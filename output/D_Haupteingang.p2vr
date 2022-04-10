@@ -77,12 +77,27 @@
         <title>Gehe auf den Pausenhof</title>
         <skinid>D_Haupteingang_To_D_Pausenhof</skinid>
       </hotspot>
+      <hotspot>
+        <position>
+          <pan>140.744</pan>
+          <tilt>-2.6003</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Mottoegg</id>
+        <skinid>Mottoegg</skinid>
+      </hotspot>
     </hotspots>
     <output>
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/D_Haupteingang.html</filename>
+          <filename>D_Haupteingang.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -95,14 +110,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
@@ -131,7 +146,7 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/D_Haupteingang_out.xml</filename>
+        <filename>D_Haupteingang_out.xml</filename>
         <tilesize>1542</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
@@ -149,7 +164,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
