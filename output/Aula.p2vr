@@ -194,8 +194,8 @@
       </hotspot>
       <hotspot>
         <position>
-          <pan>-127.034</pan>
-          <tilt>-0.271952</tilt>
+          <pan>-125.079</pan>
+          <tilt>-0.953236</tilt>
         </position>
         <next>
           <pan>0</pan>
@@ -280,7 +280,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
