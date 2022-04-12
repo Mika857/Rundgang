@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Mo. Apr 11 22:23:32 2022
+// Generated Di 12. Apr 20:03:39 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -213,8 +213,8 @@ function pano2vrSkin(player,base) {
 		this._mapholder.ggType='rectangle';
 		hs ='position:absolute;';
 		hs+='left: 0px;';
-		hs+='top:  -1px;';
-		hs+='width: 1337px;';
+		hs+='top:  -2px;';
+		hs+='width: 1329px;';
 		hs+='height: 420px;';
 		hs+=cssPrefix + 'transform-origin: 0% 0%;';
 		hs+='opacity: 0;';
@@ -222,6 +222,9 @@ function pano2vrSkin(player,base) {
 		hs+='background: #000000;';
 		hs+='background: rgba(0,0,0,0.392157);';
 		hs+='border: 0px solid #000000;';
+		hs+='border: 0px solid rgba(0,0,0,0.392157);';
+		hs+=cssPrefix + 'background-clip: padding-box;';
+		hs+='background-clip: padding-box;';
 		this._mapholder.setAttribute('style',hs);
 		this._text_1=document.createElement('div');
 		this._text_1__text=document.createElement('div');
@@ -300,7 +303,7 @@ function pano2vrSkin(player,base) {
 		this._stockwerk_wechsel.ggType='container';
 		hs ='position:absolute;';
 		hs+='left: 851px;';
-		hs+='top:  98px;';
+		hs+='top:  107px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -991,16 +994,17 @@ function pano2vrSkin(player,base) {
 		this._mapholder.appendChild(this._stockwerk_wechsel);
 		this._map_3=document.createElement('div');
 		this._map_3.ggId="Map_3";
-		this._map_3.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._map_3.ggParameter={ rx:0,ry:0,a:0,sx:0.9,sy:1 };
 		this._map_3.ggVisible=true;
 		this._map_3.className='ggskin ggskin_container';
 		this._map_3.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 50px;';
-		hs+='top:  8px;';
+		hs+='left: 61px;';
+		hs+='top:  -10px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._map_3.ggParameter) + ';';
 		hs+='opacity: 0;';
 		hs+='visibility: hidden;';
 		this._map_3.setAttribute('style',hs);
@@ -1012,7 +1016,7 @@ function pano2vrSkin(player,base) {
 		this._map_3_.ggType='image';
 		hs ='position:absolute;';
 		hs+='left: 102px;';
-		hs+='top:  12px;';
+		hs+='top:  13px;';
 		hs+='width: 910px;';
 		hs+='height: 346px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -1439,16 +1443,17 @@ function pano2vrSkin(player,base) {
 		this._mapholder.appendChild(this._map_3);
 		this._map_2=document.createElement('div');
 		this._map_2.ggId="Map_2";
-		this._map_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._map_2.ggParameter={ rx:0,ry:0,a:0,sx:0.92,sy:0.92 };
 		this._map_2.ggVisible=true;
 		this._map_2.className='ggskin ggskin_container';
 		this._map_2.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 16px;';
-		hs+='top:  6px;';
+		hs+='left: 52px;';
+		hs+='top:  1px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._map_2.ggParameter) + ';';
 		hs+='visibility: inherit;';
 		this._map_2.setAttribute('style',hs);
 		this._map_2_=document.createElement('div');
@@ -2119,8 +2124,8 @@ function pano2vrSkin(player,base) {
 		this._map_1.className='ggskin ggskin_container';
 		this._map_1.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='left: 96px;';
+		hs+='top:  4px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -2905,8 +2910,8 @@ function pano2vrSkin(player,base) {
 		this._map_erdgeschoss.className='ggskin ggskin_container';
 		this._map_erdgeschoss.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 1px;';
-		hs+='top:  -7px;';
+		hs+='left: 99px;';
+		hs+='top:  2px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3590,7 +3595,7 @@ function pano2vrSkin(player,base) {
 		this._map_keller.ggType='container';
 		hs ='position:absolute;';
 		hs+='left: -79px;';
-		hs+='top:  -3px;';
+		hs+='top:  6px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3603,8 +3608,8 @@ function pano2vrSkin(player,base) {
 		this._map_keller_.className='ggskin ggskin_image';
 		this._map_keller_.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 283px;';
-		hs+='top:  22px;';
+		hs+='left: 367px;';
+		hs+='top:  19px;';
 		hs+='width: 750px;';
 		hs+='height: 360px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3627,8 +3632,8 @@ function pano2vrSkin(player,base) {
 		this._help_k.className='ggskin ggskin_image';
 		this._help_k.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 283px;';
-		hs+='top:  22px;';
+		hs+='left: 367px;';
+		hs+='top:  19px;';
 		hs+='width: 775px;';
 		hs+='height: 388px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -3651,8 +3656,8 @@ function pano2vrSkin(player,base) {
 		this._map_k_spots.className='ggskin ggskin_container';
 		this._map_k_spots.ggType='container';
 		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
+		hs+='left: 84px;';
+		hs+='top:  -3px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4163,7 +4168,7 @@ function pano2vrSkin(player,base) {
 		this._map_draussen.ggType='container';
 		hs ='position:absolute;';
 		hs+='left: 0px;';
-		hs+='top:  2px;';
+		hs+='top:  11px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4652,7 +4657,7 @@ function pano2vrSkin(player,base) {
 		this._closemap.ggType='image';
 		hs ='position:absolute;';
 		hs+='left: -27px;';
-		hs+='top:  -23px;';
+		hs+='top:  -14px;';
 		hs+='width: 120px;';
 		hs+='height: 120px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4707,20 +4712,21 @@ function pano2vrSkin(player,base) {
 		this._karte_vergroesern_button.className='ggskin ggskin_textdiv';
 		this._karte_vergroesern_button.ggTextDiv=this._karte_vergroesern_button__text;
 		this._karte_vergroesern_button.ggId="Karte_Vergroesern_Button";
-		this._karte_vergroesern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._karte_vergroesern_button.ggParameter={ rx:0,ry:0,a:0,sx:1.1,sy:1.1 };
 		this._karte_vergroesern_button.ggVisible=true;
 		this._karte_vergroesern_button.className='ggskin ggskin_text';
 		this._karte_vergroesern_button.ggType='text';
 		this._karte_vergroesern_button.ggUpdatePosition=function() {
 			this.style[domTransition]='none';
-			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
+			this.ggTextDiv.style.left=Math.floor(0 + (186-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		hs ='position:absolute;';
-		hs+='left: 7px;';
-		hs+='top:  369px;';
-		hs+='width: 152px;';
-		hs+='height: 25px;';
+		hs+='left: 22px;';
+		hs+='top:  360px;';
+		hs+='width: 168px;';
+		hs+='height: 30px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._karte_vergroesern_button.ggParameter) + ';';
 		hs+='opacity: 0.9;';
 		hs+='visibility: inherit;';
 		this._karte_vergroesern_button.setAttribute('style',hs);
@@ -4743,7 +4749,7 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 1px 2px 1px 2px;';
 		hs+='overflow: hidden;';
 		this._karte_vergroesern_button__text.setAttribute('style',hs);
-		this._karte_vergroesern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte vergr\xf6\xdfern<\/b><\/div>";
+		this._karte_vergroesern_button.ggTextDiv.innerHTML="<div style=\"font-size:17px;color:white\"><b>Karte vergr\xf6\xdfern<\/b><\/div>";
 		this._karte_vergroesern_button.appendChild(this._karte_vergroesern_button__text);
 		this._karte_vergroesern_button.onclick=function () {
 			if (me.player.transitionsDisabled) {
@@ -4768,7 +4774,7 @@ function pano2vrSkin(player,base) {
 			} else {
 				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
 			}
-			me._karte_vergroesern_button.ggParameter.sx=1.1;me._karte_vergroesern_button.ggParameter.sy=1.1;
+			me._karte_vergroesern_button.ggParameter.sx=1.2;me._karte_vergroesern_button.ggParameter.sy=1.2;
 			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
 		}
 		this._karte_vergroesern_button.onmouseout=function () {
@@ -4792,13 +4798,13 @@ function pano2vrSkin(player,base) {
 		this._karte_verkleinern_button.ggType='text';
 		this._karte_verkleinern_button.ggUpdatePosition=function() {
 			this.style[domTransition]='none';
-			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
+			this.ggTextDiv.style.left=Math.floor(0 + (186-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		hs ='position:absolute;';
-		hs+='left: 7px;';
-		hs+='top:  369px;';
-		hs+='width: 152px;';
-		hs+='height: 25px;';
+		hs+='left: 22px;';
+		hs+='top:  360px;';
+		hs+='width: 168px;';
+		hs+='height: 30px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='opacity: 0.8;';
 		hs+='visibility: hidden;';
@@ -4822,7 +4828,7 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 1px 2px 1px 2px;';
 		hs+='overflow: hidden;';
 		this._karte_verkleinern_button__text.setAttribute('style',hs);
-		this._karte_verkleinern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte verkleinern<\/b><\/div>";
+		this._karte_verkleinern_button.ggTextDiv.innerHTML="<div style=\"font-size:17px;color:white\"><b>Karte verkleinern<\/b><\/div>";
 		this._karte_verkleinern_button.appendChild(this._karte_verkleinern_button__text);
 		this._karte_verkleinern_button.onclick=function () {
 			if (me.player.transitionsDisabled) {
@@ -4847,7 +4853,7 @@ function pano2vrSkin(player,base) {
 			} else {
 				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
 			}
-			me._karte_verkleinern_button.ggParameter.sx=1.1;me._karte_verkleinern_button.ggParameter.sy=1.1;
+			me._karte_verkleinern_button.ggParameter.sx=1.2;me._karte_verkleinern_button.ggParameter.sy=1.2;
 			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
 		}
 		this._karte_verkleinern_button.onmouseout=function () {
@@ -4865,23 +4871,28 @@ function pano2vrSkin(player,base) {
 		this._button_draussen.className='ggskin ggskin_textdiv';
 		this._button_draussen.ggTextDiv=this._button_draussen__text;
 		this._button_draussen.ggId="Button_Draussen";
-		this._button_draussen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._button_draussen.ggParameter={ rx:0,ry:0,a:0,sx:1.1,sy:1.1 };
 		this._button_draussen.ggVisible=true;
 		this._button_draussen.className='ggskin ggskin_text';
 		this._button_draussen.ggType='text';
+		this._button_draussen.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			this.ggTextDiv.style.left=Math.floor(0 + (186-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
 		hs ='position:absolute;';
-		hs+='left: 1077px;';
+		hs+='left: 1065px;';
 		hs+='top:  362px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
+		hs+='width: 168px;';
+		hs+='height: 26px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._button_draussen.ggParameter) + ';';
 		hs+='visibility: inherit;';
 		this._button_draussen.setAttribute('style',hs);
 		hs ='position:absolute;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
 		hs+='background: #171717;';
 		hs+='background: rgba(23,23,23,0.784314);';
 		hs+='border: 8px solid #171717;';
@@ -4896,7 +4907,7 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 1px 2px 1px 2px;';
 		hs+='overflow: hidden;';
 		this._button_draussen__text.setAttribute('style',hs);
-		this._button_draussen.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Drau\xdfen<\/b><\/div>";
+		this._button_draussen.ggTextDiv.innerHTML="<div style=\"font-size:17px;color:white\"><b>Drau\xdfen<\/b><\/div>";
 		this._button_draussen.appendChild(this._button_draussen__text);
 		this._button_draussen.onclick=function () {
 			me._stockwerk_wechsel_text.style[domTransition]='none';
@@ -4962,19 +4973,23 @@ function pano2vrSkin(player,base) {
 		this._button_drinnen.ggVisible=true;
 		this._button_drinnen.className='ggskin ggskin_text';
 		this._button_drinnen.ggType='text';
+		this._button_drinnen.ggUpdatePosition=function() {
+			this.style[domTransition]='none';
+			this.ggTextDiv.style.left=Math.floor(0 + (186-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
 		hs ='position:absolute;';
-		hs+='left: 1077px;';
+		hs+='left: 1065px;';
 		hs+='top:  362px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
+		hs+='width: 168px;';
+		hs+='height: 26px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		this._button_drinnen.setAttribute('style',hs);
 		hs ='position:absolute;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
 		hs+='background: #171717;';
 		hs+='background: rgba(23,23,23,0.784314);';
 		hs+='border: 8px solid #171717;';
@@ -4989,7 +5004,7 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 1px 2px 1px 2px;';
 		hs+='overflow: hidden;';
 		this._button_drinnen__text.setAttribute('style',hs);
-		this._button_drinnen.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Drinnen<\/b><\/div>";
+		this._button_drinnen.ggTextDiv.innerHTML="<div style=\"font-size:17px;color:white\"><b>Drinnen<\/b><\/div>";
 		this._button_drinnen.appendChild(this._button_drinnen__text);
 		this._button_drinnen.onclick=function () {
 			me._button_draussen.style[domTransition]='none';
@@ -5027,12 +5042,36 @@ function pano2vrSkin(player,base) {
 		this._help_container.ggType='container';
 		hs ='position:absolute;';
 		hs+='left: 0px;';
-		hs+='top:  1px;';
+		hs+='top:  10px;';
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		this._help_container.setAttribute('style',hs);
+		this._zusatz_image=document.createElement('div');
+		this._zusatz_image.ggId="zusatz_image";
+		this._zusatz_image.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._zusatz_image.ggVisible=true;
+		this._zusatz_image.className='ggskin ggskin_image';
+		this._zusatz_image.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 1329px;';
+		hs+='top:  -11px;';
+		hs+='width: 591px;';
+		hs+='height: 421px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='opacity: 0;';
+		hs+='visibility: hidden;';
+		this._zusatz_image.setAttribute('style',hs);
+		this._zusatz_image__img=document.createElement('img');
+		this._zusatz_image__img.className='ggskin ggskin_image';
+		this._zusatz_image__img.setAttribute('src',basePath + 'images/zusatz_image.png');
+		this._zusatz_image__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._zusatz_image__img.className='ggskin ggskin_image';
+		this._zusatz_image__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._zusatz_image__img);
+		this._zusatz_image.appendChild(this._zusatz_image__img);
+		this._help_container.appendChild(this._zusatz_image);
 		this._button_help_2=document.createElement('div');
 		this._button_help_2.ggId="Button_Help_2";
 		this._button_help_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -5100,6 +5139,9 @@ function pano2vrSkin(player,base) {
 			me._button_help_2.style[domTransition]='none';
 			me._button_help_2.style.opacity='0';
 			me._button_help_2.style.visibility='hidden';
+			me._zusatz_image.style[domTransition]='none';
+			me._zusatz_image.style.opacity='1';
+			me._zusatz_image.style.visibility=me._zusatz_image.ggVisible?'inherit':'hidden';
 		}
 		this._button_help_2.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -5174,6 +5216,9 @@ function pano2vrSkin(player,base) {
 			me._button_help_2.style[domTransition]='none';
 			me._button_help_2.style.opacity='1';
 			me._button_help_2.style.visibility=me._button_help_2.ggVisible?'inherit':'hidden';
+			me._zusatz_image.style[domTransition]='none';
+			me._zusatz_image.style.opacity='0';
+			me._zusatz_image.style.visibility='hidden';
 		}
 		this._button_help.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -5276,7 +5321,7 @@ function pano2vrSkin(player,base) {
 			me._do_ug.style.visibility='inherit';
 			me._do_ug.ggVisible=true;
 			me._aula.onclick();
-			me._button_help.onclick();
+			me._button_help_2.onclick();
 		}
 		this.divSkin.appendChild(this._reset);
 		this._openmap=document.createElement('div');

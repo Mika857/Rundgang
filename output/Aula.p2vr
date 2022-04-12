@@ -226,14 +226,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
@@ -280,7 +280,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
