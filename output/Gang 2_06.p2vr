@@ -108,7 +108,7 @@
         </polygon>
         <type>poly</type>
         <id>E_Gaming</id>
-        <title>Moment mal!</title>
+        <title>&lt;div style="font-size:15px;color:white">&lt;b>Moment mal!&lt;/b>&lt;/div></title>
         <url>Gang 2_06_E_out.xml</url>
         <skinid>E_Gaming</skinid>
       </hotspot>
@@ -139,7 +139,7 @@
         </polygon>
         <type>poly</type>
         <id>E_2</id>
-        <title>Faule Socke!</title>
+        <title>&lt;div style="font-size:15px;color:white">&lt;b>Faule Socke!&lt;/b>&lt;/div></title>
         <url>Gang 2_06_E_2_out.xml</url>
       </hotspot>
     </hotspots>
@@ -226,7 +226,7 @@
         <leveltileoverlap>1</leveltileoverlap>
         <levelswitchbias>0.4</levelswitchbias>
         <previewquality>25</previewquality>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>/run/media/mika/Volume/Rundgang/Skins/Rundgang.ggsk</skinfile>
       </htmlcss>
     </output>
     <sounds/>
